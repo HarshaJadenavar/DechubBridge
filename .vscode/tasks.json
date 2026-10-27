@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run client app",
+			"type": "shell",
+			"command": "cd Client && npm run dev -- --host 0.0.0.0",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start frontend with cmd",
+			"type": "shell",
+			"command": "cmd.exe /c \"cd /d d:\\dechubhireandmanage\\Client && npm run dev -- --host 0.0.0.0\"",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start backend",
+			"type": "shell",
+			"command": "cmd.exe /c \"cd /d d:\\dechubhireandmanage\\Server & npm run dev\"",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run frontend app",
+			"type": "shell",
+			"command": "Set-Location \"d:\\dechubhireandmanage\\Client\"; npm run dev -- --host 0.0.0.0",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run backend app",
+			"type": "shell",
+			"command": "Set-Location \"d:\\dechubhireandmanage\\Server\"; npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2100" viewBox="0 0 1600 2100" role="img" aria-labelledby="title description">
+  <title id="title">Dechub-Bridge client project delivery flow</title>
+  <desc id="description">A ten-step swimlane flow from client enquiry through project completion and payment confirmation.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21184d"/>
+      <stop offset="1" stop-color="#4f2ec9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#1e1b4b" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7c6ba8"/>
+    </marker>
+    <style>
+      .heading { font: 700 43px Arial, sans-serif; fill: #ffffff; }
+      .subheading { font: 400 19px Arial, sans-serif; fill: #e9e3ff; }
+      .lane-title { font: 700 22px Arial, sans-serif; fill: #ffffff; }
+      .step-title { font: 700 20px Arial, sans-serif; fill: #172033; }
+      .step-copy { font: 400 16px Arial, sans-serif; fill: #52627d; }
+      .step-number { font: 700 18px Arial, sans-serif; fill: #ffffff; }
+      .note { font: 600 15px Arial, sans-serif; fill: #3d2b85; }
+      .footer { font: 400 15px Arial, sans-serif; fill: #64748b; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="2100" fill="#f7f8fc"/>
+  <rect x="40" y="34" width="1520" height="142" rx="26" fill="url(#header)"/>
+  <text x="86" y="96" class="heading">Dechub-Bridge Project Delivery Flow</text>
+  <text x="86" y="132" class="subheading">From client enquiry to signed delivery, project completion, and payment confirmation</text>
+  <rect x="1290" y="76" width="202" height="58" rx="29" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="1324" y="112" class="subheading" style="font-weight:700">CLIENT DISCUSSION</text>
+
+  <rect x="40" y="208" width="470" height="1810" rx="22" fill="#e8f5ff"/>
+  <rect x="565" y="208" width="470" height="1810" rx="22" fill="#f0ebff"/>
+  <rect x="1090" y="208" width="470" height="1810" rx="22" fill="#e8faf2"/>
+  <rect x="40" y="208" width="470" height="68" rx="22" fill="#1778c8"/>
+  <rect x="565" y="208" width="470" height="68" rx="22" fill="#6339d6"/>
+  <rect x="1090" y="208" width="470" height="68" rx="22" fill="#088866"/>
+  <text x="78" y="251" class="lane-title">CLIENT COMPANY</text>
+  <text x="603" y="251" class="lane-title">DECHUB-BRIDGE ADMIN</text>
+  <text x="1128" y="251" class="lane-title">DELIVERY TEAM</text>
+
+  <!-- flow lines -->
+  <path d="M275 407 L275 450 L800 450 L800 492" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M800 607 L800 650 L275 650 L275 692" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M275 807 L275 850 L800 850 L800 892" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M800 1007 L800 1050 L275 1050 L275 1092" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M275 1207 L275 1240 L800 1240 L800 1282" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M800 1397 L800 1422 L1325 1422 L1325 1372" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M800 1397 L800 1450 L275 1450 L275 1492" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M275 1607 L275 1650 L1325 1650 L1325 1592" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1325 1707 L1325 1750 L275 1750 L275 1792" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M275 1907 L275 1950 L800 1950 L800 1892" fill="none" stroke="#7c6ba8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Step 1 -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="302" width="398" height="105" rx="18" fill="#ffffff"/>
+    <circle cx="112" cy="340" r="20" fill="#1778c8"/><text x="106" y="347" class="step-number">1</text>
+    <text x="148" y="338" class="step-title">Book a Demo</text>
+    <text x="148" y="367" class="step-copy">Company submits the enquiry form.</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g filter="url(#shadow)">
+    <rect x="601" y="492" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="637" cy="532" r="20" fill="#6339d6"/><text x="631" y="539" class="step-number">2</text>
+    <text x="673" y="530" class="step-title">Review the Project Brief</text>
+    <text x="673" y="558" class="step-copy">Admin contacts the lead and discusses</text>
+    <text x="673" y="581" class="step-copy">scope, needs, team, and budget.</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="692" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="112" cy="732" r="20" fill="#1778c8"/><text x="106" y="739" class="step-number">3</text>
+    <text x="148" y="730" class="step-title">Create Company Account</text>
+    <text x="148" y="758" class="step-copy">Company receives the signup link and</text>
+    <text x="148" y="781" class="step-copy">accesses its dashboard.</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g filter="url(#shadow)">
+    <rect x="601" y="892" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="637" cy="932" r="20" fill="#6339d6"/><text x="631" y="939" class="step-number">4</text>
+    <text x="673" y="930" class="step-title">Build Team and Contract</text>
+    <text x="673" y="958" class="step-copy">Admin assigns specialists, sets scope,</text>
+    <text x="673" y="981" class="step-copy">deliverables, budget, and payment terms.</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="1092" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="112" cy="1132" r="20" fill="#1778c8"/><text x="106" y="1139" class="step-number">5</text>
+    <text x="148" y="1130" class="step-title">Review and Sign Contract</text>
+    <text x="148" y="1158" class="step-copy">Contract appears in dashboard and email.</text>
+    <text x="148" y="1181" class="step-copy">Company accepts and signs it.</text>
+  </g>
+
+  <!-- Step 6 -->
+  <g filter="url(#shadow)">
+    <rect x="601" y="1282" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="637" cy="1322" r="20" fill="#6339d6"/><text x="631" y="1329" class="step-number">6</text>
+    <text x="673" y="1320" class="step-title">Activate the Project</text>
+    <text x="673" y="1348" class="step-copy">Contract approval activates the project.</text>
+    <text x="673" y="1371" class="step-copy">Dashboard and email notifications are sent.</text>
+  </g>
+
+  <!-- team activation -->
+  <g filter="url(#shadow)">
+    <rect x="1126" y="1282" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="1162" cy="1322" r="20" fill="#088866"/><text x="1156" y="1329" class="step-number">6</text>
+    <text x="1198" y="1320" class="step-title">Project Access Granted</text>
+    <text x="1198" y="1348" class="step-copy">Assigned members receive project access</text>
+    <text x="1198" y="1371" class="step-copy">and dashboard notifications.</text>
+  </g>
+
+  <!-- Step 7 -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="1492" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="112" cy="1532" r="20" fill="#1778c8"/><text x="106" y="1539" class="step-number">7</text>
+    <text x="148" y="1530" class="step-title">Assign Delivery Tasks</text>
+    <text x="148" y="1558" class="step-copy">Client creates and assigns tasks from</text>
+    <text x="148" y="1581" class="step-copy">the active project workspace.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1126" y="1492" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="1162" cy="1532" r="20" fill="#088866"/><text x="1156" y="1539" class="step-number">7</text>
+    <text x="1198" y="1530" class="step-title">Complete Assigned Work</text>
+    <text x="1198" y="1558" class="step-copy">Team members receive tasks, update</text>
+    <text x="1198" y="1581" class="step-copy">progress, and mark work complete.</text>
+  </g>
+
+  <!-- Step 8 -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="1792" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="112" cy="1832" r="20" fill="#1778c8"/><text x="106" y="1839" class="step-number">8</text>
+    <text x="148" y="1830" class="step-title">View Team Access</text>
+    <text x="148" y="1858" class="step-copy">Client sees safe team details: role,</text>
+    <text x="148" y="1881" class="step-copy">email, account status, and last login.</text>
+  </g>
+
+  <!-- Step 9 -->
+  <g filter="url(#shadow)">
+    <rect x="601" y="1792" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="637" cy="1832" r="20" fill="#6339d6"/><text x="631" y="1839" class="step-number">9</text>
+    <text x="673" y="1830" class="step-title">Review Project Status</text>
+    <text x="673" y="1858" class="step-copy">Client monitors task progress, delivery</text>
+    <text x="673" y="1881" class="step-copy">updates, and completion readiness.</text>
+  </g>
+
+  <!-- Step 10 -->
+  <g filter="url(#shadow)">
+    <rect x="1126" y="1792" width="398" height="115" rx="18" fill="#ffffff"/>
+    <circle cx="1162" cy="1832" r="20" fill="#088866"/><text x="1153" y="1839" class="step-number">10</text>
+    <text x="1198" y="1830" class="step-title">Project Completed</text>
+    <text x="1198" y="1858" class="step-copy">Payment confirmation completes the</text>
+    <text x="1198" y="1881" class="step-copy">project across every dashboard.</text>
+  </g>
+
+  <rect x="76" y="1935" width="1448" height="58" rx="18" fill="#ffffff" stroke="#d7cff5"/>
+  <text x="108" y="1971" class="note">10. Payment closeout: Client pays using the Dechub-Bridge QR/payment process, submits the payment reference, and Dechub-Bridge receives the confirmation email.</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="2040" width="1520" height="36" rx="18" fill="#e1dcf8"/>
+  <text x="800" y="2064" text-anchor="middle" class="footer">Key principle: one connected workflow for the client, Dechub-Bridge admin, and the assigned delivery team.</text>
+</svg>

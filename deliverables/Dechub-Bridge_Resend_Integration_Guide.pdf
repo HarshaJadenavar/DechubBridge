@@ -1,0 +1,273 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 4 /Kids [5 0 R 7 0 R 9 0 R 11 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2504 >>
+stream
+0.16 0.09 0.42 rg 0 0 612 792 re f
+1 1 1 rg
+BT /F2 10 Tf 1 0 0 1 52 738 Tm (DECHUB-BRIDGE) Tj ET
+BT /F2 22 Tf 1 0 0 1 52 708 Tm (From Zero to First Email) Tj ET
+0.75 0.67 1 rg
+BT /F1 10 Tf 1 0 0 1 52 686 Tm (Resend email integration guide) Tj ET
+1 1 1 rg
+0.84 0.82 0.92 RG 52 664 m 560 664 l S
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 642 Tm (1. What this integration does) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 624 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 624 Tm (Resend sends application emails through an HTTPS API. This avoids SMTP port) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 611 Tm (restrictions on Render Free.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 593 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 593 Tm (The existing application flows remain unchanged: Book a demo notifications,) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 580 Tm (password resets, worker invitations, and admin emails.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 562 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 562 Tm (The backend automatically uses Resend when RESEND_API_KEY is present. SMTP) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 549 Tm (remains the fallback when it is not set.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 524 Tm (2. Create your Resend account) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 506 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 506 Tm (Go to resend.com and create or sign in to your account.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 488 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 488 Tm (Use an account owned by the Dechub-Bridge team so future administrators can) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 475 Tm (access the email history and domain settings.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 450 Tm (3. Add the sender domain) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 432 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 432 Tm (In Resend, open Domains and click Add domain.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 414 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 414 Tm (Enter bridge.dechub.ai. Enter the domain only. Do not enter https:// and do not) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 401 Tm (add a trailing slash.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 383 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 383 Tm (Choose Manual setup unless the DNS for dechub.ai is managed in the connected) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 370 Tm (Cloudflare account and you want Resend to create the records automatically.) Tj ET
+0.75 0.67 1 rg
+BT /F1 8 Tf 1 0 0 1 52 345 Tm (Dechub-Bridge | Production email delivery) Tj ET
+BT /F1 8 Tf 1 0 0 1 515 345 Tm (Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2583 >>
+stream
+0.16 0.09 0.42 rg 0 0 612 792 re f
+1 1 1 rg
+BT /F2 10 Tf 1 0 0 1 52 738 Tm (DECHUB-BRIDGE) Tj ET
+BT /F2 22 Tf 1 0 0 1 52 708 Tm (DNS Verification) Tj ET
+0.75 0.67 1 rg
+BT /F1 10 Tf 1 0 0 1 52 686 Tm (Resend email integration guide) Tj ET
+1 1 1 rg
+0.84 0.82 0.92 RG 52 664 m 560 664 l S
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 642 Tm (4. Add the Resend DNS records) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 624 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 624 Tm (Keep the Resend DNS Records screen open. It will show TXT, MX, and CNAME) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 611 Tm (records with unique values.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 593 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 593 Tm (Open the DNS provider that manages dechub.ai. This may be Cloudflare, GoDaddy,) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 580 Tm (Namecheap, Hostinger, or another registrar. It is not Render or Vercel.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 562 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 562 Tm (For every Resend row, create a new DNS record using the exact Type, Name or) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 549 Tm (Host, and Value or Content shown by Resend. Keep the default TTL or choose) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 536 Tm (Auto.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 518 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 518 Tm (If Cloudflare is your DNS provider, set Resend CNAME records to DNS only \(grey) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 505 Tm (cloud\), not Proxied \(orange cloud\).) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 487 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 487 Tm (Do not delete or replace the existing bridge.dechub.ai A or CNAME record used) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 474 Tm (by the live application. Add only the new records Resend requests.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 449 Tm (5. Verify the domain) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 431 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 431 Tm (Return to Resend and click Verify DNS records if that button is displayed.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 413 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 413 Tm (Wait until bridge.dechub.ai changes from Not Started or Pending to Verified.) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 400 Tm (DNS changes may take a few minutes and occasionally longer.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 382 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 382 Tm (Do not proceed with production sender testing until the domain is Verified.) Tj ET
+0.75 0.67 1 rg
+BT /F1 8 Tf 1 0 0 1 52 357 Tm (Dechub-Bridge | Production email delivery) Tj ET
+BT /F1 8 Tf 1 0 0 1 515 357 Tm (Page 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2709 >>
+stream
+0.16 0.09 0.42 rg 0 0 612 792 re f
+1 1 1 rg
+BT /F2 10 Tf 1 0 0 1 52 738 Tm (DECHUB-BRIDGE) Tj ET
+BT /F2 22 Tf 1 0 0 1 52 708 Tm (Backend Configuration) Tj ET
+0.75 0.67 1 rg
+BT /F1 10 Tf 1 0 0 1 52 686 Tm (Resend email integration guide) Tj ET
+1 1 1 rg
+0.84 0.82 0.92 RG 52 664 m 560 664 l S
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 642 Tm (6. Create a Resend API key) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 624 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 624 Tm (In Resend, open API Keys and click Create API Key.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 606 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 606 Tm (Use a clear name such as Bridge Render Production and choose Sending access.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 588 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 588 Tm (Copy the key that begins with re_. Resend displays the full value only once.) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 575 Tm (Treat it like a password.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 550 Tm (7. Configure Render) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 532 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 532 Tm (Open the Render service that deploys the Dechub backend. Do not add this secret) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 519 Tm (to Vercel or the frontend.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 501 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 501 Tm (Open Environment and add these three separate values:) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 483 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 483 Tm (RESEND_API_KEY = re_your_actual_key_from_resend) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 465 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 465 Tm (EMAIL_FROM = Dechub-Bridge <noreply@bridge.dechub.ai>) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 447 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 447 Tm (CLIENT_URL = https://bridge.dechub.ai) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 429 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 429 Tm (Save the values and redeploy the backend service. SMTP values may remain empty) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 416 Tm (when Resend is used.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 391 Tm (8. Security rules) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 373 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 373 Tm (Never commit the API key to GitHub, place it in client-side code, or share it) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 360 Tm (in screenshots.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 342 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 342 Tm (If the key is exposed, revoke it in Resend and create a replacement) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 329 Tm (immediately.) Tj ET
+0.75 0.67 1 rg
+BT /F1 8 Tf 1 0 0 1 52 304 Tm (Dechub-Bridge | Production email delivery) Tj ET
+BT /F1 8 Tf 1 0 0 1 515 304 Tm (Page 3) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 3074 >>
+stream
+0.16 0.09 0.42 rg 0 0 612 792 re f
+1 1 1 rg
+BT /F2 10 Tf 1 0 0 1 52 738 Tm (DECHUB-BRIDGE) Tj ET
+BT /F2 22 Tf 1 0 0 1 52 708 Tm (Testing and Troubleshooting) Tj ET
+0.75 0.67 1 rg
+BT /F1 10 Tf 1 0 0 1 52 686 Tm (Resend email integration guide) Tj ET
+1 1 1 rg
+0.84 0.82 0.92 RG 52 664 m 560 664 l S
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 642 Tm (9. Test delivery) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 624 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 624 Tm (Submit a Book a demo form or use Forgot password in the live application.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 606 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 606 Tm (Open Resend, select Emails, and confirm the email appears with a sent or) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 593 Tm (delivered status.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 575 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 575 Tm (Check the recipient inbox and spam folder. The sender should be) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 562 Tm (noreply@bridge.dechub.ai.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 537 Tm (10. Common issues) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 519 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 519 Tm (Domain is Not Started or Pending: DNS records are missing, incorrect, or still) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 506 Tm (propagating. Compare every record with Resend.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 488 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 488 Tm (Resend rejects the sender: EMAIL_FROM must use a verified domain, for example) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 475 Tm (noreply@bridge.dechub.ai.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 457 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 457 Tm (No email in Resend: confirm RESEND_API_KEY is present in the Render backend) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 444 Tm (service and redeploy after saving it.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 426 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 426 Tm (Email is in Resend but not inbox: check spam and confirm the DNS records remain) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 413 Tm (verified.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 395 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 395 Tm (Render SMTP timeout: this is expected on Render Free when using SMTP. Configure) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 382 Tm (RESEND_API_KEY so the application uses HTTPS instead.) Tj ET
+1 1 1 rg
+BT /F2 12 Tf 1 0 0 1 52 357 Tm (11. Operational checklist) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 339 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 339 Tm (Domain Verified in Resend.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 321 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 321 Tm (API key stored only in Render backend Environment.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 303 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 303 Tm (EMAIL_FROM uses bridge.dechub.ai.) Tj ET
+0.96 0.95 1 rg
+BT /F2 10 Tf 1 0 0 1 54 285 Tm (•) Tj ET
+BT /F1 10 Tf 1 0 0 1 68 285 Tm (Book a demo and password-reset tests received successfully.) Tj ET
+0.75 0.67 1 rg
+BT /F1 8 Tf 1 0 0 1 52 260 Tm (Dechub-Bridge | Production email delivery) Tj ET
+BT /F1 8 Tf 1 0 0 1 515 260 Tm (Page 4) Tj ET
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000000279 00000 n 
+0000000415 00000 n 
+0000002971 00000 n 
+0000003107 00000 n 
+0000005742 00000 n 
+0000005879 00000 n 
+0000008641 00000 n 
+0000008779 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+11906
+%%EOF

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dechub Case Study - BuildAI</title>
+  <style>
+    :root {
+      --ink: #14213d;
+      --muted: #5b6474;
+      --line: #d9dee8;
+      --paper: #f3f5f9;
+      --white: #ffffff;
+      --accent: #0f6cbd;
+      --accent-deep: #0b4f8a;
+      --accent-soft: #eaf3ff;
+      --success: #147d57;
+      --shadow: 0 18px 48px rgba(20, 33, 61, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef3fa 0%, #f9fbfd 100%);
+    }
+
+    .document {
+      width: 210mm;
+      margin: 0 auto;
+      background: var(--white);
+    }
+
+    .page {
+      min-height: 297mm;
+      padding: 18mm;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page + .page {
+      page-break-before: always;
+    }
+
+    .cover {
+      background:
+        radial-gradient(circle at top right, rgba(15, 108, 189, 0.18), transparent 32%),
+        linear-gradient(140deg, #0e1c36 0%, #16345f 52%, #0f6cbd 100%);
+      color: var(--white);
+    }
+
+    .cover::before,
+    .cover::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      opacity: 0.18;
+    }
+
+    .cover::before {
+      width: 210mm;
+      height: 210mm;
+      right: -92mm;
+      top: -68mm;
+      background: #6db6ff;
+    }
+
+    .cover::after {
+      width: 120mm;
+      height: 120mm;
+      right: -24mm;
+      bottom: -42mm;
+      background: #9fd2ff;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .cover .eyebrow {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .cover-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 26mm;
+      position: relative;
+      z-index: 1;
+    }
+
+    .brand {
+      font-size: 14px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .date {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.76);
+    }
+
+    .cover h1 {
+      position: relative;
+      z-index: 1;
+      max-width: 145mm;
+      margin: 18mm 0 8mm;
+      font-size: 34px;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+    }
+
+    .cover .subhead {
+      position: relative;
+      z-index: 1;
+      max-width: 126mm;
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .cover-grid {
+      position: relative;
+      z-index: 1;
+      margin-top: 24mm;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .cover-stat {
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      padding: 14px;
+      min-height: 82px;
+      backdrop-filter: blur(8px);
+    }
+
+    .cover-stat strong {
+      display: block;
+      font-size: 21px;
+      margin-bottom: 6px;
+    }
+
+    .cover-stat span {
+      display: block;
+      font-size: 11px;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .section-title {
+      margin: 0 0 7mm;
+      font-size: 23px;
+      letter-spacing: -0.02em;
+    }
+
+    .section-kicker {
+      margin-bottom: 4mm;
+      color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .lede {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 14mm;
+      align-items: start;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 10mm;
+    }
+
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.65;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 10mm;
+    }
+
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    }
+
+    .metric .value {
+      display: block;
+      color: var(--accent-deep);
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 6px;
+    }
+
+    .metric .label {
+      display: block;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .timeline {
+      margin-top: 9mm;
+      display: grid;
+      gap: 10px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .timeline-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13px;
+      margin-top: 1px;
+    }
+
+    .timeline-item h3 {
+      margin: 0 0 4px;
+      font-size: 14px;
+    }
+
+    .timeline-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.65;
+    }
+
+    .quote {
+      margin-top: 10mm;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #0f6cbd 0%, #0b4f8a 100%);
+      color: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .quote p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .quote .attribution {
+      margin-top: 10px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.78);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    ul.clean {
+      padding-left: 18px;
+      margin: 8px 0 0;
+    }
+
+    ul.clean li {
+      margin-bottom: 8px;
+    }
+
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 16px;
+    }
+
+    .footer-note {
+      position: absolute;
+      left: 18mm;
+      right: 18mm;
+      bottom: 12mm;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #7b8392;
+      border-top: 1px solid var(--line);
+      padding-top: 6px;
+    }
+
+    .small {
+      font-size: 11px;
+      color: #7b8392;
+      line-height: 1.6;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+
+      .document {
+        width: auto;
+      }
+
+      .page {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="document">
+    <section class="page cover">
+      <div class="cover-top">
+        <div class="brand">Dechub</div>
+        <div class="date">Prepared on July 27, 2026</div>
+      </div>
+
+      <span class="eyebrow">Case Study</span>
+      <h1>How BuildAI streamlined global contractor onboarding with Dechub</h1>
+      <p class="subhead">
+        A professional snapshot of how Dechub helps fast-moving teams replace fragmented
+        contractor workflows with one operating layer for contracts, identity verification,
+        invoice approval, and cross-border payouts.
+      </p>
+
+      <div class="cover-grid">
+        <div class="cover-stat">
+          <strong>3</strong>
+          <span>US contractors onboarded in one afternoon</span>
+        </div>
+        <div class="cover-stat">
+          <strong>Same day</strong>
+          <span>Contract generation and e-sign completion through DocuSign</span>
+        </div>
+        <div class="cover-stat">
+          <strong>24 hrs</strong>
+          <span>Typical KYC verification turnaround for contractor activation</span>
+        </div>
+        <div class="cover-stat">
+          <strong>1-2 days</strong>
+          <span>Payment delivery window after invoice approval via Wise</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <span class="eyebrow section-kicker">Overview</span>
+      <h2 class="section-title">The challenge</h2>
+      <div class="two-col">
+        <div>
+          <p class="lede">
+            BuildAI, a Bengaluru-based product company hiring specialized US contractors, needed a
+            faster way to issue agreements, collect signatures, verify worker identity, and release
+            cross-border payments without creating new legal and finance bottlenecks every time a
+            new contractor joined.
+          </p>
+          <div class="cards">
+            <article class="card">
+              <h3>Before Dechub</h3>
+              <p>Manual handoffs across contracts, onboarding, document collection, invoicing, and payouts slowed hiring momentum.</p>
+            </article>
+            <article class="card">
+              <h3>Primary risk</h3>
+              <p>Each new contractor introduced compliance, payment coordination, and turnaround uncertainty for operations teams.</p>
+            </article>
+            <article class="card">
+              <h3>Business goal</h3>
+              <p>Launch a repeatable hiring workflow that operations could run without depending on legal review for standard engagements.</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="panel">
+          <h3 style="margin-top:0;">Dechub solution footprint</h3>
+          <ul class="clean">
+            <li>Auto-generated contractor agreements for standard US engagements</li>
+            <li>Embedded DocuSign workflow for dual-party signatures</li>
+            <li>KYC identity verification with document and selfie checks</li>
+            <li>Invoice submission and approval in a shared dashboard</li>
+            <li>Wise-powered payout coordination across 170+ countries</li>
+            <li>Centralized document trail for contracts, KYC, invoices, and payment records</li>
+          </ul>
+        </aside>
+      </div>
+
+      <span class="eyebrow section-kicker" style="margin-top:12mm; display:inline-block;">Execution</span>
+      <h2 class="section-title">What changed in the workflow</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-badge">1</div>
+          <div>
+            <h3>Contract creation moved from ad hoc drafting to guided generation</h3>
+            <p>BuildAI entered engagement details once and generated standardized contractor agreements without restarting the process with each hire.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">2</div>
+          <div>
+            <h3>Signature collection became a tracked, same-day digital flow</h3>
+            <p>Contractors received the agreement, signed through DocuSign, and triggered a clear countersign process for the company.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">3</div>
+          <div>
+            <h3>KYC and payout setup became part of onboarding, not a separate project</h3>
+            <p>Identity verification, bank details, and payment readiness were handled inside the same operating sequence instead of through disconnected tools.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">4</div>
+          <div>
+            <h3>Invoice approvals and payouts became operationally predictable</h3>
+            <p>Once work was complete, contractors submitted invoices through their portal and BuildAI could approve payment from one dashboard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-note">
+        <span>Dechub Case Study</span>
+        <span>Page 2</span>
+      </div>
+    </section>
+
+    <section class="page">
+      <span class="eyebrow section-kicker">Results</span>
+      <h2 class="section-title">Operational impact</h2>
+      <p class="lede">
+        Based on the current product workflow and customer proof points in the Dechub workspace,
+        the initial rollout created clear gains in speed, coordination, and visibility for global
+        contractor operations.
+      </p>
+
+      <div class="metrics">
+        <div class="metric">
+          <span class="value">3 contractors</span>
+          <span class="label">Onboarded in one afternoon, giving BuildAI immediate hiring capacity without a long admin cycle.</span>
+        </div>
+        <div class="metric">
+          <span class="value">1 platform</span>
+          <span class="label">Used in place of a fragmented stack for contracts, e-sign, KYC, payment coordination, and document tracking.</span>
+        </div>
+        <div class="metric">
+          <span class="value">24-hour KYC</span>
+          <span class="label">Typical identity verification turnaround helped teams move from invite to activation with less waiting.</span>
+        </div>
+        <div class="metric">
+          <span class="value">1-2 business days</span>
+          <span class="label">Expected payout window after invoice approval, improving trust and consistency for contractor payments.</span>
+        </div>
+      </div>
+
+      <div class="quote">
+        <p>
+          "We hired 3 US contractors in one afternoon. Contract generated, signed via DocuSign
+          the same day, and payment through Wise without any issues."
+        </p>
+        <div class="attribution">CEO, BuildAI | Bengaluru</div>
+      </div>
+
+      <div class="two-col" style="margin-top:12mm;">
+        <div class="panel">
+          <h3 style="margin-top:0;">Why this matters for Dechub</h3>
+          <ul class="clean">
+            <li>Shows a clear wedge into global contractor management for fast-growing companies</li>
+            <li>Demonstrates that compliance-heavy workflows can feel lightweight for operations teams</li>
+            <li>Supports Dechub's positioning as a practical alternative to stitching together multiple vendors</li>
+            <li>Creates a repeatable story for sales, partnerships, and investor conversations</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3 style="margin-top:0;">Recommended next story angles</h3>
+          <ul class="clean">
+            <li>Finance-led case study focused on payment visibility and reconciliation</li>
+            <li>Compliance-led case study centered on contract governance and KYC controls</li>
+            <li>Expansion case study covering the India payroll roadmap once live</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="small" style="margin-top:12mm;">
+        Note: This document is a professionally formatted case study draft built from the current
+        Dechub platform messaging, feature set, and customer proof points present in this workspace
+        as of July 27, 2026.
+      </p>
+
+      <div class="footer-note">
+        <span>Dechub Case Study</span>
+        <span>Page 3</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dechub Backend Hosting Guide</title>
+  <style>
+    :root { --ink:#102a43; --muted:#526577; --brand:#007c68; --pale:#edf8f5; --line:#d9e2ec; --warn:#fff7db; }
+    * { box-sizing:border-box; }
+    @page { size:A4; margin:15mm; }
+    body { color:var(--ink); font:10.5pt/1.52 Georgia,"Times New Roman",serif; margin:0; }
+    h1,h2,h3,.label,th { font-family:Arial,Helvetica,sans-serif; }
+    h1 { font-size:29pt; line-height:1.08; letter-spacing:-.8px; margin:0 0 12px; }
+    h2 { border-bottom:2px solid var(--brand); font-size:18pt; margin:31px 0 12px; padding-bottom:6px; }
+    h3 { font-size:12.5pt; margin:19px 0 7px; }
+    p { margin:7px 0; } a { color:var(--brand); }
+    .cover { background:linear-gradient(135deg,#f5fbfa,#e4f3ef); border:1px solid #b7ddd4; border-radius:14px; margin-bottom:26px; min-height:225px; padding:35px; }
+    .label { color:var(--brand); font-size:10pt; font-weight:700; letter-spacing:1.3px; text-transform:uppercase; }
+    .subtitle { color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:14pt; max-width:570px; }
+    .meta { color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:9pt; margin-top:50px; }
+    .callout { background:var(--pale); border-left:4px solid var(--brand); margin:14px 0; padding:10px 13px; }
+    .warning { background:var(--warn); border-left-color:#b7791f; }
+    ol,ul { margin:7px 0 11px; padding-left:23px; } li { margin:4px 0; }
+    code { background:#f1f5f8; border-radius:3px; font-family:"Courier New",monospace; font-size:8.7pt; padding:1px 4px; }
+    pre { background:#102a43; border-radius:7px; color:#f0f7f6; font:8.5pt/1.45 "Courier New",monospace; overflow-wrap:anywhere; padding:11px 13px; white-space:pre-wrap; }
+    table { border-collapse:collapse; font-family:Arial,Helvetica,sans-serif; font-size:8.7pt; margin:10px 0 15px; width:100%; }
+    th { background:#e6f4f1; text-align:left; } td,th { border:1px solid var(--line); padding:7px 8px; vertical-align:top; }
+    .page-break { break-before:page; } .checklist li { list-style:square; }
+    .footer { border-top:1px solid var(--line); color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:8pt; margin-top:30px; padding-top:8px; }
+    @media print { .cover { break-after:page; } h2,h3 { break-after:avoid; } table,pre,.callout { break-inside:avoid; } }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="label">Deployment Runbook</div>
+    <h1>Dechub Backend Hosting Guide</h1>
+    <p class="subtitle">A clear, repeatable guide for deploying the Node.js, Express, and MongoDB backend to Render, connecting MongoDB Atlas, and updating the Vercel frontend.</p>
+    <p class="meta">Prepared for Dechub Bridge &bull; September 2026<br>Use placeholders for all credentials. Never place real secrets in source control or this document.</p>
+  </section>
+
+  <h2>1. Architecture</h2>
+  <pre>Browser
+  |  https://bridge.dechub.ai
+  v
+Vercel frontend
+  |  VITE_API_URL
+  v
+Render Express API
+  |  MONGODB_URI
+  v
+MongoDB Atlas</pre>
+  <p>The frontend is hosted on Vercel. The Express API is hosted as a Render Web Service. MongoDB Atlas hosts the database. The frontend calls the API using <code>VITE_API_URL</code>.</p>
+
+  <h2>2. Before You Start</h2>
+  <ul class="checklist">
+    <li>A GitHub repository containing the <code>Server</code> folder.</li>
+    <li>A MongoDB Atlas account and active cluster.</li>
+    <li>A Render account connected to GitHub.</li>
+    <li>A Vercel project serving <code>https://bridge.dechub.ai</code>.</li>
+    <li>New, securely stored production credentials for MongoDB, JWT, Google, SMTP, and enabled integrations.</li>
+  </ul>
+  <div class="callout warning"><strong>Security first:</strong> If a password, private key, URI, or API key was pasted into a chat, terminal capture, screenshot, or public repository, revoke/rotate it before launching production.</div>
+
+  <h2>3. MongoDB Atlas</h2>
+  <h3>3.1 Create the cluster</h3>
+  <ol>
+    <li>Sign in at <a href="https://www.mongodb.com/atlas">mongodb.com/atlas</a>.</li>
+    <li>Create a project, for example <code>Dechub</code>.</li>
+    <li>Select <strong>Create</strong> and create an Atlas database deployment.</li>
+    <li>Choose a region close to the Render API region. Keeping Atlas and Render close reduces database latency.</li>
+    <li>Wait until the cluster status is active.</li>
+  </ol>
+  <h3>3.2 Create a database user</h3>
+  <ol>
+    <li>Open <strong>Database &amp; Network Access</strong> and then <strong>Database Users</strong>.</li>
+    <li>Select <strong>Add New Database User</strong>.</li>
+    <li>Create an application user, for example <code>dechub_app</code>, with a long generated password.</li>
+    <li>Grant <code>readWrite</code> access to the <code>dechub</code> database, or use broader access temporarily while setting up.</li>
+    <li>Store the password in a password manager. Atlas does not reveal it again.</li>
+  </ol>
+  <h3>3.3 Allow the Render service to connect</h3>
+  <ol>
+    <li>Open <strong>Network Access</strong> in Atlas.</li>
+    <li>Click <strong>Add IP Address</strong>.</li>
+    <li>For the Render Free plan, choose <strong>Allow Access from Anywhere</strong>, which adds <code>0.0.0.0/0</code>.</li>
+    <li>Save and wait briefly for the rule to apply.</li>
+  </ol>
+  <div class="callout warning"><strong>Production note:</strong> Render Free does not provide a fixed outbound IP. <code>0.0.0.0/0</code> is acceptable for initial deployment only when paired with a strong dedicated database user. For a hardened setup, use static egress IP/private networking and restrict the Atlas access list.</div>
+  <h3>3.4 Copy the Atlas URI</h3>
+  <ol>
+    <li>Open the Atlas cluster and select <strong>Connect</strong>.</li>
+    <li>Select <strong>Drivers</strong>, then choose <strong>Node.js</strong>.</li>
+    <li>Copy the displayed <code>mongodb+srv://...</code> URI.</li>
+    <li>Replace the password placeholder with the database-user password. URL-encode special password characters if required.</li>
+  </ol>
+  <pre>MONGODB_URI=mongodb+srv://&lt;database-user&gt;:&lt;encoded-password&gt;@&lt;cluster-host&gt;/?retryWrites=true&amp;w=majority</pre>
+
+  <h2 class="page-break">4. Prepare the Repository</h2>
+  <ol>
+    <li>Ensure <code>Server/package.json</code> and <code>Server/package-lock.json</code> are committed and synchronized.</li>
+    <li>Do not commit <code>Server/.env</code>.</li>
+    <li>Commit the current server lockfile before connecting Render:</li>
+  </ol>
+  <pre>git add Server/package-lock.json
+git commit -m "Fix server lockfile for Render build"
+git push origin main</pre>
+  <p>Ensure the server build works locally:</p>
+  <pre>cd Server
+npm ci --include=dev
+npm run build</pre>
+
+  <h2>5. Create the Render Web Service</h2>
+  <ol>
+    <li>Open <a href="https://dashboard.render.com/">Render Dashboard</a> and select <strong>New &gt; Web Service</strong>.</li>
+    <li>Connect the Dechub GitHub repository.</li>
+    <li>Configure the service as follows.</li>
+  </ol>
+  <table>
+    <tr><th>Setting</th><th>Value</th></tr>
+    <tr><td>Name</td><td><code>dechub-bridge-api</code> (or another unique service name)</td></tr>
+    <tr><td>Language</td><td>Node</td></tr>
+    <tr><td>Branch</td><td><code>main</code></td></tr>
+    <tr><td>Root Directory</td><td><code>Server</code></td></tr>
+    <tr><td>Build Command</td><td><code>npm ci --include=dev &amp;&amp; npm run build</code></td></tr>
+    <tr><td>Start Command</td><td><code>npm start</code></td></tr>
+    <tr><td>Health Check Path</td><td><code>/health</code></td></tr>
+  </table>
+  <p>Add this Render environment variable to pin the Node version:</p>
+  <pre>NODE_VERSION=20.11.0</pre>
+  <div class="callout"><strong>Why include dev dependencies?</strong> TypeScript and <code>@types/*</code> packages are needed to compile the server, but are listed in <code>devDependencies</code>. <code>--include=dev</code> ensures the build can access them even though the runtime uses <code>NODE_ENV=production</code>.</div>
+
+  <h2>6. Configure Render Environment Variables</h2>
+  <p>In Render, open the service and select <strong>Environment</strong>. Add each name and value separately. Do not paste literal angle brackets from this guide.</p>
+  <table>
+    <tr><th>Variable</th><th>Production value</th></tr>
+    <tr><td><code>NODE_ENV</code></td><td><code>production</code></td></tr>
+    <tr><td><code>CLIENT_URL</code></td><td><code>https://bridge.dechub.ai</code> (no trailing slash)</td></tr>
+    <tr><td><code>MONGODB_URI</code></td><td>The new MongoDB Atlas URI</td></tr>
+    <tr><td><code>JWT_SECRET</code></td><td>A newly generated random secret, at least 32 characters</td></tr>
+    <tr><td><code>JWT_REFRESH_SECRET</code></td><td>A different newly generated random secret, at least 32 characters</td></tr>
+    <tr><td><code>JWT_EXPIRES_IN</code></td><td><code>15m</code></td></tr>
+    <tr><td><code>JWT_REFRESH_EXPIRES_IN</code></td><td><code>7d</code></td></tr>
+    <tr><td><code>GOOGLE_CLIENT_ID</code></td><td>Google OAuth client ID</td></tr>
+    <tr><td><code>GOOGLE_CLIENT_SECRET</code></td><td>Google OAuth client secret</td></tr>
+    <tr><td><code>GOOGLE_CALLBACK_URL</code></td><td><code>https://&lt;render-service&gt;.onrender.com/api/auth/google/callback</code></td></tr>
+    <tr><td><code>PAYMENT_PROVIDER</code></td><td><code>dummy</code>, or <code>stripe</code> when Stripe is configured</td></tr>
+    <tr><td><code>SMTP_HOST</code>, <code>SMTP_PORT</code>, <code>SMTP_USER</code>, <code>SMTP_PASS</code></td><td>Production SMTP provider settings</td></tr>
+    <tr><td><code>EMAIL_FROM</code></td><td>Approved sender address</td></tr>
+    <tr><td><code>MAX_FILE_SIZE_MB</code></td><td><code>10</code></td></tr>
+    <tr><td><code>DECHUB_ADMIN_EMAILS</code></td><td>Internal admin email address(es)</td></tr>
+    <tr><td><code>DECHUB_ADMIN_PASSWORD</code></td><td>A newly generated, unique admin password</td></tr>
+  </table>
+  <p>Add Stripe, DocuSign, and Google Sheets variables only when those integrations are enabled.</p>
+  <div class="callout warning"><strong>Do not add:</strong> <code>PORT</code> (Render supplies it) or <code>DNS_SERVERS</code> (the local development workaround is not needed on Render).</div>
+  <h3>File uploads: Free vs paid Render</h3>
+  <table>
+    <tr><th>Plan</th><th>Set <code>UPLOAD_DIR</code> to</th><th>Result</th></tr>
+    <tr><td>Free / testing</td><td><code>uploads</code></td><td>Files are ephemeral and can disappear after a restart or deploy.</td></tr>
+    <tr><td>Paid with a disk</td><td><code>/var/data</code></td><td>Attach a Render persistent disk mounted at <code>/var/data</code>.</td></tr>
+  </table>
+
+  <h2 class="page-break">7. Deploy and Verify the API</h2>
+  <ol>
+    <li>Select <strong>Deploy Web Service</strong>.</li>
+    <li>Wait for the build log to complete.</li>
+    <li>Open the health endpoint:</li>
+  </ol>
+  <pre>https://&lt;render-service&gt;.onrender.com/health</pre>
+  <p>A healthy API returns JSON containing <code>"status":"ok"</code>. If the service reports no open port, check the Atlas connection and environment variables. The application does not begin listening until MongoDB connects.</p>
+  <h3>Common Render errors</h3>
+  <table>
+    <tr><th>Symptom</th><th>Likely cause and action</th></tr>
+    <tr><td><code>npm ci</code> says lockfile is not in sync</td><td>Regenerate and commit <code>Server/package-lock.json</code>, then redeploy.</td></tr>
+    <tr><td>Missing <code>@types/express</code> during build</td><td>Use <code>npm ci --include=dev &amp;&amp; npm run build</code>.</td></tr>
+    <tr><td>MongoDB TLS / server-selection errors</td><td>Confirm the Atlas cluster is active, <code>MONGODB_URI</code> is correct, and Atlas Network Access permits the Render service.</td></tr>
+    <tr><td>CORS error in browser</td><td>Set <code>CLIENT_URL=https://bridge.dechub.ai</code> in Render, save, and redeploy.</td></tr>
+  </table>
+
+  <h2>8. Configure Google OAuth</h2>
+  <ol>
+    <li>Open Google Cloud Console and select the OAuth 2.0 Client ID used by Dechub.</li>
+    <li>Under <strong>Authorized JavaScript origins</strong>, add:</li>
+  </ol>
+  <pre>https://bridge.dechub.ai</pre>
+  <ol start="3">
+    <li>Under <strong>Authorized redirect URIs</strong>, add:</li>
+  </ol>
+  <pre>https://&lt;render-service&gt;.onrender.com/api/auth/google/callback</pre>
+  <p>The redirect URI must match the Render <code>GOOGLE_CALLBACK_URL</code> exactly.</p>
+
+  <h2>9. Update the Vercel Frontend</h2>
+  <ol>
+    <li>Open the Vercel frontend project.</li>
+    <li>Go to <strong>Settings &gt; Environment Variables</strong>.</li>
+    <li>Add a <strong>Config</strong> variable for Production:</li>
+  </ol>
+  <pre>VITE_API_URL=https://&lt;render-service&gt;.onrender.com</pre>
+  <p>Do not add <code>/api</code> or a trailing slash. The frontend code already appends <code>/api</code>.</p>
+  <ol start="4">
+    <li>Save the variable.</li>
+    <li>Redeploy the latest Vercel production deployment. Vite variables are embedded at build time, so a redeploy is required.</li>
+  </ol>
+
+  <h2>10. Go-Live Checklist</h2>
+  <ul class="checklist">
+    <li>The API health endpoint returns <code>status: ok</code>.</li>
+    <li>The Vercel production deployment uses the Render API URL.</li>
+    <li>Registration, login, token refresh, logout, and password reset work.</li>
+    <li>Google login works and returns to <code>bridge.dechub.ai</code>.</li>
+    <li>SMTP email delivery is verified.</li>
+    <li>Upload storage matches the chosen Render plan.</li>
+    <li>All exposed credentials are rotated.</li>
+    <li>All secrets exist only in Render/Vercel environment settings or a password manager.</li>
+  </ul>
+
+  <h2>11. Production Recommendations</h2>
+  <ul>
+    <li>Use a paid Render plan for real users. The free plan has limited CPU and can make authentication noticeably slow.</li>
+    <li>Place Render and Atlas in the same region. Place that region near your main user base when possible.</li>
+    <li>Move KYC and contract documents from publicly served local uploads to private object storage with signed URLs before handling real customer data.</li>
+    <li>Do not send access or refresh tokens in URL query strings. Use secure cookies or a short-lived one-time exchange code for OAuth.</li>
+    <li>Use a dedicated database user with minimal privileges and tighten Atlas network access when static egress or private networking is available.</li>
+  </ul>
+
+  <p class="footer">Dechub Backend Hosting Guide &bull; Keep this document free of passwords, connection strings, private keys, and API tokens.</p>
+</body>
+</html>
+

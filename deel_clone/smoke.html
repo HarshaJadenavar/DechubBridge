@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smoke Runner</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="app" src="/dist/index.html"></iframe>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const mode = params.get("mode") || "desktop";
+      const iframe = document.getElementById("app");
+
+      const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      const waitForApp = async () => {
+        for (let i = 0; i < 80; i += 1) {
+          const doc = iframe.contentDocument;
+          if (doc && doc.querySelector("main")) return doc;
+          await sleep(100);
+        }
+        throw new Error("App did not load");
+      };
+
+      const waitForText = async (doc, text) => {
+        for (let i = 0; i < 200; i += 1) {
+          if (doc.body && doc.body.textContent.includes(text)) return;
+          await sleep(100);
+        }
+        throw new Error(`Timed out waiting for text: ${text}`);
+      };
+
+      const clickTextButton = (doc, text) => {
+        const buttons = Array.from(doc.querySelectorAll("button"));
+        const match = buttons.find((button) => button.textContent.replace(/\s+/g, " ").trim() === text);
+        if (!match) throw new Error(`Button not found: ${text}`);
+        match.click();
+        return match;
+      };
+
+      const clickAriaLabel = (doc, label) => {
+        const button = doc.querySelector(`button[aria-label="${label}"]`);
+        if (!button) throw new Error(`Button not found: ${label}`);
+        button.click();
+        return button;
+      };
+
+      const getSection = (doc, heading) => {
+        return Array.from(doc.querySelectorAll("section, div")).find((node) =>
+          node.textContent && node.textContent.includes(heading)
+        );
+      };
+
+      const run = async () => {
+        const doc = await waitForApp();
+        await waitForText(doc, "Our customer reviews");
+        await waitForText(doc, "Excellent global payroll");
+
+        if (!doc.querySelector("header")) throw new Error("Missing header");
+        if (!doc.body.textContent.includes("Our customer reviews")) throw new Error("Missing testimonials");
+        if (!doc.body.textContent.includes("Excellent global payroll")) throw new Error("Missing G2 reviews");
+
+        if (mode === "desktop") {
+          clickTextButton(doc, "Solutions");
+          await sleep(200);
+          if (!doc.body.textContent.includes("Deel Payroll")) throw new Error("Desktop dropdown did not open");
+
+          clickTextButton(doc, "Deel HR");
+          await sleep(200);
+          const speed = getSection(doc, "Accomplish more in less time");
+          if (!speed || !speed.textContent.includes("Centralize worker data")) {
+            throw new Error("Deel Speed tab did not switch to HR");
+          }
+
+          clickAriaLabel(doc, "Next story");
+          await sleep(200);
+          const stories = getSection(doc, "Our customer reviews");
+          if (!stories || !stories.textContent.includes("Cocoroco")) {
+            throw new Error("Testimonials did not advance");
+          }
+
+          clickAriaLabel(doc, "Next slide");
+          await sleep(200);
+          const reviews = getSection(doc, "Excellent global payroll");
+          if (!reviews || !reviews.textContent.includes("Kanshobi S.")) {
+            throw new Error("Review carousel did not advance");
+          }
+        }
+
+        if (mode === "mobile") {
+          clickAriaLabel(doc, "Open menu");
+          await sleep(200);
+          if (!doc.body.textContent.includes("Use cases")) throw new Error("Mobile menu did not open");
+
+          const accordionButtons = Array.from(doc.querySelectorAll('button[aria-expanded]'))
+            .filter((button) => button.textContent.includes("Actionable AI"));
+          if (!accordionButtons[0]) throw new Error("Accordion trigger not found");
+          accordionButtons[0].click();
+          await sleep(200);
+          const workforce = getSection(doc, "One modern experience for today's workforce");
+          if (!workforce || !workforce.textContent.includes("More scaling, not headcount")) {
+            throw new Error("Workforce accordion did not expand");
+          }
+        }
+
+        const footerInput = doc.querySelector("#subscribe-email");
+        if (!footerInput) throw new Error("Footer email field missing");
+        footerInput.value = "qa@example.com";
+
+        document.body.setAttribute("data-smoke", "passed");
+      };
+
+      run().catch((error) => {
+        document.body.setAttribute("data-smoke", "failed");
+        document.body.setAttribute("data-error", error.message);
+      });
+    </script>
+  </body>
+</html>
