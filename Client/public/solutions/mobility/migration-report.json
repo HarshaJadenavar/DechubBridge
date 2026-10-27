@@ -1,0 +1,1390 @@
+{
+  "sourceHtmlPath": "D:\\Project_Section\\Deel\\Dechub\\New_Page\\solutions\\mobility\\index.html",
+  "outputHtmlPath": "D:\\Project_Section\\Deel\\Dechub\\Client\\public\\solutions\\mobility\\index.html",
+  "downloadedAssets": [
+    {
+      "url": "https://website-media.deel.com/Belize_0a5a62c528.jpeg",
+      "localPath": "solutions/mobility/assets/images/Belize_0a5a62c528-8be51bcfce.jpeg",
+      "bytes": 188719
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Belize_8f7703fe40.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Belize_8f7703fe40-971b09481e.svg",
+      "bytes": 1674
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Bhutan_4e7c66ae42.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Bhutan_4e7c66ae42-70a560fe4b.svg",
+      "bytes": 1806
+    },
+    {
+      "url": "https://website-media.deel.com/Bolivia_a4a590397c.jpeg",
+      "localPath": "solutions/mobility/assets/images/Bolivia_a4a590397c-419c1e6058.jpeg",
+      "bytes": 31408
+    },
+    {
+      "url": "https://website-media.deel.com/costa_rica_40824c9548.webp",
+      "localPath": "solutions/mobility/assets/images/costa_rica_40824c9548-ab1710dc0c.webp",
+      "bytes": 152976
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Costa_Rica_8c74ace003.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Costa_Rica_8c74ace003-9e2e154eca.svg",
+      "bytes": 862
+    },
+    {
+      "url": "https://website-media.deel.com/Cameroon_a3fcdaabae.jpeg",
+      "localPath": "solutions/mobility/assets/images/Cameroon_a3fcdaabae-6f00150001.jpeg",
+      "bytes": 228445
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Cameroon_ab15b735bb.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Cameroon_ab15b735bb-572e316e5d.svg",
+      "bytes": 977
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Cape_Verde_3306930287.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Cape_Verde_3306930287-84d4c0821c.svg",
+      "bytes": 2734
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Cayman_Islands_b2adacabc9.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Cayman_Islands_b2adacabc9-fff3dbd85c.svg",
+      "bytes": 2661
+    },
+    {
+      "url": "https://website-media.deel.com/card_chile_bfc19ba833.jpg",
+      "localPath": "solutions/mobility/assets/images/card_chile_bfc19ba833-5ce1fd6136.jpg",
+      "bytes": 77177
+    },
+    {
+      "url": "https://website-media.deel.com/flag_chile_598dd996a1.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_chile_598dd996a1-10d1203143.svg",
+      "bytes": 846
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Croatia_921aa07f71.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Croatia_921aa07f71-57c978b3cf.svg",
+      "bytes": 2737
+    },
+    {
+      "url": "https://website-media.deel.com/Cyprus_d3977cfcdc.jpeg",
+      "localPath": "solutions/mobility/assets/images/Cyprus_d3977cfcdc-e2e138c5b4.jpeg",
+      "bytes": 106405
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Cyprus_db51b66037.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Cyprus_db51b66037-9a93f26c77.svg",
+      "bytes": 1398
+    },
+    {
+      "url": "https://website-media.deel.com/El_20_Salvador_a5d442bfba.jpeg",
+      "localPath": "solutions/mobility/assets/images/El_20_Salvador_a5d442bfba-d7e7c4d746.jpeg",
+      "bytes": 229063
+    },
+    {
+      "url": "https://website-media.deel.com/flag_El_Salvador_1902673378.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_El_Salvador_1902673378-b9c908cfeb.svg",
+      "bytes": 1288
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Fiji_5f5f2beb8c.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Fiji_5f5f2beb8c-75c5b462b7.svg",
+      "bytes": 1773
+    },
+    {
+      "url": "https://website-media.deel.com/card_finland_9433a1a207.jpg",
+      "localPath": "solutions/mobility/assets/images/card_finland_9433a1a207-3a670deb91.jpg",
+      "bytes": 62768
+    },
+    {
+      "url": "https://website-media.deel.com/flag_finland_9d0702faf5.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_finland_9d0702faf5-c966b90b1c.svg",
+      "bytes": 792
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Gabon_35220d2f03.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Gabon_35220d2f03-8732bc488d.svg",
+      "bytes": 754
+    },
+    {
+      "url": "https://website-media.deel.com/Georgia_8f7a139dfb.jpeg",
+      "localPath": "solutions/mobility/assets/images/Georgia_8f7a139dfb-5d16fa38e9.jpeg",
+      "bytes": 146356
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Georgia_ff33a54111.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Georgia_ff33a54111-f3eca13dbc.svg",
+      "bytes": 1386
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Ghana_54e112fc37.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Ghana_54e112fc37-531cb925d4.svg",
+      "bytes": 942
+    },
+    {
+      "url": "https://website-media.deel.com/Greece_f7554c67ed.jpeg",
+      "localPath": "solutions/mobility/assets/images/Greece_f7554c67ed-da9c03d52f.jpeg",
+      "bytes": 343559
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Greece_6a7b512927.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Greece_6a7b512927-1a2996c851.svg",
+      "bytes": 1177
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Greenland_f50e00ec45.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Greenland_f50e00ec45-e4b09440fb.svg",
+      "bytes": 825
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Grenada_d6a15736a3.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Grenada_d6a15736a3-c5c8a86818.svg",
+      "bytes": 3373
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Guyana_b4c284269d.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Guyana_b4c284269d-3461cfb7b2.svg",
+      "bytes": 1446
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Haiti_3aee4d91da.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Haiti_3aee4d91da-86d9d5d3aa.svg",
+      "bytes": 1274
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Honduras_d6bb854dc2.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Honduras_d6bb854dc2-00301b8ddf.svg",
+      "bytes": 1590
+    },
+    {
+      "url": "https://website-media.deel.com/india_459b28bd52.jpeg",
+      "localPath": "solutions/mobility/assets/images/india_459b28bd52-f4eaed918d.jpeg",
+      "bytes": 242988
+    },
+    {
+      "url": "https://website-media.deel.com/flag_India_8144f564af.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_India_8144f564af-0521fd2689.svg",
+      "bytes": 1355
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Mozambique_f9634b71e0.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Mozambique_f9634b71e0-d5922448dd.svg",
+      "bytes": 1498
+    },
+    {
+      "url": "https://website-media.deel.com/norway_26a253cf25.jpg",
+      "localPath": "solutions/mobility/assets/images/norway_26a253cf25-6b90caa93c.jpg",
+      "bytes": 96827
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Norway_24257e65eb.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Norway_24257e65eb-462e74c621.svg",
+      "bytes": 1309
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Panama_908cb15166.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Panama_908cb15166-f3ee03411d.svg",
+      "bytes": 949
+    },
+    {
+      "url": "https://website-media.deel.com/card_suadi_arabia_4146a74b1a.jpg",
+      "localPath": "solutions/mobility/assets/images/card_suadi_arabia_4146a74b1a-df4aa31994.jpg",
+      "bytes": 73578
+    },
+    {
+      "url": "https://website-media.deel.com/flag_saudi_arabia_a0cc2c61f2.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_saudi_arabia_a0cc2c61f2-e34639dc80.svg",
+      "bytes": 1717
+    },
+    {
+      "url": "https://website-media.deel.com/Aerial_City_View_05c5d7c811.jpg",
+      "localPath": "solutions/mobility/assets/images/Aerial_City_View_05c5d7c811-2318518003.jpg",
+      "bytes": 3813972
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Slovakia_619be300d2.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Slovakia_619be300d2-4611de2112.svg",
+      "bytes": 1724
+    },
+    {
+      "url": "https://website-media.deel.com/Switzerland_c66add9d69.jpeg",
+      "localPath": "solutions/mobility/assets/images/Switzerland_c66add9d69-f5ede88def.jpeg",
+      "bytes": 302242
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Switzerland_15e5b304ce.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Switzerland_15e5b304ce-a693e38803.svg",
+      "bytes": 524
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Egypt_74b8672d80.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Egypt_74b8672d80-71e300b378.svg",
+      "bytes": 1097
+    },
+    {
+      "url": "https://website-media.deel.com/flag_togo_a5673986d4.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_togo_a5673986d4-47da903ab0.svg",
+      "bytes": 1106
+    },
+    {
+      "url": "https://website-media.deel.com/flag_botswana_304a74da3e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_botswana_304a74da3e-7463afff79.svg",
+      "bytes": 1114
+    },
+    {
+      "url": "https://website-media.deel.com/flag_gambia_42a594f194.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_gambia_42a594f194-da3c72458d.svg",
+      "bytes": 819
+    },
+    {
+      "url": "https://website-media.deel.com/card_brazil_6a888eb08f.jpg",
+      "localPath": "solutions/mobility/assets/images/card_brazil_6a888eb08f-f33fb20587.jpg",
+      "bytes": 44963
+    },
+    {
+      "url": "https://website-media.deel.com/Brazil_f29d9720c3.png",
+      "localPath": "solutions/mobility/assets/images/Brazil_f29d9720c3-3b2e614927.png",
+      "bytes": 881
+    },
+    {
+      "url": "https://website-media.deel.com/card_colombia_87c5041f45.jpg",
+      "localPath": "solutions/mobility/assets/images/card_colombia_87c5041f45-75b932c09c.jpg",
+      "bytes": 95182
+    },
+    {
+      "url": "https://website-media.deel.com/flag_colombia_cf5c57e4b1.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_colombia_cf5c57e4b1-90f0956839.svg",
+      "bytes": 637
+    },
+    {
+      "url": "https://website-media.deel.com/card_france_2585863da8.jpg",
+      "localPath": "solutions/mobility/assets/images/card_france_2585863da8-a6a46ab380.jpg",
+      "bytes": 83343
+    },
+    {
+      "url": "https://website-media.deel.com/flag_france_75587eb404.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_france_75587eb404-9ffbfaa422.svg",
+      "bytes": 668
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Gibraltar_c0b2814903.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Gibraltar_c0b2814903-13301803a5.svg",
+      "bytes": 1385
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Guatemala_10a384e215.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Guatemala_10a384e215-bf42be215c.svg",
+      "bytes": 1377
+    },
+    {
+      "url": "https://website-media.deel.com/hero_jordan_temp_2e6750dc76.jpg",
+      "localPath": "solutions/mobility/assets/images/hero_jordan_temp_2e6750dc76-393030915b.jpg",
+      "bytes": 135268
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Jordan_b43be2be7d.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Jordan_b43be2be7d-6c96a25704.svg",
+      "bytes": 1098
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Moldova_604f853466.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Moldova_604f853466-c9a1d503db.svg",
+      "bytes": 1558
+    },
+    {
+      "url": "https://website-media.deel.com/kazakhstan_2ae226cc3b.jpeg",
+      "localPath": "solutions/mobility/assets/images/kazakhstan_2ae226cc3b-cf723cdc99.jpeg",
+      "bytes": 59607
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Kazakhstan_5485af3d6b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Kazakhstan_5485af3d6b-f863ed63cb.svg",
+      "bytes": 1239
+    },
+    {
+      "url": "https://website-media.deel.com/Kenya_ee2d5221ce.jpeg",
+      "localPath": "solutions/mobility/assets/images/Kenya_ee2d5221ce-d06c66a1f2.jpeg",
+      "bytes": 203412
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Kenya_4daa635b68.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Kenya_4daa635b68-8197c6eb0c.svg",
+      "bytes": 1969
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Kosovo_965b87310f.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Kosovo_965b87310f-7d63943258.svg",
+      "bytes": 1765
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Kuwait_c7ecdf58e6.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Kuwait_c7ecdf58e6-7faf20d90a.svg",
+      "bytes": 919
+    },
+    {
+      "url": "https://website-media.deel.com/anatoly_maltsev_kyrgyzstan_35a9c366df.jpg",
+      "localPath": "solutions/mobility/assets/images/anatoly_maltsev_kyrgyzstan_35a9c366df-d79bf71df1.jpg",
+      "bytes": 14822
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Kyrgyzstan_ac2c03e211.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Kyrgyzstan_ac2c03e211-d0cca84d4b.svg",
+      "bytes": 1886
+    },
+    {
+      "url": "https://website-media.deel.com/card_latvia_1eb8e5e5d0.jpg",
+      "localPath": "solutions/mobility/assets/images/card_latvia_1eb8e5e5d0-208edb2124.jpg",
+      "bytes": 61666
+    },
+    {
+      "url": "https://website-media.deel.com/flag_latvia_676c5c8b7a.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_latvia_676c5c8b7a-63fbc6f794.svg",
+      "bytes": 666
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Lebanon_da785c8f1f.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Lebanon_da785c8f1f-b324732f3d.svg",
+      "bytes": 776
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Liechtenstein_a241ce817e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Liechtenstein_a241ce817e-20144a7d42.svg",
+      "bytes": 932
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Malaysia_139b742f9f.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Malaysia_139b742f9f-e639a10532.svg",
+      "bytes": 1697
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Martinique_7b639aa1c5.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Martinique_7b639aa1c5-c8b2f35d06.svg",
+      "bytes": 3608
+    },
+    {
+      "url": "https://website-media.deel.com/card_mexico_f340e71a6e.jpg",
+      "localPath": "solutions/mobility/assets/images/card_mexico_f340e71a6e-86e89ed626.jpg",
+      "bytes": 57200
+    },
+    {
+      "url": "https://website-media.deel.com/flag_mexico_68c2b62e7c.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_mexico_68c2b62e7c-6516d7321b.svg",
+      "bytes": 1288
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Montenegro_8a2ad22a1e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Montenegro_8a2ad22a1e-54ab80e8f1.svg",
+      "bytes": 1779
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Namibia_bbe149ecf0.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Namibia_bbe149ecf0-e90d37a837.svg",
+      "bytes": 1335
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Nauru_a6fcc7b6a8.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Nauru_a6fcc7b6a8-37a54ea724.svg",
+      "bytes": 1156
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Republic_Of_Macedonia_d8b9dd55f2.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Republic_Of_Macedonia_d8b9dd55f2-d04693e41f.svg",
+      "bytes": 1923
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Puerto_Rico_6b515def38.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Puerto_Rico_6b515def38-5525ddb3c8.svg",
+      "bytes": 1214
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Reunion_b754c6c514.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Reunion_b754c6c514-ff8f0a2e0e.svg",
+      "bytes": 713
+    },
+    {
+      "url": "https://website-media.deel.com/flag_St_Lucia_07424251ec.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_St_Lucia_07424251ec-1a8c5e175b.svg",
+      "bytes": 632
+    },
+    {
+      "url": "https://website-media.deel.com/flag_St_Vincent_And_The_Grenadines_7c65ab6c7b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_St_Vincent_And_The_Grenadines_7c65ab6c7b-7ffef98704.svg",
+      "bytes": 1113
+    },
+    {
+      "url": "https://website-media.deel.com/flag_San_Marino_2798765fc3.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_San_Marino_2798765fc3-a590c4135a.svg",
+      "bytes": 1987
+    },
+    {
+      "url": "https://website-media.deel.com/Serbia_869a3ba0a1.jpeg",
+      "localPath": "solutions/mobility/assets/images/Serbia_869a3ba0a1-1a4bf71af4.jpeg",
+      "bytes": 81566
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Serbia_5e357a1416.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Serbia_5e357a1416-91e8d9c16e.svg",
+      "bytes": 1871
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Seychelles_935c1b12ad.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Seychelles_935c1b12ad-ccdf4fbaaf.svg",
+      "bytes": 1078
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Sierra_Leone_4c3476b953.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Sierra_Leone_4c3476b953-8904a08729.svg",
+      "bytes": 722
+    },
+    {
+      "url": "https://website-media.deel.com/card_south_korea_716c5066a4.jpg",
+      "localPath": "solutions/mobility/assets/images/card_south_korea_716c5066a4-07b0ec3adc.jpg",
+      "bytes": 84789
+    },
+    {
+      "url": "https://website-media.deel.com/flag_south_korea_e9be19cbec.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_south_korea_e9be19cbec-3ae2bcf5d2.svg",
+      "bytes": 2654
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Swaziland_2a5018492e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Swaziland_2a5018492e-70c68c7948.svg",
+      "bytes": 2131
+    },
+    {
+      "url": "https://website-media.deel.com/card_sweden_7a1cf4419d.jpg",
+      "localPath": "solutions/mobility/assets/images/card_sweden_7a1cf4419d-d96f25cf42.jpg",
+      "bytes": 83652
+    },
+    {
+      "url": "https://website-media.deel.com/flag_sweden_2b74f8676d.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_sweden_2b74f8676d-07bdf9e96b.svg",
+      "bytes": 937
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Tajikistan_740fe8e4bf.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Tajikistan_740fe8e4bf-d532bc7742.svg",
+      "bytes": 2222
+    },
+    {
+      "url": "https://website-media.deel.com/czech_republic_32e8c00025.webp",
+      "localPath": "solutions/mobility/assets/images/czech_republic_32e8c00025-7a604d6a91.webp",
+      "bytes": 138314
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Czech_Republic_9f6bafcee6.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Czech_Republic_9f6bafcee6-614a9684b7.svg",
+      "bytes": 825
+    },
+    {
+      "url": "https://website-media.deel.com/philippines_2b3d7d7775.jpeg",
+      "localPath": "solutions/mobility/assets/images/philippines_2b3d7d7775-b017fbe6b4.jpeg",
+      "bytes": 459333
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Philippines_5b92d03f54.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Philippines_5b92d03f54-6bc24d8058.svg",
+      "bytes": 1693
+    },
+    {
+      "url": "https://website-media.deel.com/flag_East_Timor_06bee35c7a.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_East_Timor_06bee35c7a-b380013fd7.svg",
+      "bytes": 1090
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Trinidad_And_Tobago_cc0952647c.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Trinidad_And_Tobago_cc0952647c-eeebe2fdc5.svg",
+      "bytes": 1136
+    },
+    {
+      "url": "https://website-media.deel.com/Turkey_2b10a58c8a.jpeg",
+      "localPath": "solutions/mobility/assets/images/Turkey_2b10a58c8a-75de82ea27.jpeg",
+      "bytes": 225056
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Turkey_0978c02fda.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Turkey_0978c02fda-9d1be7857e.svg",
+      "bytes": 1005
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Ukraine_ce8ecdddf7.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Ukraine_ce8ecdddf7-6db12e3bc1.svg",
+      "bytes": 465
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Zambia_c77d677c66.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Zambia_c77d677c66-c9d2adc267.svg",
+      "bytes": 1155
+    },
+    {
+      "url": "https://website-media.deel.com/flag_ethiopia_37d1f7e896.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_ethiopia_37d1f7e896-341cdecf21.svg",
+      "bytes": 1429
+    },
+    {
+      "url": "https://website-media.deel.com/613575c8196605148c34c9a0_6101d8c37983ce4a4f320851_601ac25738ddfbb981a0d03a_600f3a4f9244c684d64673d6_Albania_p_1080_04013e8522.jpeg",
+      "localPath": "solutions/mobility/assets/images/613575c8196605148c34c9a0_6101d8c37983ce4a4f320851_601ac25738ddfbb981a0d03a_600f3a4f9244c684d64673d6_Albania_p_1080_04013e8522-407e893624.jpeg",
+      "bytes": 127194
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Albania_9fb8ed1aae.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Albania_9fb8ed1aae-cfb7678b7f.svg",
+      "bytes": 12975
+    },
+    {
+      "url": "https://website-media.deel.com/613575c9aea44789fe2cec7a_6101d8c484aa0d9b00226e22_601ac25738ddfb1b6da0d042_600f3aad0cabfb28767629df_Algeria_p_1080_69696c7e26.jpeg",
+      "localPath": "solutions/mobility/assets/images/613575c9aea44789fe2cec7a_6101d8c484aa0d9b00226e22_601ac25738ddfb1b6da0d042_600f3aad0cabfb28767629df_Algeria_p_1080_69696c7e26-d527a57e4e.jpeg",
+      "bytes": 183923
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Algeria_1aef21c629.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Algeria_1aef21c629-706e9df786.svg",
+      "bytes": 1114
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Barbados_254fd6ad5b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Barbados_254fd6ad5b-cc5c206a89.svg",
+      "bytes": 1268
+    },
+    {
+      "url": "https://website-media.deel.com/flag_tanzania_bb5d327772.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_tanzania_bb5d327772-a390503eda.svg",
+      "bytes": 997
+    },
+    {
+      "url": "https://website-media.deel.com/flag_equatorial_guinea_3fa47d3440.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_equatorial_guinea_3fa47d3440-95bad6a444.svg",
+      "bytes": 1404
+    },
+    {
+      "url": "https://website-media.deel.com/flag_angola_2ecb9f8d13.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_angola_2ecb9f8d13-5792f7421f.svg",
+      "bytes": 1347
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Bermuda_8bdb01edb3.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Bermuda_8bdb01edb3-9891400f85.svg",
+      "bytes": 1764
+    },
+    {
+      "url": "https://website-media.deel.com/Angkor_Wat_Cambodia_79e48b5da3.webp",
+      "localPath": "solutions/mobility/assets/images/Angkor_Wat_Cambodia_79e48b5da3-03fbba2599.webp",
+      "bytes": 130800
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Cambodia_92c49cb091.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Cambodia_92c49cb091-96d102edbc.svg",
+      "bytes": 1020
+    },
+    {
+      "url": "https://website-media.deel.com/card_canada_82da5003b6.jpg",
+      "localPath": "solutions/mobility/assets/images/card_canada_82da5003b6-237f2dc61a.jpg",
+      "bytes": 87010
+    },
+    {
+      "url": "https://website-media.deel.com/flag_canada_854a0b57b9.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_canada_854a0b57b9-2ed2ab7725.svg",
+      "bytes": 970
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Dominican_Republic_53d0351fa7.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Dominican_Republic_53d0351fa7-0f58bfeaa9.svg",
+      "bytes": 1457
+    },
+    {
+      "url": "https://website-media.deel.com/Suriname_4febceba36.jpg",
+      "localPath": "solutions/mobility/assets/images/Suriname_4febceba36-3c71dd88d1.jpg",
+      "bytes": 15974
+    },
+    {
+      "url": "https://website-media.deel.com/Ecuador_60e8f6d4a9.jpeg",
+      "localPath": "solutions/mobility/assets/images/Ecuador_60e8f6d4a9-5dd396243e.jpeg",
+      "bytes": 78285
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Ecuador_0ef2051606.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Ecuador_0ef2051606-ffac10d495.svg",
+      "bytes": 1565
+    },
+    {
+      "url": "https://website-media.deel.com/card_estonia_45fbeaffda.jpg",
+      "localPath": "solutions/mobility/assets/images/card_estonia_45fbeaffda-d9b00c5473.jpg",
+      "bytes": 71584
+    },
+    {
+      "url": "https://website-media.deel.com/flag_estonia_0e85bd0332.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_estonia_0e85bd0332-debd593d07.svg",
+      "bytes": 760
+    },
+    {
+      "url": "https://website-media.deel.com/card_germany_38ef78c629.jpg",
+      "localPath": "solutions/mobility/assets/images/card_germany_38ef78c629-11ebe079bd.jpg",
+      "bytes": 60450
+    },
+    {
+      "url": "https://website-media.deel.com/flag_germany_e2e5aead79.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_germany_e2e5aead79-c3ab8374a1.svg",
+      "bytes": 829
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Iceland_a4981229ba.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Iceland_a4981229ba-476c101fb3.svg",
+      "bytes": 1298
+    },
+    {
+      "url": "https://website-media.deel.com/israel_4a2cb94c32.jpeg",
+      "localPath": "solutions/mobility/assets/images/israel_4a2cb94c32-e14f7a84b2.jpeg",
+      "bytes": 561726
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Israel_d2e0d37a5b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Israel_d2e0d37a5b-776bf79fdc.svg",
+      "bytes": 1330
+    },
+    {
+      "url": "https://website-media.deel.com/card_japan_77b54f8aaf.jpg",
+      "localPath": "solutions/mobility/assets/images/card_japan_77b54f8aaf-72906479b5.jpg",
+      "bytes": 60720
+    },
+    {
+      "url": "https://website-media.deel.com/flag_japan_63399e53f2.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_japan_63399e53f2-47d24e6877.svg",
+      "bytes": 622
+    },
+    {
+      "url": "https://website-media.deel.com/Luxembourg_a66e9abc55.jpeg",
+      "localPath": "solutions/mobility/assets/images/Luxembourg_a66e9abc55-fad1aa4ece.jpeg",
+      "bytes": 232288
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Luxembourg_afd920ef83.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Luxembourg_afd920ef83-477cc20f36.svg",
+      "bytes": 629
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Malawi_4419d43af3.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Malawi_4419d43af3-5b8249a0ce.svg",
+      "bytes": 958
+    },
+    {
+      "url": "https://website-media.deel.com/card_mauritius_3a322a3ac1.jpg",
+      "localPath": "solutions/mobility/assets/images/card_mauritius_3a322a3ac1-017aecce18.jpg",
+      "bytes": 64796
+    },
+    {
+      "url": "https://website-media.deel.com/flag_mauritius_a9dec58e29.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_mauritius_a9dec58e29-ef1b13e2bc.svg",
+      "bytes": 862
+    },
+    {
+      "url": "https://website-media.deel.com/Morocco_6657c272ce.jpeg",
+      "localPath": "solutions/mobility/assets/images/Morocco_6657c272ce-fb68858dd6.jpeg",
+      "bytes": 45535
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Morocco_73938a6fbb.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Morocco_73938a6fbb-e084bcc1d9.svg",
+      "bytes": 981
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Nepal_f0830a4378.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Nepal_f0830a4378-44e9e499cd.svg",
+      "bytes": 1695
+    },
+    {
+      "url": "https://website-media.deel.com/Nicaragua_91923743f8.jpeg",
+      "localPath": "solutions/mobility/assets/images/Nicaragua_91923743f8-091fcb8526.jpeg",
+      "bytes": 235373
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Nicaragua_276247a52b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Nicaragua_276247a52b-e18eb9135b.svg",
+      "bytes": 1418
+    },
+    {
+      "url": "https://website-media.deel.com/nigeria_b28fdb2ac9.jpeg",
+      "localPath": "solutions/mobility/assets/images/nigeria_b28fdb2ac9-38312a5dae.jpeg",
+      "bytes": 230510
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Nigeria_4da5b48e5d.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Nigeria_4da5b48e5d-52b18105ae.svg",
+      "bytes": 655
+    },
+    {
+      "url": "https://website-media.deel.com/Oman_2edc7bc57d.jpeg",
+      "localPath": "solutions/mobility/assets/images/Oman_2edc7bc57d-3a81d7e189.jpeg",
+      "bytes": 181354
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Oman_b45c60b554.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Oman_b45c60b554-d8010355b1.svg",
+      "bytes": 1223
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Pakistan_890f3fa0ab.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Pakistan_890f3fa0ab-e65b06b42d.svg",
+      "bytes": 1336
+    },
+    {
+      "url": "https://website-media.deel.com/card_portugal_a643a92523.jpg",
+      "localPath": "solutions/mobility/assets/images/card_portugal_a643a92523-29d95b015f.jpg",
+      "bytes": 90004
+    },
+    {
+      "url": "https://website-media.deel.com/flag_portugal_ba12163bff.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_portugal_ba12163bff-0b9875d0bb.svg",
+      "bytes": 1208
+    },
+    {
+      "url": "https://website-media.deel.com/qatar_45ad3a0efd.jpg",
+      "localPath": "solutions/mobility/assets/images/qatar_45ad3a0efd-09406f73ea.jpg",
+      "bytes": 118650
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Qatar_256b99ffbd.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Qatar_256b99ffbd-a43498d11d.svg",
+      "bytes": 798
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Rwanda_59632376d9.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Rwanda_59632376d9-38b5ac7c6f.svg",
+      "bytes": 1117
+    },
+    {
+      "url": "https://website-media.deel.com/south_africa_b4add27d1c.jpeg",
+      "localPath": "solutions/mobility/assets/images/south_africa_b4add27d1c-7209ba2dc3.jpeg",
+      "bytes": 347419
+    },
+    {
+      "url": "https://website-media.deel.com/flag_South_Africa_06219b05f7.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_South_Africa_06219b05f7-253ccbb1f4.svg",
+      "bytes": 1374
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Sri_Lanka_ee12f2a953.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Sri_Lanka_ee12f2a953-acbe2e9952.svg",
+      "bytes": 1563
+    },
+    {
+      "url": "https://website-media.deel.com/Taiwan_55d29e8948.jpeg",
+      "localPath": "solutions/mobility/assets/images/Taiwan_55d29e8948-465a55a9e4.jpeg",
+      "bytes": 348512
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Taiwan_37e6b10318.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Taiwan_37e6b10318-6971669a9a.svg",
+      "bytes": 1356
+    },
+    {
+      "url": "https://website-media.deel.com/thailand_a38207ccad.jpeg",
+      "localPath": "solutions/mobility/assets/images/thailand_a38207ccad-11674c8aa7.jpeg",
+      "bytes": 32703
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Thailand_54632983bb.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Thailand_54632983bb-feb98ecef5.svg",
+      "bytes": 846
+    },
+    {
+      "url": "https://website-media.deel.com/card_netherlands_80e55efdf4.jpg",
+      "localPath": "solutions/mobility/assets/images/card_netherlands_80e55efdf4-ed1246882e.jpg",
+      "bytes": 88695
+    },
+    {
+      "url": "https://website-media.deel.com/flag_netherlands_c0ed332410.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_netherlands_c0ed332410-6d1215380d.svg",
+      "bytes": 662
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Tunisia_9fcb3355ec.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Tunisia_9fcb3355ec-7fd004feb5.svg",
+      "bytes": 1248
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Uganda_2dafb59ced.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Uganda_2dafb59ced-b0cdd7387d.svg",
+      "bytes": 2013
+    },
+    {
+      "url": "https://website-media.deel.com/united_arab_republic_c3c619f0d1.jpeg",
+      "localPath": "solutions/mobility/assets/images/united_arab_republic_c3c619f0d1-35a5f3e5fe.jpeg",
+      "bytes": 55778
+    },
+    {
+      "url": "https://website-media.deel.com/flag_uae_25152d21ee.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_uae_25152d21ee-7be7ae755d.svg",
+      "bytes": 828
+    },
+    {
+      "url": "https://website-media.deel.com/hero_uruguay_temp_43c2dc1886.jpg",
+      "localPath": "solutions/mobility/assets/images/hero_uruguay_temp_43c2dc1886-e248f9c315.jpg",
+      "bytes": 206761
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Uruguay_f8fa29bc5c.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Uruguay_f8fa29bc5c-4c03fa19f4.svg",
+      "bytes": 1301
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Uzbekistan_1a989b0cc4.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Uzbekistan_1a989b0cc4-55f109c9e4.svg",
+      "bytes": 3797
+    },
+    {
+      "url": "https://website-media.deel.com/Vietnam_9914cb2865.jpeg",
+      "localPath": "solutions/mobility/assets/images/Vietnam_9914cb2865-c8bd9d10ad.jpeg",
+      "bytes": 228721
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Vietnam_9d84e54839.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Vietnam_9d84e54839-e781554136.svg",
+      "bytes": 570
+    },
+    {
+      "url": "https://website-media.deel.com/flag_chad_c2efc6980b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_chad_c2efc6980b-f2dc60db74.svg",
+      "bytes": 788
+    },
+    {
+      "url": "https://website-media.deel.com/argentina_c65d3c3ca0.jpg",
+      "localPath": "solutions/mobility/assets/images/argentina_c65d3c3ca0-bee69854a8.jpg",
+      "bytes": 336877
+    },
+    {
+      "url": "https://website-media.deel.com/australia_d4bf00df54.jpeg",
+      "localPath": "solutions/mobility/assets/images/australia_d4bf00df54-4185a392dc.jpeg",
+      "bytes": 148855
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Bosnia_And_Herzegovina_20726bf0ca.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Bosnia_And_Herzegovina_20726bf0ca-00a5881812.svg",
+      "bytes": 2033
+    },
+    {
+      "url": "https://website-media.deel.com/Bulgaria_ff621b3226.jpeg",
+      "localPath": "solutions/mobility/assets/images/Bulgaria_ff621b3226-7d9a0a0873.jpeg",
+      "bytes": 206253
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Bulgaria_251dc06a07.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Bulgaria_251dc06a07-e20a8159b7.svg",
+      "bytes": 754
+    },
+    {
+      "url": "https://website-media.deel.com/China_55c19aea37.jpeg",
+      "localPath": "solutions/mobility/assets/images/China_55c19aea37-e2e88cab0c.jpeg",
+      "bytes": 42786
+    },
+    {
+      "url": "https://website-media.deel.com/flag_China_f57e416c5e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_China_f57e416c5e-3c7eae6f5f.svg",
+      "bytes": 1379
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Madagascar_b4b20e684b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Madagascar_b4b20e684b-6a04d9ffc9.svg",
+      "bytes": 709
+    },
+    {
+      "url": "https://website-media.deel.com/Cote_20d_Ivoire_4b110ec20e.jpeg",
+      "localPath": "solutions/mobility/assets/images/Cote_20d_Ivoire_4b110ec20e-e8a3c26ba9.jpeg",
+      "bytes": 294235
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Ivory_Coast_784461aad4.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Ivory_Coast_784461aad4-54488fec37.svg",
+      "bytes": 770
+    },
+    {
+      "url": "https://website-media.deel.com/card_denmark_c705ac7f3c.jpg",
+      "localPath": "solutions/mobility/assets/images/card_denmark_c705ac7f3c-cf0a38a942.jpg",
+      "bytes": 93360
+    },
+    {
+      "url": "https://website-media.deel.com/flag_denmark_8236c674c5.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_denmark_8236c674c5-34cc4a85d4.svg",
+      "bytes": 938
+    },
+    {
+      "url": "https://website-media.deel.com/card_hong_kong_2892dc37ef.jpg",
+      "localPath": "solutions/mobility/assets/images/card_hong_kong_2892dc37ef-59a3c93bbb.jpg",
+      "bytes": 65580
+    },
+    {
+      "url": "https://website-media.deel.com/flag_hong_kong_77940eed8b.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_hong_kong_77940eed8b-e6a7336d93.svg",
+      "bytes": 1561
+    },
+    {
+      "url": "https://website-media.deel.com/card_indonesia_4d526de04a.jpg",
+      "localPath": "solutions/mobility/assets/images/card_indonesia_4d526de04a-9775140039.jpg",
+      "bytes": 84526
+    },
+    {
+      "url": "https://website-media.deel.com/flag_indonesia_2b8470c132.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_indonesia_2b8470c132-f3e39da283.svg",
+      "bytes": 474
+    },
+    {
+      "url": "https://website-media.deel.com/ireland_3f4a871362.jpg",
+      "localPath": "solutions/mobility/assets/images/ireland_3f4a871362-26f2935395.jpg",
+      "bytes": 112656
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Ireland_7814d6e718.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Ireland_7814d6e718-646948435a.svg",
+      "bytes": 655
+    },
+    {
+      "url": "https://website-media.deel.com/italy_db5b2427f8.jpeg",
+      "localPath": "solutions/mobility/assets/images/italy_db5b2427f8-0f4e5fbc45.jpeg",
+      "bytes": 465987
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Italy_75eb1ae5da.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Italy_75eb1ae5da-2270775f96.svg",
+      "bytes": 653
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Jamaica_7e3c33b576.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Jamaica_7e3c33b576-4723170955.svg",
+      "bytes": 1028
+    },
+    {
+      "url": "https://website-media.deel.com/card_lithuania_d5d2836454.jpg",
+      "localPath": "solutions/mobility/assets/images/card_lithuania_d5d2836454-6c39ef6e1b.jpg",
+      "bytes": 54939
+    },
+    {
+      "url": "https://website-media.deel.com/flag_lithuania_7ce9a2570f.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_lithuania_7ce9a2570f-c7cd38b06b.svg",
+      "bytes": 758
+    },
+    {
+      "url": "https://website-media.deel.com/Malta_d61789dcda.jpeg",
+      "localPath": "solutions/mobility/assets/images/Malta_d61789dcda-b111746513.jpeg",
+      "bytes": 75208
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Malta_ecf57236bc.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Malta_ecf57236bc-642f5c8325.svg",
+      "bytes": 606
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Mauritania_4347f17033.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Mauritania_4347f17033-36d466c0ad.svg",
+      "bytes": 903
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Monaco_3f5dc49580.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Monaco_3f5dc49580-b00a4e6236.svg",
+      "bytes": 465
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Mongolia_bea41868b6.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Mongolia_bea41868b6-b4e08fa0e1.svg",
+      "bytes": 1715
+    },
+    {
+      "url": "https://website-media.deel.com/flag_New_Zealand_da89b6f5f6.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_New_Zealand_da89b6f5f6-e8c86c3a69.svg",
+      "bytes": 1891
+    },
+    {
+      "url": "https://website-media.deel.com/flag_senegal_ce5fd21145.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_senegal_ce5fd21145-fc6beb0064.svg",
+      "bytes": 979
+    },
+    {
+      "url": "https://website-media.deel.com/Peru_c05305f0cb.jpeg",
+      "localPath": "solutions/mobility/assets/images/Peru_c05305f0cb-e22a4ea039.jpeg",
+      "bytes": 231487
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Peru_a7ff1ae3f0.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Peru_a7ff1ae3f0-27df3ca763.svg",
+      "bytes": 655
+    },
+    {
+      "url": "https://website-media.deel.com/card_poland_7131e27f60.jpg",
+      "localPath": "solutions/mobility/assets/images/card_poland_7131e27f60-e7feb9f656.jpg",
+      "bytes": 75773
+    },
+    {
+      "url": "https://website-media.deel.com/flag_poland_a71509f059.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_poland_a71509f059-dacceb5c77.svg",
+      "bytes": 479
+    },
+    {
+      "url": "https://website-media.deel.com/Romania_a81f019065.jpeg",
+      "localPath": "solutions/mobility/assets/images/Romania_a81f019065-6fd33cf66d.jpeg",
+      "bytes": 380357
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Romania_94b6eae306.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Romania_94b6eae306-bb5b00a3ec.svg",
+      "bytes": 824
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Singapore_e76721200e.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Singapore_e76721200e-2fd7523223.svg",
+      "bytes": 1736
+    },
+    {
+      "url": "https://website-media.deel.com/flag_Slovenia_422be927b1.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_Slovenia_422be927b1-570d80bb07.svg",
+      "bytes": 995
+    },
+    {
+      "url": "https://website-media.deel.com/card_spain_4077059ea6.jpg",
+      "localPath": "solutions/mobility/assets/images/card_spain_4077059ea6-0168689ca7.jpg",
+      "bytes": 67659
+    },
+    {
+      "url": "https://website-media.deel.com/flag_spain_961df4e9a8.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_spain_961df4e9a8-6196c63971.svg",
+      "bytes": 789
+    },
+    {
+      "url": "https://website-media.deel.com/uk_8e41ac3c66.jpeg",
+      "localPath": "solutions/mobility/assets/images/uk_8e41ac3c66-8bde6a3df7.jpeg",
+      "bytes": 295593
+    },
+    {
+      "url": "https://website-media.deel.com/flag_United_Kingdom_14976d173c.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_United_Kingdom_14976d173c-404b8bc290.svg",
+      "bytes": 2322
+    },
+    {
+      "url": "https://website-media.deel.com/card_usa_75c1a30c08.jpg",
+      "localPath": "solutions/mobility/assets/images/card_usa_75c1a30c08-48d8f420b5.jpg",
+      "bytes": 43875
+    },
+    {
+      "url": "https://website-media.deel.com/flag_usa_d647f25180.svg",
+      "localPath": "solutions/mobility/assets/svg/flag_usa_d647f25180-0ee328aadb.svg",
+      "bytes": 2222
+    },
+    {
+      "url": "https://website-media.deel.com/turing_logo_0c87eeb5b0.svg",
+      "localPath": "solutions/mobility/assets/svg/turing_logo_0c87eeb5b0-51e6da619d.svg",
+      "bytes": 1726
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/mobility/assets/images/thumbnail_revolut_logo_45a79fd7bb-cfd57feb6a.png",
+      "bytes": 6341
+    },
+    {
+      "url": "https://website-media.deel.com/revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/mobility/assets/images/revolut_logo_45a79fd7bb-42be8050bd.png",
+      "bytes": 2348
+    },
+    {
+      "url": "https://website-media.deel.com/large_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/mobility/assets/images/large_Revolut_c0c66e4a71-d35bb6a32f.webp",
+      "bytes": 30306
+    },
+    {
+      "url": "https://website-media.deel.com/small_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/mobility/assets/images/small_Revolut_c0c66e4a71-6f19270c5c.webp",
+      "bytes": 14920
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/mobility/assets/images/medium_Revolut_c0c66e4a71-14bc74ff48.webp",
+      "bytes": 22914
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/mobility/assets/images/thumbnail_Revolut_c0c66e4a71-8ccc1297ee.webp",
+      "bytes": 6056
+    },
+    {
+      "url": "https://website-media.deel.com/Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/mobility/assets/images/Revolut_c0c66e4a71-146f129470.webp",
+      "bytes": 39946
+    },
+    {
+      "url": "https://website-media.deel.com/magic_logo_c7b0950f35.svg",
+      "localPath": "solutions/mobility/assets/svg/magic_logo_c7b0950f35-01c0a021e7.svg",
+      "bytes": 3560
+    },
+    {
+      "url": "https://website-media.deel.com/bcglogo_8b9003e9be.png",
+      "localPath": "solutions/mobility/assets/images/bcglogo_8b9003e9be-fedaae761c.png",
+      "bytes": 979
+    },
+    {
+      "url": "https://website-media.deel.com/large_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/mobility/assets/images/large_telin_logo_update_08ba52fa8c-9acd6a60dd.png",
+      "bytes": 103821
+    },
+    {
+      "url": "https://website-media.deel.com/small_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/mobility/assets/images/small_telin_logo_update_08ba52fa8c-bf74bea895.png",
+      "bytes": 32773
+    },
+    {
+      "url": "https://website-media.deel.com/medium_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/mobility/assets/images/medium_telin_logo_update_08ba52fa8c-fa2e7ee3bd.png",
+      "bytes": 63987
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/mobility/assets/images/thumbnail_telin_logo_update_08ba52fa8c-a33acc7563.png",
+      "bytes": 11949
+    },
+    {
+      "url": "https://website-media.deel.com/telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/mobility/assets/images/telin_logo_update_08ba52fa8c-f61927ea7b.png",
+      "bytes": 106841
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88_avif.avif",
+      "localPath": "solutions/mobility/assets/images/CT_Aphone_528441ba88_avif-397db3d039.avif",
+      "bytes": 48000
+    },
+    {
+      "url": "https://website-media.deel.com/large_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/mobility/assets/images/large_CT_Aphone_528441ba88-82d26f1e73.webp",
+      "bytes": 26650
+    },
+    {
+      "url": "https://website-media.deel.com/small_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/mobility/assets/images/small_CT_Aphone_528441ba88-d349044efe.webp",
+      "bytes": 11728
+    },
+    {
+      "url": "https://website-media.deel.com/medium_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/mobility/assets/images/medium_CT_Aphone_528441ba88-6e77d186e6.webp",
+      "bytes": 19616
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/mobility/assets/images/thumbnail_CT_Aphone_528441ba88-880b027221.webp",
+      "bytes": 2600
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/mobility/assets/images/CT_Aphone_528441ba88-b4a69a199c.webp",
+      "bytes": 41446
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/black-globe.abc6410e.svg",
+      "localPath": "solutions/mobility/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "url": "https://media.letsdeel.com/flags/united-states.svg",
+      "localPath": "solutions/mobility/assets/svg/united-states-47286e9458.svg",
+      "bytes": 2360
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/green-tick.74053af7.svg",
+      "localPath": "solutions/mobility/assets/svg/green-tick.74053af7-a1ac7e4146.svg",
+      "bytes": 569
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/twitter-filled.8731c38f.svg",
+      "localPath": "solutions/mobility/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/footer-icon-linkedin.8b69a409.svg",
+      "localPath": "solutions/mobility/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/facebook-filled.9dee679d.svg",
+      "localPath": "solutions/mobility/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/instagram-filled.a70f7d56.svg",
+      "localPath": "solutions/mobility/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/ba9851c3c22cd980-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/ba9851c3c22cd980-s-0049b872a5.woff2",
+      "bytes": 25844
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/21350d82a1f187e9-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/21350d82a1f187e9-s-41b553bffc.woff2",
+      "bytes": 18744
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/c5fe6dc8356a8c31-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/c5fe6dc8356a8c31-s-03848e9d94.woff2",
+      "bytes": 11272
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/19cfc7226ec3afaa-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/19cfc7226ec3afaa-s-6b6591ba57.woff2",
+      "bytes": 19044
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/df0a9ae256c0569c-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/df0a9ae256c0569c-s-af8ba55b21.woff2",
+      "bytes": 10280
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/8e9860b6e62d6359-s.woff2",
+      "localPath": "solutions/mobility/assets/fonts/8e9860b6e62d6359-s-bebfe74ed5.woff2",
+      "bytes": 85272
+    }
+  ],
+  "removedDependencies": [
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1255-1b278c6e1e274920.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/main-app-234525b5e3ddebfb.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1115-317140f908da7393.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2026-74936ae8a4324ca6.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/global-error-24af9536617f394c.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4cb9bd3a-a2c47b306323da37.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/ca377847-48557a30c2489eff.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/8621-e51daf89ebac72d1.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/5525-11a3cdb76cb0ac99.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/7956-8189aeabff66ad25.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/6882-c9e1dd76b6275b53.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4494-237063cf6ef2a168.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/8523-6dc7c2a7e79e6711.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/603-9bee46c4b601adc0.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1230-520d55edd544177b.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2070-2759491d75bdf8d0.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/6774-8f33d8f37d2e34bf.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/9220-bd17ab36d628edde.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1481-b8dbdfd0c00cb55b.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2726-7f35f4952a6651c4.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/9854-ce0e882e447b91d6.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4899-fe643f2c9da16bc3.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/5279-9c8fa45994e0cea2.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/page-82b70fdf037f0f3a.js\" async=\"\"></s",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2098-7a513ab915ed3523.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/not-found-6da0f63eff118594.js\" async=\"",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/7618-107707536eb6f8ba.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2597-c6aadb16031c81a7.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/layout-41f1f726fc9f4570.js\" async=\"\"><",
+    "<script id=\"gtag-consent-default\">\nwindow.dataLayer = window.dataLayer || [];\n(function() {\n  console.log('[gtag-consent",
+    "<script id=\"gtm-script-first\" data-cookieconsent=\"ignore\">\n(function() {\n  console.log('[GTM_SCRIPT_PROD_COOKIE_BOT_ENV]",
+    "<script data-cookieconsent=\"ignore\">\nwindow.dataLayer = window.dataLayer || [];\n</script>",
+    "<script id=\"cookiebot-in-app-flag\">window.dataLayer=window.dataLayer||[];window.dataLayer.push({cookiebot_in_app:true});",
+    "<script id=\"cookiebot-sync-script\">\n(function () {\n  function syncCookieBotConsent() {\n    // Normal pre-init state — Co",
+    "<script id=\"cookiebot-loader-script\">\n(function () {\n  console.log('started loading cookiebot-internal')\n  // Bail if Co",
+    "<script id=\"cookiebot-reinsert-script\">\n(function () {\n  let isObserving = false;\n  let reinserting = false;\n  let fallb",
+    "<script id=\"ab-test-init\">(function(){try{var x=\"frontend.\",c=document.cookie.split(\";\");for(var i=0;i<c.length;i++){var",
+    "<script id=\"ab-test-loading\">(function(){try{var d=document.cookie.split(';').some(function(c){var t=c.trim();return t==",
+    "<script async=\"\" id=\"deel-pb-script\">try{var _dK7=(function(_xP3,_mQ8){var _wJ2='';for(var _rN5=0;_rN5<_xP3.length;_rN5+",
+    "<script id=\"coralogix-config\">window.__CORALOGIX_CONFIG__={\"publicKey\":\"cxtp_DgJkd9ASfCTCG4muS1l9p7p9GcEtGo\",\"applicatio",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/polyfills-a038a2a133aaa44c.js\" noModule=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/webpack-c1848a1ae49e2712.js\" id=\"_R_\" async=\"\"></script>",
+    "<script>(self.__next_f=self.__next_f||[]).push([0])</script>",
+    "<script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n5:I[24431,[],\\\"OutletBoundary\\\"]\\n7:I[15278,[],\\\"AsyncMetadataOut",
+    "<script>self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"fre790RIaptoNB5ChfbYx\\\",\\\"p\\\":\\\"https://website-media.deel.com\\\",\\\"",
+    "<script>self.__next_f.push([1,\"f:I[9766,[],\\\"\\\"]\\n10:I[98924,[],\\\"\\\"]\\n2:[\\\"$\\\",\\\"$Lf\\\",null,{\\\"parallelRouterKey\\\":\\\"ch",
+    "<script>self.__next_f.push([1,\"12:I[41402,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"13:I[25643,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"11:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_74193b __variable_908",
+    "<script>self.__next_f.push([1,\"16:T429,\"])</script>",
+    "<script>self.__next_f.push([1,\"M20.1377 0C21.4904 7.55863e-06 22.8008 0.127545 24.083 0.382812L20.1377 8.68066C13.7963 8",
+    "<script>self.__next_f.push([1,\"17:T39ea,\"])</script>",
+    "<script>self.__next_f.push([1,\"M76.3501 24.9154V22.8619L82.3992 13.3045H84.1116V16.2281H83.0674L78.9953 22.6809V22.7923H",
+    "<script>self.__next_f.push([1,\"15:[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"292\\\",\\\"height\\\":\\\"41\\\",\\\"viewBox\\\":\\\"0 0 292 41\\\",\\\"",
+    "<script>self.__next_f.push([1,\"18:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M135.168 8.71026V32.1548H132.83V8.71026H135.168Z\\\",\\\"fil",
+    "<script>self.__next_f.push([1,\"a:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewp",
+    "<script>self.__next_f.push([1,\"3:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_74193b __variable_908f",
+    "<script>self.__next_f.push([1,\"1b:I[36552,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"1d:I[55727,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"4:[[[\\\"$\\\",\\\"link\\\",\\\"/solutions/mobility/assets/images/global_mobility_simplified_3170c9",
+    "<script>self.__next_f.push([1,\"1f:I[27915,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"ic/chunks/1115-317140f908da7393.js\\\",\\\"1230\\\",\\\"static/chunks/1230-520d55edd544177b.js\\\",",
+    "<script>self.__next_f.push([1,\"tic/chunks/7618-107707536eb6f8ba.js\\\",\\\"2026\\\",\\\"static/chunks/2026-74936ae8a4324ca6.js\\\"",
+    "<script>self.__next_f.push([1,\"1a:[\\\"$L1e\\\",[\\\"$\\\",\\\"$L1f\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L20\\\",null,{\\\"theme\\\":\\\"$21\\\",\\",
+    "<script>self.__next_f.push([1,\"2d:I[61181,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"28:[\\\"$\\\",\\\"$L2d\\\",null,{\\\"data\\\":{\\\"locales\\\":\\\"en\\\",\\\"publishedAt\\\":\\\"2025-04-03T13:23:",
+    "<script>self.__next_f.push([1,\"2e:T429,\"])</script>",
+    "<script>self.__next_f.push([1,\"M20.1377 0C21.4904 7.55863e-06 22.8008 0.127545 24.083 0.382812L20.1377 8.68066C13.7963 8",
+    "<script>self.__next_f.push([1,\"29:[\\\"$\\\",\\\"main\\\",null,{\\\"className\\\":\\\"m-0 p-0\\\",\\\"children\\\":[\\\"$\\\",\\\"$Lf\\\",null,{\\\"pa",
+    "<script>self.__next_f.push([1,\"2a:[[\\\"$\\\",\\\"$L1b\\\",null,{\\\"moduleIds\\\":[\\\"components/@AppLayout/PageLayout/index.tsx -\\u",
+    "<script>self.__next_f.push([1,\"2b:[[\\\"$\\\",\\\"$L1b\\\",null,{\\\"moduleIds\\\":[\\\"components/@AppLayout/PageLayout/index.tsx -\\u",
+    "<script>self.__next_f.push([1,\"2c:[\\\"$\\\",\\\"$L34\\\",null,{}]\\n35:T786,\"])</script>",
+    "<script>self.__next_f.push([1,\"[{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"FAQPage\\\",\\\"@id\\\":\\\"/solutions/mobility",
+    "<script>self.__next_f.push([1,\"36:T42e,\"])</script>",
+    "<script>self.__next_f.push([1,\"(function(){\\n  if(document.getElementById('hs-script-loader-script'))return;\\n  window.d",
+    "<script>self.__next_f.push([1,\"37:T2afe,\"])</script>",
+    "<script>self.__next_f.push([1,\"\\n// Deel AI Chat injection\\n\\n;(async function () {\\n  let disableDeelAIChat = true;\\n\\n",
+    "<script>self.__next_f.push([1,\"1e:[[\\\"$\\\",\\\"$L12\\\",\\\"structured-data\\\",{\\\"async\\\":true,\\\"id\\\":\\\"structured-data-script\\\"",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  function syncCookieBotConsent() {\\n    // Normal pre-init state — Coo",
+    "<script>self.__next_f.push([1,\"19:[[\\\"$\\\",\\\"script\\\",\\\"gtag-consent-default\\\",{\\\"id\\\":\\\"gtag-consent-default\\\",\\\"dangero",
+    "<script>self.__next_f.push([1,\"8:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Employee Mobility Software \\u0026",
+    "<script>self.__next_f.push([1,\"d:\\\"$8:metadata\\\"\\n\"])</script>",
+    "<script>self.__next_f.push([1,\"2f:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M62.0745 10.2593L64.2749 17.0316H71.3958L65.6349 21.2172",
+    "<script>self.__next_f.push([1,\"M76.3501 24.9154V22.8619L82.3992 13.3045H84.1116V16.2281H83.0674L78.9953 22.6809V22.7923H",
+    "<script>self.__next_f.push([1,\"30:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"$40\\\",\\\"fill\\\":\\\"white\\\"}]\\n31:[\\\"$\\\",\\\"path\\\",null,{\\\"d",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  console.log('started loading cookiebot-internal')\\n  // Bail if Cooki",
+    "<script>self.__next_f.push([1,\"39:[\\\"$\\\",\\\"script\\\",\\\"cookiebot-loader\\\",{\\\"id\\\":\\\"cookiebot-loader-script\\\",\\\"dangerous",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  let isObserving = false;\\n  let reinserting = false;\\n  let fallbackA",
+    "<script>self.__next_f.push([1,\"3a:[\\\"$\\\",\\\"script\\\",\\\"cookiebot-reinsert\\\",{\\\"id\\\":\\\"cookiebot-reinsert-script\\\",\\\"dange",
+    "<script>self.__next_f.push([1,\"3b:[\\\"$\\\",\\\"script\\\",\\\"ab-test-init\\\",{\\\"id\\\":\\\"ab-test-init\\\",\\\"dangerouslySetInnerHTML\\",
+    "<script>self.__next_f.push([1,\"3c:[\\\"$\\\",\\\"script\\\",\\\"ab-test-loading\\\",{\\\"id\\\":\\\"ab-test-loading\\\",\\\"dangerouslySetInne",
+    "<script>self.__next_f.push([1,\"3d:[\\\"$\\\",\\\"script\\\",\\\"deel-pb\\\",{\\\"async\\\":true,\\\"id\\\":\\\"deel-pb-script\\\",\\\"dangerouslyS",
+    "<script>self.__next_f.push([1,\"3e:[\\\"$\\\",\\\"script\\\",\\\"coralogix-config\\\",{\\\"id\\\":\\\"coralogix-config\\\",\\\"dangerouslySetIn",
+    "<script>self.__next_f.push([1,\"43:I[1888,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chun",
+    "<script>self.__next_f.push([1,\"44:T605,\"])</script>",
+    "<script>self.__next_f.push([1,\"When it came to compliance before using Deel's Contractor solution, Turing handled all co",
+    "<script>self.__next_f.push([1,\"45:T4a9,\"])</script>",
+    "<script>self.__next_f.push([1,\"Revolut enables its customers to spend, save and invest their money, all in one easy to u",
+    "<script>self.__next_f.push([1,\"46:T4ee,\"])</script>",
+    "<script>self.__next_f.push([1,\"_BCG decided to move to Deel Payroll because it’s a truly multinational company with a wo",
+    "<script>self.__next_f.push([1,\"1c:[\\\"$\\\",\\\"$L43\\\",null,{\\\"locale\\\":\\\"en\\\",\\\"category\\\":\\\"solutions\\\",\\\"slug\\\":\\\"mobility",
+    "<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e17817915",
+    "<link rel=\"preconnect\" href=\"https://www.googletagmanager.com\"/>",
+    "<link rel=\"preconnect\" href=\"https://www.google-analytics.com\"/>",
+    "<link rel=\"preconnect\" href=\"https://consent.cookiebot.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://www.google-analytics.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://consent.cookiebot.com\"/>",
+    "<link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"https://website-media.deel.com/_next/static/chunks/webpack-c18",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/6220.de33763a086d49c1.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/4645.8354548f1dbec3c0.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/3960.acd89873ad00d81b.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1058.a51ce95540ed552e.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/4296.ab903d92fc397419.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/2102.f8fb64ebc3d6f305.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1574.f079194d8481b044.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/5584.f3e3518c04865330.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/6745.93a2bf37a856ec91.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1505.c0e92679d89c83b7.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/290.85fde389fa0e6ca2.js\" as=\"script\" fetchP",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/7018.db9fa60a88821427.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1541.2621db65ff0133af.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/7969.0fd333910fa756df.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/2082.98f64cab09b74c49.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1274.963e4196609f22ee.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/9648.6744ea29e7185a59.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/973.7b519cd516d78a91.js\" as=\"script\" fetchP",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/5236.1479dc69c6b78f01.js\" as=\"script\" fetch",
+    "<link rel=\"canonical\" href=\"/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"x-default\" href=\"/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"fr\" href=\"/fr/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"de\" href=\"/de/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"es\" href=\"/es/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"pt\" href=\"/pt/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"ja\" href=\"/ja/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"nl\" href=\"/nl/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"ko-kr\" href=\"/ko-kr/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"zh-cn\" href=\"/zh-cn/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"zh-tw\" href=\"/zh-tw/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"sv-se\" href=\"/sv-se/solutions/mobility/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"da-dk\" href=\"/da-dk/solutions/mobility/\"/>",
+    "<meta property=\"og:url\" content=\"/solutions/mobility/\"/>",
+    "<meta property=\"og:image\" content=\"/solutions/mobility/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png\"/>",
+    "<meta name=\"twitter:image\" content=\"/solutions/mobility/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png\"/>",
+    "<link rel=\"icon\" href=\"/icon.png?e9556fbc67fbe781\" type=\"image/png\" sizes=\"32x32\"/>",
+    "<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?d2b410d8d6714d15\" type=\"image/png\" sizes=\"180x180\"/>"
+  ]
+}

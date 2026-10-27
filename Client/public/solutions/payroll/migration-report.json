@@ -1,0 +1,1290 @@
+{
+  "generatedAt": "2026-08-04T05:37:17.751Z",
+  "pagePath": "/solutions/payroll",
+  "downloadedAssetCount": 50,
+  "downloadedAssets": [
+    {
+      "url": "https://website-media.deel.com/medium_Expense_Management_7697a997e6.png",
+      "localPath": "solutions/payroll/assets/images/medium_Expense_Management_7697a997e6-6ea19bf9d4.png",
+      "bytes": 706622
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Expense_Management_7697a997e6.png",
+      "localPath": "solutions/payroll/assets/images/thumbnail_Expense_Management_7697a997e6-f55d4c2589.png",
+      "bytes": 80575
+    },
+    {
+      "url": "https://website-media.deel.com/Expense_Management_7697a997e6.png",
+      "localPath": "solutions/payroll/assets/images/Expense_Management_7697a997e6-0c49737aec.png",
+      "bytes": 546769
+    },
+    {
+      "url": "https://website-media.deel.com/benefits_2x_2b14358ab9_avif.avif",
+      "localPath": "solutions/payroll/assets/images/benefits_2x_2b14358ab9_avif-48972f2044.avif",
+      "bytes": 83579
+    },
+    {
+      "url": "https://website-media.deel.com/large_benefits_2x_2b14358ab9.webp",
+      "localPath": "solutions/payroll/assets/images/large_benefits_2x_2b14358ab9-6e558bee65.webp",
+      "bytes": 42164
+    },
+    {
+      "url": "https://website-media.deel.com/small_benefits_2x_2b14358ab9.webp",
+      "localPath": "solutions/payroll/assets/images/small_benefits_2x_2b14358ab9-91aff9bb1a.webp",
+      "bytes": 18220
+    },
+    {
+      "url": "https://website-media.deel.com/medium_benefits_2x_2b14358ab9.webp",
+      "localPath": "solutions/payroll/assets/images/medium_benefits_2x_2b14358ab9-2366fbcf4d.webp",
+      "bytes": 29634
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_benefits_2x_2b14358ab9.webp",
+      "localPath": "solutions/payroll/assets/images/thumbnail_benefits_2x_2b14358ab9-547d4b1312.webp",
+      "bytes": 6332
+    },
+    {
+      "url": "https://website-media.deel.com/benefits_2x_2b14358ab9.webp",
+      "localPath": "solutions/payroll/assets/images/benefits_2x_2b14358ab9-11dbf15835.webp",
+      "bytes": 74136
+    },
+    {
+      "url": "https://website-media.deel.com/AI_Agent_e4907f58f1_avif.avif",
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1_avif-1546a85575.avif",
+      "bytes": 158576
+    },
+    {
+      "url": "https://website-media.deel.com/AI_Agent_e4907f58f1_webp.webp",
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1_webp-ba7debb7ca.webp",
+      "bytes": 90322
+    },
+    {
+      "url": "https://website-media.deel.com/large_AI_Agent_e4907f58f1.png",
+      "localPath": "solutions/payroll/assets/images/large_AI_Agent_e4907f58f1-7a59593dcf.png",
+      "bytes": 912290
+    },
+    {
+      "url": "https://website-media.deel.com/small_AI_Agent_e4907f58f1.png",
+      "localPath": "solutions/payroll/assets/images/small_AI_Agent_e4907f58f1-c28656bede.png",
+      "bytes": 251028
+    },
+    {
+      "url": "https://website-media.deel.com/medium_AI_Agent_e4907f58f1.png",
+      "localPath": "solutions/payroll/assets/images/medium_AI_Agent_e4907f58f1-b18bba82aa.png",
+      "bytes": 531015
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_AI_Agent_e4907f58f1.png",
+      "localPath": "solutions/payroll/assets/images/thumbnail_AI_Agent_e4907f58f1-4c6da1b2ff.png",
+      "bytes": 63896
+    },
+    {
+      "url": "https://website-media.deel.com/AI_Agent_e4907f58f1.png",
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1-6b34700028.png",
+      "bytes": 469021
+    },
+    {
+      "url": "https://website-media.deel.com/turing_logo_0c87eeb5b0.svg",
+      "localPath": "solutions/payroll/assets/svg/turing_logo_0c87eeb5b0-51e6da619d.svg",
+      "bytes": 1726
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/payroll/assets/images/thumbnail_revolut_logo_45a79fd7bb-cfd57feb6a.png",
+      "bytes": 6341
+    },
+    {
+      "url": "https://website-media.deel.com/revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/payroll/assets/images/revolut_logo_45a79fd7bb-42be8050bd.png",
+      "bytes": 2348
+    },
+    {
+      "url": "https://website-media.deel.com/large_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/payroll/assets/images/large_Revolut_c0c66e4a71-d35bb6a32f.webp",
+      "bytes": 30306
+    },
+    {
+      "url": "https://website-media.deel.com/small_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/payroll/assets/images/small_Revolut_c0c66e4a71-6f19270c5c.webp",
+      "bytes": 14920
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/payroll/assets/images/medium_Revolut_c0c66e4a71-14bc74ff48.webp",
+      "bytes": 22914
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/payroll/assets/images/thumbnail_Revolut_c0c66e4a71-8ccc1297ee.webp",
+      "bytes": 6056
+    },
+    {
+      "url": "https://website-media.deel.com/Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/payroll/assets/images/Revolut_c0c66e4a71-146f129470.webp",
+      "bytes": 39946
+    },
+    {
+      "url": "https://website-media.deel.com/magic_logo_c7b0950f35.svg",
+      "localPath": "solutions/payroll/assets/svg/magic_logo_c7b0950f35-01c0a021e7.svg",
+      "bytes": 3560
+    },
+    {
+      "url": "https://website-media.deel.com/bcglogo_8b9003e9be.png",
+      "localPath": "solutions/payroll/assets/images/bcglogo_8b9003e9be-fedaae761c.png",
+      "bytes": 979
+    },
+    {
+      "url": "https://website-media.deel.com/large_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/payroll/assets/images/large_telin_logo_update_08ba52fa8c-9acd6a60dd.png",
+      "bytes": 103821
+    },
+    {
+      "url": "https://website-media.deel.com/small_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/payroll/assets/images/small_telin_logo_update_08ba52fa8c-bf74bea895.png",
+      "bytes": 32773
+    },
+    {
+      "url": "https://website-media.deel.com/medium_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/payroll/assets/images/medium_telin_logo_update_08ba52fa8c-fa2e7ee3bd.png",
+      "bytes": 63987
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/payroll/assets/images/thumbnail_telin_logo_update_08ba52fa8c-a33acc7563.png",
+      "bytes": 11949
+    },
+    {
+      "url": "https://website-media.deel.com/telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/payroll/assets/images/telin_logo_update_08ba52fa8c-f61927ea7b.png",
+      "bytes": 106841
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88_avif.avif",
+      "localPath": "solutions/payroll/assets/images/CT_Aphone_528441ba88_avif-397db3d039.avif",
+      "bytes": 48000
+    },
+    {
+      "url": "https://website-media.deel.com/large_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/payroll/assets/images/large_CT_Aphone_528441ba88-82d26f1e73.webp",
+      "bytes": 26650
+    },
+    {
+      "url": "https://website-media.deel.com/small_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/payroll/assets/images/small_CT_Aphone_528441ba88-d349044efe.webp",
+      "bytes": 11728
+    },
+    {
+      "url": "https://website-media.deel.com/medium_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/payroll/assets/images/medium_CT_Aphone_528441ba88-6e77d186e6.webp",
+      "bytes": 19616
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/payroll/assets/images/thumbnail_CT_Aphone_528441ba88-880b027221.webp",
+      "bytes": 2600
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/payroll/assets/images/CT_Aphone_528441ba88-b4a69a199c.webp",
+      "bytes": 41446
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/black-globe.abc6410e.svg",
+      "localPath": "solutions/payroll/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/g2_logo.0a5793d3.svg",
+      "localPath": "solutions/payroll/assets/svg/g2_logo.0a5793d3-1b608abdfc.svg",
+      "bytes": 1174
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/trustpilot-star.aadabb5b.svg",
+      "localPath": "solutions/payroll/assets/svg/trustpilot-star.aadabb5b-db9b285ea6.svg",
+      "bytes": 377
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/twitter-filled.8731c38f.svg",
+      "localPath": "solutions/payroll/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/footer-icon-linkedin.8b69a409.svg",
+      "localPath": "solutions/payroll/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/facebook-filled.9dee679d.svg",
+      "localPath": "solutions/payroll/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/instagram-filled.a70f7d56.svg",
+      "localPath": "solutions/payroll/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/ba9851c3c22cd980-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/ba9851c3c22cd980-s-0049b872a5.woff2",
+      "bytes": 25844
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/21350d82a1f187e9-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/21350d82a1f187e9-s-41b553bffc.woff2",
+      "bytes": 18744
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/c5fe6dc8356a8c31-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/c5fe6dc8356a8c31-s-03848e9d94.woff2",
+      "bytes": 11272
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/19cfc7226ec3afaa-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/19cfc7226ec3afaa-s-6b6591ba57.woff2",
+      "bytes": 19044
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/df0a9ae256c0569c-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/df0a9ae256c0569c-s-af8ba55b21.woff2",
+      "bytes": 10280
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/8e9860b6e62d6359-s.woff2",
+      "localPath": "solutions/payroll/assets/fonts/8e9860b6e62d6359-s-bebfe74ed5.woff2",
+      "bytes": 85272
+    }
+  ],
+  "localAssetCount": 254,
+  "localAssets": [
+    {
+      "localPath": "solutions/payroll/assets/css/1f56cfd86435b655-cc62e77a81.css",
+      "bytes": 4764
+    },
+    {
+      "localPath": "solutions/payroll/assets/css/2d2d3d8e0369f33a-d38f4afe07.css",
+      "bytes": 6868
+    },
+    {
+      "localPath": "solutions/payroll/assets/css/81b497cde0650b92-ba61cb9798.css",
+      "bytes": 188143
+    },
+    {
+      "localPath": "solutions/payroll/assets/css/9e4fb54cdbaa5f1a-b4abb998b9.css",
+      "bytes": 5312
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/19cfc7226ec3afaa-s-6b6591ba57.woff2",
+      "bytes": 19044
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/21350d82a1f187e9-s-41b553bffc.woff2",
+      "bytes": 18744
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/3f14e5d5f2325dba-s.p-c508696257.woff2",
+      "bytes": 42964
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/71aaabbca27eedbd-s.p-5251df0f89.woff2",
+      "bytes": 44100
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/8e9860b6e62d6359-s-bebfe74ed5.woff2",
+      "bytes": 85272
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/ba9851c3c22cd980-s-0049b872a5.woff2",
+      "bytes": 25844
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/c5fe6dc8356a8c31-s-03848e9d94.woff2",
+      "bytes": 11272
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/cd977f37204bcfbc-s.p-a0176065da.woff2",
+      "bytes": 42648
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/df0a9ae256c0569c-s-af8ba55b21.woff2",
+      "bytes": 10280
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/e4af272ccee01ff0-s.p-4696bf4632.woff2",
+      "bytes": 48432
+    },
+    {
+      "localPath": "solutions/payroll/assets/fonts/fad621f95e01987c-s.p-59cbcc42d4.woff2",
+      "bytes": 101804
+    },
+    {
+      "localPath": "solutions/payroll/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1_avif-1546a85575.avif",
+      "bytes": 158576
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1_webp-ba7debb7ca.webp",
+      "bytes": 90322
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/AI_Agent_e4907f58f1-6b34700028.png",
+      "bytes": 469021
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Asset_Area_b1e963575e_avif-3025c1544d.avif",
+      "bytes": 17797
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Asset_Area_b1e963575e_webp-7bc4473949.webp",
+      "bytes": 22842
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Asset_Area_b1e963575e-6b8e84b970.png",
+      "bytes": 18228
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/BCG_3_min_89604e8e7e-c9ba533d52.jpg",
+      "bytes": 195938
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/bcglogo_8b9003e9be-fedaae761c.png",
+      "bytes": 979
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/benefits_2x_2b14358ab9_avif-48972f2044.avif",
+      "bytes": 83579
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/benefits_2x_2b14358ab9-11dbf15835.webp",
+      "bytes": 74136
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/contractor_2x_fcd8bd260a_avif-a0e07acbc5.avif",
+      "bytes": 66765
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/contractor_2x_fcd8bd260a-b0acf00f0a.webp",
+      "bytes": 59922
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Counter_Window_292463778e_avif-99741b869d.avif",
+      "bytes": 11542
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Counter_Window_292463778e_webp-45ac60b788.webp",
+      "bytes": 15374
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Counter_Window_292463778e-062a9d1e32.png",
+      "bytes": 10752
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/CT_Aphone_528441ba88_avif-397db3d039.avif",
+      "bytes": 48000
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/CT_Aphone_528441ba88-b4a69a199c.webp",
+      "bytes": 41446
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Deel_Payroll_f1478e71c3_avif-8210ace8a7.avif",
+      "bytes": 180735
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Deel_Payroll_f1478e71c3_webp-d11bc762bc.webp",
+      "bytes": 79894
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Deel_Payroll_f1478e71c3-2a3cd820c9.png",
+      "bytes": 542303
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/EOR_bd844f9389_avif-98b297f3b7.avif",
+      "bytes": 285186
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/EOR_bd844f9389_webp-c1a16ce350.webp",
+      "bytes": 131410
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/EOR_bd844f9389-c5dc214975.png",
+      "bytes": 605607
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Expense_Management_7697a997e6_avif-81a853890c.avif",
+      "bytes": 177266
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Expense_Management_7697a997e6_webp-1e04246d65.webp",
+      "bytes": 76950
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Expense_Management_7697a997e6-0c49737aec.png",
+      "bytes": 546769
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png",
+      "bytes": 135383
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Global_Hiring_Guides_e634b390ed-b3a18eb79c.png",
+      "bytes": 103196
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257412_3b2d6677fd_avif-9584c21c94.avif",
+      "bytes": 21060
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257412_3b2d6677fd_webp-13a95a7219.webp",
+      "bytes": 36190
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257412_3b2d6677fd-497df03ed5.png",
+      "bytes": 22697
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257414_4f6f09c4e1_avif-ea0130a837.avif",
+      "bytes": 16547
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257414_4f6f09c4e1_webp-a823a3ef2c.webp",
+      "bytes": 24306
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257414_4f6f09c4e1-4a419f6aeb.png",
+      "bytes": 15178
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257419_29d1585f5f_avif-8706d888bb.avif",
+      "bytes": 22041
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257419_29d1585f5f_webp-21d1a0bcf8.webp",
+      "bytes": 30028
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257419_29d1585f5f-ebc5479923.png",
+      "bytes": 33553
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257420_3f3a71ec36_avif-29e90bb391.avif",
+      "bytes": 18506
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257420_3f3a71ec36_webp-cce1609315.webp",
+      "bytes": 37562
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257420_3f3a71ec36-5d6afc8ecc.png",
+      "bytes": 20351
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257462_69407ba89d_avif-e71d28fbd3.avif",
+      "bytes": 43329
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257462_69407ba89d_webp-5825ff9243.webp",
+      "bytes": 41038
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Group_2147257462_69407ba89d-4d561572ce.png",
+      "bytes": 27518
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_2dd4b91e7a_avif-8ea705fed2.avif",
+      "bytes": 1146
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_2dd4b91e7a_webp-6586d3d403.webp",
+      "bytes": 636
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_2dd4b91e7a-f391b47d8b.png",
+      "bytes": 479
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_copy_6ecea6e3c7_avif-c7fce76960.avif",
+      "bytes": 973
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_copy_6ecea6e3c7_webp-840505ea10.webp",
+      "bytes": 482
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Icon_Bound_copy_6ecea6e3c7-18787ba759.png",
+      "bytes": 390
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_717a6949b7_avif-409d34651f.avif",
+      "bytes": 851
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_717a6949b7_webp-bab957ed44.webp",
+      "bytes": 454
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_717a6949b7-f40a85b6b6.png",
+      "bytes": 369
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_2_1be7c78e6f_avif-a86176e33b.avif",
+      "bytes": 999
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_2_1be7c78e6f_webp-7bcc67a3dc.webp",
+      "bytes": 592
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_2_1be7c78e6f-1cbb414821.png",
+      "bytes": 489
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_3_dd88ebf71d_avif-43b1f5d82b.avif",
+      "bytes": 1107
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_3_dd88ebf71d_webp-a09bdb893c.webp",
+      "bytes": 666
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_3_dd88ebf71d-90f5f5e216.png",
+      "bytes": 568
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_eab82b72ee_avif-4eeacbc75b.avif",
+      "bytes": 834
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_eab82b72ee_webp-8a53e2f23b.webp",
+      "bytes": 402
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Inner_copy_eab82b72ee-26f22f616a.png",
+      "bytes": 337
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Input_Alert_Window_a1af52d503_avif-401c2ecf98.avif",
+      "bytes": 21364
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Input_Alert_Window_a1af52d503_webp-e9be8b7787.webp",
+      "bytes": 33064
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Input_Alert_Window_a1af52d503-162e813326.png",
+      "bytes": 18557
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_AI_Agent_e4907f58f1-7a59593dcf.png",
+      "bytes": 912290
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_BCG_3_min_89604e8e7e-0ddf731bfd.jpg",
+      "bytes": 63153
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_benefits_2x_2b14358ab9-6e558bee65.webp",
+      "bytes": 42164
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_contractor_2x_fcd8bd260a-b654655122.webp",
+      "bytes": 33706
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_CT_Aphone_528441ba88-82d26f1e73.webp",
+      "bytes": 26650
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_Deel_Payroll_f1478e71c3-2e5228af55.png",
+      "bytes": 1188607
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_EOR_bd844f9389-86e3bbe02b.png",
+      "bytes": 1261755
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_Expense_Management_7697a997e6-c68fb7d24b.png",
+      "bytes": 1206722
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_Local_Payroll_78a0b64058-5dea280c26.png",
+      "bytes": 761684
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_payroll_1_6efe44c74e-ae6bd99277.webp",
+      "bytes": 65118
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_payroll_connect_2x_b0f8d06054-afb92ed1e6.webp",
+      "bytes": 40800
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_peo_2x_bea0aea4c5-1b94bdc1fb.webp",
+      "bytes": 61620
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_Revolut_c0c66e4a71-d35bb6a32f.webp",
+      "bytes": 30306
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_revolut_hero_7b858da1a8-b0355565b9.webp",
+      "bytes": 30222
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_run_payroll_on_one_platform_globally_a01a138456-7c741f3ec7.webp",
+      "bytes": 33964
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_telin_hero_1d24ff105a-d0a400a649.webp",
+      "bytes": 56088
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_telin_logo_update_08ba52fa8c-9acd6a60dd.png",
+      "bytes": 103821
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_turing_hero_219032bbc6-49dbfac168.webp",
+      "bytes": 37626
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/large_Windows_Stock_Photo_2024_43dc45d319-4121831bf9.png",
+      "bytes": 1326352
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Local_Payroll_78a0b64058_avif-d44445204a.avif",
+      "bytes": 124719
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Local_Payroll_78a0b64058_webp-978799296e.webp",
+      "bytes": 65622
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Local_Payroll_78a0b64058-058e6301c6.png",
+      "bytes": 427164
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_AI_Agent_e4907f58f1-b18bba82aa.png",
+      "bytes": 531015
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Asset_Area_b1e963575e-f48da652f2.png",
+      "bytes": 85743
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_BCG_3_min_89604e8e7e-cef2fb4519.jpg",
+      "bytes": 42221
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_benefits_2x_2b14358ab9-2366fbcf4d.webp",
+      "bytes": 29634
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_contractor_2x_fcd8bd260a-0c9d1671db.webp",
+      "bytes": 23568
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_CT_Aphone_528441ba88-6e77d186e6.webp",
+      "bytes": 19616
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Deel_Payroll_f1478e71c3-0c17339683.png",
+      "bytes": 691797
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_EOR_bd844f9389-44da5e7b5a.png",
+      "bytes": 733082
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Expense_Management_7697a997e6-6ea19bf9d4.png",
+      "bytes": 706622
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Group_2147257462_69407ba89d-fcead26609.png",
+      "bytes": 104935
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Local_Payroll_78a0b64058-9ff06b607f.png",
+      "bytes": 444234
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_payroll_1_6efe44c74e-39d30a6be0.webp",
+      "bytes": 43462
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_payroll_connect_2x_b0f8d06054-5721fc0bea.webp",
+      "bytes": 28192
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_peo_2x_bea0aea4c5-fc41ea67e2.webp",
+      "bytes": 43368
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Revolut_c0c66e4a71-14bc74ff48.webp",
+      "bytes": 22914
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_revolut_hero_7b858da1a8-1a0994fe8e.webp",
+      "bytes": 21562
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_run_payroll_on_one_platform_globally_4a6cd18704-f7571d3fd6.webp",
+      "bytes": 28996
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_run_payroll_on_one_platform_globally_a01a138456-729715ffaa.webp",
+      "bytes": 22680
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_telin_hero_1d24ff105a-dc3744dece.webp",
+      "bytes": 37530
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_telin_logo_update_08ba52fa8c-fa2e7ee3bd.png",
+      "bytes": 63987
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_turing_hero_219032bbc6-53699841ba.webp",
+      "bytes": 27356
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/medium_Windows_Stock_Photo_2024_43dc45d319-5b14b34a2c.png",
+      "bytes": 763650
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/nav_row_visual_api_v2_c863a509fa-4017880051.webp",
+      "bytes": 920
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/nav_row_visual_contractors_v2_dfb050b8a1-9b0cbe893a.webp",
+      "bytes": 1818
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/nav_row_visual_eor_0a32a2b56f-ad1ac8f8a0.webp",
+      "bytes": 1734
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/nav_row_visual_integrations_and_api_v2_af3a1dbf06-4b16efc95f.webp",
+      "bytes": 2416
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/payroll_1_6efe44c74e_avif-68456bf47b.avif",
+      "bytes": 234563
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/payroll_1_6efe44c74e-0b91968a6c.webp",
+      "bytes": 172884
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/payroll_connect_2x_b0f8d06054_avif-7ae84e7253.avif",
+      "bytes": 88112
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/payroll_connect_2x_b0f8d06054-ea28aa5d41.webp",
+      "bytes": 79064
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/peo_2x_bea0aea4c5_avif-1574604572.avif",
+      "bytes": 149617
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/peo_2x_bea0aea4c5-57936fe3ff.webp",
+      "bytes": 125176
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Revolut_c0c66e4a71-146f129470.webp",
+      "bytes": 39946
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/revolut_hero_7b858da1a8-c17212763d.webp",
+      "bytes": 69882
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/revolut_logo_45a79fd7bb-42be8050bd.png",
+      "bytes": 2348
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/run_payroll_on_one_platform_globally_4a6cd18704_avif-7f910ce504.avif",
+      "bytes": 54010
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/run_payroll_on_one_platform_globally_4a6cd18704-90270d7b76.webp",
+      "bytes": 39216
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/run_payroll_on_one_platform_globally_a01a138456_avif-e8e35ccc5d.avif",
+      "bytes": 310671
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/run_payroll_on_one_platform_globally_a01a138456-976c5a24cd.webp",
+      "bytes": 245426
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_AI_Agent_e4907f58f1-c28656bede.png",
+      "bytes": 251028
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Asset_Area_b1e963575e-d0d39b5994.png",
+      "bytes": 44077
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_BCG_3_min_89604e8e7e-70a1aa349f.jpg",
+      "bytes": 24298
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_benefits_2x_2b14358ab9-91aff9bb1a.webp",
+      "bytes": 18220
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_contractor_2x_fcd8bd260a-c675bf0d1c.webp",
+      "bytes": 14828
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Counter_Window_292463778e-1ae9fb9ccd.png",
+      "bytes": 34201
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_CT_Aphone_528441ba88-d349044efe.webp",
+      "bytes": 11728
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Deel_Payroll_f1478e71c3-5f3577a530.png",
+      "bytes": 322258
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_EOR_bd844f9389-342e0b6094.png",
+      "bytes": 337624
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Expense_Management_7697a997e6-0b715a08c4.png",
+      "bytes": 330755
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Group_2147257412_3b2d6677fd-4ad2a490e9.png",
+      "bytes": 76799
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Group_2147257419_29d1585f5f-b7fe5977be.png",
+      "bytes": 80085
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Group_2147257420_3f3a71ec36-e040c8e1c8.png",
+      "bytes": 68301
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Group_2147257462_69407ba89d-c45a3fab09.png",
+      "bytes": 58852
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Input_Alert_Window_a1af52d503-0a033a8f19.png",
+      "bytes": 50654
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Local_Payroll_78a0b64058-3ba3af96ac.png",
+      "bytes": 208971
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_payroll_1_6efe44c74e-d343dfe96d.webp",
+      "bytes": 26246
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_payroll_connect_2x_b0f8d06054-1f8c657f98.webp",
+      "bytes": 16204
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_peo_2x_bea0aea4c5-d79b22682c.webp",
+      "bytes": 24896
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Revolut_c0c66e4a71-6f19270c5c.webp",
+      "bytes": 14920
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_revolut_hero_7b858da1a8-4a3eff27fe.webp",
+      "bytes": 14178
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_run_payroll_on_one_platform_globally_4a6cd18704-7969143c6c.webp",
+      "bytes": 17494
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_run_payroll_on_one_platform_globally_a01a138456-aa99bcc946.webp",
+      "bytes": 13486
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_telin_hero_1d24ff105a-0643138c82.webp",
+      "bytes": 21584
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_telin_logo_update_08ba52fa8c-bf74bea895.png",
+      "bytes": 32773
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_turing_hero_219032bbc6-e862f82403.webp",
+      "bytes": 16656
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/small_Windows_Stock_Photo_2024_43dc45d319-1854528f63.png",
+      "bytes": 350772
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Solutions_Image_1fe3692ef5_348057f282-6f263ffab8.webp",
+      "bytes": 209308
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/telin_hero_1d24ff105a-3cbb021087.webp",
+      "bytes": 168386
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/telin_logo_update_08ba52fa8c-f61927ea7b.png",
+      "bytes": 106841
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_AI_Agent_e4907f58f1-4c6da1b2ff.png",
+      "bytes": 63896
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Asset_Area_b1e963575e-ffd19919bc.png",
+      "bytes": 12149
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_BCG_3_min_89604e8e7e-a81f98090f.jpg",
+      "bytes": 8564
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_benefits_2x_2b14358ab9-547d4b1312.webp",
+      "bytes": 6332
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_contractor_2x_fcd8bd260a-85a4528f35.webp",
+      "bytes": 5750
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Counter_Window_292463778e-4058f2eae0.png",
+      "bytes": 12130
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_CT_Aphone_528441ba88-880b027221.webp",
+      "bytes": 2600
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Deel_Payroll_f1478e71c3-fa668f57ca.png",
+      "bytes": 78324
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_EOR_bd844f9389-ed7688f8fc.png",
+      "bytes": 78093
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Expense_Management_7697a997e6-f55d4c2589.png",
+      "bytes": 80575
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Group_2147257412_3b2d6677fd-bf09ca8dd2.png",
+      "bytes": 17187
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Group_2147257414_4f6f09c4e1-701be7aee5.png",
+      "bytes": 15766
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Group_2147257419_29d1585f5f-e879467457.png",
+      "bytes": 23282
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Group_2147257420_3f3a71ec36-ae465d1600.png",
+      "bytes": 13849
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Group_2147257462_69407ba89d-589fbfa4de.png",
+      "bytes": 18711
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Input_Alert_Window_a1af52d503-de727d466b.png",
+      "bytes": 16504
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Local_Payroll_78a0b64058-c5f0c942ca.png",
+      "bytes": 52189
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_payroll_1_6efe44c74e-265024caef.webp",
+      "bytes": 6266
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_payroll_connect_2x_b0f8d06054-34411a0d9a.webp",
+      "bytes": 5916
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_peo_2x_bea0aea4c5-82b3fc2823.webp",
+      "bytes": 8462
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Revolut_c0c66e4a71-8ccc1297ee.webp",
+      "bytes": 6056
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_revolut_hero_7b858da1a8-74938756c8.webp",
+      "bytes": 5990
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_revolut_logo_45a79fd7bb-cfd57feb6a.png",
+      "bytes": 6341
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_run_payroll_on_one_platform_globally_4a6cd18704-c7d9496000.webp",
+      "bytes": 6236
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_run_payroll_on_one_platform_globally_a01a138456-6d2c2fd662.webp",
+      "bytes": 4938
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_telin_hero_1d24ff105a-b37eed5c00.webp",
+      "bytes": 7740
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_telin_logo_update_08ba52fa8c-a33acc7563.png",
+      "bytes": 11949
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_turing_hero_219032bbc6-b0a3a45856.webp",
+      "bytes": 6670
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/thumbnail_Windows_Stock_Photo_2024_43dc45d319-5323cc4f0b.png",
+      "bytes": 87084
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/turing_hero_219032bbc6-073b7d4f0f.webp",
+      "bytes": 105580
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Use_Case_Image_b6c6429888_e790cb6ebb-6830ac37dc.webp",
+      "bytes": 280338
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Windows_Stock_Photo_2024_43dc45d319_avif-174b07ad3e.avif",
+      "bytes": 1017326
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Windows_Stock_Photo_2024_43dc45d319_webp-30bb83b9a2.webp",
+      "bytes": 597670
+    },
+    {
+      "localPath": "solutions/payroll/assets/images/Windows_Stock_Photo_2024_43dc45d319-0fdb06d0f4.png",
+      "bytes": 3864440
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Balenciaga_Logo_3c70c251ee-4716d7d198.svg",
+      "bytes": 2895
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/bullet-point.d079b42e-aac4df9dcd.svg",
+      "bytes": 194
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Canva_Logo_1_90c23958f7-58831325ac.svg",
+      "bytes": 4136
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/check-circle.e3dc67e6-9bd756e998.svg",
+      "bytes": 486
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/danger.777fe76b-eb65607e17.svg",
+      "bytes": 557
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Door_Dash_Logo_e52471ae77-3e414f356b.svg",
+      "bytes": 8220
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/dvr_8332b33b7d-091975ead2.svg",
+      "bytes": 239
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Ericsson_logo_2_15f0a199be-afc8b63fcb.svg",
+      "bytes": 4246
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/explore_0222f8048d-d0b0c7aee8.svg",
+      "bytes": 397
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/g2_logo.0a5793d3-1b608abdfc.svg",
+      "bytes": 1174
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/group_6b4e265767-1484f70f5f.svg",
+      "bytes": 494
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Hersheys_1c5efab234-7376cfb2a0.svg",
+      "bytes": 4261
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/hm_f015e3fc5e-df43edbfdb.svg",
+      "bytes": 3199
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/iee_logo_986f0cdfaf-952b5f334e.svg",
+      "bytes": 4031
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/layers_1638a84dbd-a7c7b05d79.svg",
+      "bytes": 260
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/line-dash.44e3a200-81444800b3.svg",
+      "bytes": 180
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/linkedin_logo_4a30bc2ea7-c6addbceec.svg",
+      "bytes": 4189
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/lockhead_logo_aac9270f83-5a48a4b409.svg",
+      "bytes": 4377
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_a16z_c17319a0d5-c4f5639d1a.svg",
+      "bytes": 55329
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_altimeter_7bcca1fa1a-8006ed564f.svg",
+      "bytes": 8127
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_emerson_collective_e323c76cee-365ebe979f.svg",
+      "bytes": 22204
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_gbv_5e751a9a5c-a9d690dc6f.svg",
+      "bytes": 55706
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_neo_fd6a4b0bf1-56add72b08.svg",
+      "bytes": 4284
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_spark_capital_857a9a1fac-475b49132a.svg",
+      "bytes": 3641
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_investor_ycombinator_834d3e9f17-b07c98921c.svg",
+      "bytes": 8185
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_KLM_2dcf79f5c9-ac109213d4.svg",
+      "bytes": 2999
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_revamp_164ddaed0c-07943198bc.svg",
+      "bytes": 3122
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_revamp_white_3237bd2303-7268fb2537.svg",
+      "bytes": 3090
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/logo_scroller_on_running_cff30fcd5e-e1bfa77aae.svg",
+      "bytes": 2088
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Logoki_ba7b794e12-19a344637a.svg",
+      "bytes": 2603
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Lucid_Motors_logo_289a758b49-01664677ff.svg",
+      "bytes": 1267
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/magic_logo_c7b0950f35-01c0a021e7.svg",
+      "bytes": 3560
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/monetization_on_fbfd76b291-03c5964527.svg",
+      "bytes": 676
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/muji_a588e76130-79c999117c.svg",
+      "bytes": 3965
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/puma_logo_8574e3d454-a88b84ed2d.svg",
+      "bytes": 4624
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/re_logo_b11ff3c938-a965a8593d.svg",
+      "bytes": 3915
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/recent_actors_70c9da4cc9-c08452e345.svg",
+      "bytes": 381
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/rol_8afbc30081-d23171929a.svg",
+      "bytes": 6322
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/settings_ethernet_4a5250d7ad-fbeeaa3dca.svg",
+      "bytes": 432
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/stars_15b0b9085a-b0d2cdf29f.svg",
+      "bytes": 339
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/trustpilot-star.aadabb5b-db9b285ea6.svg",
+      "bytes": 377
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/turing_logo_0c87eeb5b0-51e6da619d.svg",
+      "bytes": 1726
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/ve_Logo_12ce1a8ef6-a57f67d58a.svg",
+      "bytes": 2018
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/warning.a8417298-0a5985e052.svg",
+      "bytes": 283
+    },
+    {
+      "localPath": "solutions/payroll/assets/svg/Zillow_logo_1_5c75d27ffc-66b46f3e8e.svg",
+      "bytes": 4444
+    }
+  ],
+  "removedExternalDependencyPatterns": [
+    "/<script\\b[\\s\\S]*?<\\/script>\\s*/gi",
+    "/<link[^>]+rel=\"preconnect\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"dns-prefetch\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"preload\"[^>]+as=\"script\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"canonical\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"alternate\"[^>]*>\\s*/gi",
+    "/<meta[^>]+property=\"og:url\"[^>]*>\\s*/gi",
+    "/<meta[^>]+property=\"og:image\"[^>]*>\\s*/gi",
+    "/<meta[^>]+name=\"twitter:image\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"icon\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"apple-touch-icon\"[^>]*>\\s*/gi"
+  ],
+  "remainingDownloadableRemoteAssetUrls": []
+}

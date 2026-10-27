@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" fill="none">
+  <rect x="34" y="24" width="292" height="192" rx="24" fill="#F8F6F3"/>
+  <rect x="58" y="49" width="244" height="142" rx="20" fill="#fff" filter="url(#shadow)"/>
+  <text x="82" y="78" fill="#20252D" font-family="Arial,sans-serif" font-size="13" font-weight="700">Your workforce</text>
+  <text x="82" y="94" fill="#7C8794" font-family="Arial,sans-serif" font-size="9">Growing across teams and countries</text>
+  <circle cx="96" cy="127" r="15" fill="#DDEEFF"/>
+  <circle cx="96" cy="123" r="5" fill="#D29B75"/>
+  <path d="M86 138c1-6 5-9 10-9s9 3 10 9" fill="#547BB4"/>
+  <circle cx="132" cy="127" r="15" fill="#FBE7D7"/>
+  <circle cx="132" cy="123" r="5" fill="#C88A62"/>
+  <path d="M122 138c1-6 5-9 10-9s9 3 10 9" fill="#7C61B6"/>
+  <circle cx="168" cy="127" r="15" fill="#E7E0FB"/>
+  <circle cx="168" cy="123" r="5" fill="#A96F52"/>
+  <path d="M158 138c1-6 5-9 10-9s9 3 10 9" fill="#D57B55"/>
+  <circle cx="204" cy="127" r="15" fill="#E8F4E9"/>
+  <circle cx="204" cy="123" r="5" fill="#D29B75"/>
+  <path d="M194 138c1-6 5-9 10-9s9 3 10 9" fill="#4C9A73"/>
+  <circle cx="240" cy="127" r="15" fill="#FFF1D8"/>
+  <circle cx="240" cy="123" r="5" fill="#A96F52"/>
+  <path d="M230 138c1-6 5-9 10-9s9 3 10 9" fill="#547BB4"/>
+  <rect x="80" y="158" width="45" height="17" rx="8.5" fill="#F0EAFE"/>
+  <text x="102.5" y="170" text-anchor="middle" fill="#6942B5" font-family="Arial,sans-serif" font-size="8" font-weight="700">INDIA</text>
+  <rect x="131" y="158" width="45" height="17" rx="8.5" fill="#E4F1FF"/>
+  <text x="153.5" y="170" text-anchor="middle" fill="#3978C4" font-family="Arial,sans-serif" font-size="8" font-weight="700">USA</text>
+  <rect x="182" y="158" width="45" height="17" rx="8.5" fill="#EAF5EE"/>
+  <text x="204.5" y="170" text-anchor="middle" fill="#27834A" font-family="Arial,sans-serif" font-size="8" font-weight="700">UAE</text>
+  <path d="M258 145V105M258 145l21-25" stroke="#8B6BCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m270 120 9 0 0 9" stroke="#8B6BCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="247" y="151" width="7" height="12" rx="3.5" fill="#D9CFF2"/>
+  <rect x="258" y="143" width="7" height="20" rx="3.5" fill="#BBA8E5"/>
+  <rect x="269" y="133" width="7" height="30" rx="3.5" fill="#8B6BCB"/>
+  <defs>
+    <filter id="shadow" x="50" y="45" width="260" height="158" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="5"/>
+      <feOffset dy="5"/>
+      <feColorMatrix values="0 0 0 0 0.13 0 0 0 0 0.17 0 0 0 0 0.22 0 0 0 0.12 0"/>
+      <feBlend in2="SourceGraphic" result="shadow"/>
+      <feBlend in="SourceGraphic" in2="shadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>

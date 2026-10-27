@@ -1,0 +1,20 @@
+import { useEffect, useState } from 'react';
+import { getTeamMemberProjects, getTeamMemberProjectTasks, updateTeamMemberProjectTask, type DeliveryProject, type DeliveryTask, type ProjectTaskStatus } from '../api/projects.api';
+
+export default function ProjectTasksPage() {
+  const [projects, setProjects] = useState<DeliveryProject[]>([]);
+  const [selected, setSelected] = useState<DeliveryProject | null>(null);
+  const [tasks, setTasks] = useState<DeliveryTask[]>([]);
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => { void getTeamMemberProjects().then((items) => { setProjects(items); setSelected(items[0] ?? null); }).catch((reason: Error) => setError(reason.message)).finally(() => setLoading(false)); }, []);
+  useEffect(() => { if (!selected) { setTasks([]); return; } void getTeamMemberProjectTasks(selected._id).then(setTasks).catch((reason: Error) => setError(reason.message)); }, [selected?._id]);
+  const setTaskStatus = async (task: DeliveryTask, status: ProjectTaskStatus) => {
+    try { const updated = await updateTeamMemberProjectTask(task._id, { status }); setTasks((items) => items.map((item) => item._id === updated._id ? updated : item)); }
+    catch (reason) { setError((reason as Error).message); }
+  };
+
+  if (loading) return <main className="cd-page"><div className="cd-page-title">Projects</div><div className="cd-page-sub">Loading assigned projects...</div></main>;
+  return <main className="cd-page"><div className="cd-page-title">Projects</div><div className="cd-page-sub">Your active Dechub-Bridge delivery work and assigned tasks.</div>{error ? <div style={{ marginTop: 18, padding: 12, borderRadius: 8, background: '#fef2f2', color: '#b91c1c' }}>{error}</div> : null}{projects.length === 0 ? <div className="cd-card" style={{ marginTop: 20, padding: 28, color: '#64748b' }}>You have no active project assignments yet.</div> : <div style={{ display: 'grid', gridTemplateColumns: '220px minmax(0, 1fr)', gap: 18, marginTop: 20 }}><aside style={{ display: 'grid', gap: 8 }}>{projects.map((project) => <button type="button" key={project._id} onClick={() => setSelected(project)} style={{ textAlign: 'left', padding: 14, borderRadius: 9, border: selected?._id === project._id ? '1px solid #0f766e' : '1px solid #e2e8f0', background: selected?._id === project._id ? '#f0fdfa' : '#fff', cursor: 'pointer', color: '#0f172a', fontWeight: 700 }}>{project.title}</button>)}</aside>{selected ? <section className="cd-card" style={{ padding: 24 }}><div style={{ display: 'flex', justifyContent: 'space-between', gap: 16 }}><div><h2 style={{ margin: 0, color: '#0f172a', fontSize: 20 }}>{selected.title}</h2><p style={{ color: '#64748b', lineHeight: 1.6 }}>{selected.description}</p></div><span style={{ alignSelf: 'start', padding: '5px 9px', borderRadius: 20, background: '#dcfce7', color: '#166534', fontSize: 12, fontWeight: 700 }}>{selected.status.replace('_', ' ')}</span></div><div style={{ borderTop: '1px solid #e2e8f0', marginTop: 20, paddingTop: 18 }}><h3 style={{ margin: '0 0 12px', color: '#0f172a' }}>My tasks</h3>{tasks.length === 0 ? <p style={{ color: '#64748b' }}>No tasks are assigned to you yet.</p> : tasks.map((task) => <div key={task._id} style={{ border: '1px solid #e2e8f0', padding: 14, borderRadius: 9, marginTop: 10 }}><strong style={{ color: '#0f172a' }}>{task.title}</strong><p style={{ color: '#64748b', fontSize: 14, margin: '7px 0 12px' }}>{task.description}</p><div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>{(['todo', 'in_progress', 'completed'] as ProjectTaskStatus[]).map((status) => <button type="button" key={status} onClick={() => void setTaskStatus(task, status)} disabled={task.status === status || selected.status !== 'active'} style={{ border: '1px solid #cbd5e1', borderRadius: 7, padding: '7px 10px', background: task.status === status ? '#0f766e' : '#fff', color: task.status === status ? '#fff' : '#334155', cursor: 'pointer', textTransform: 'capitalize' }}>{status.replace('_', ' ')}</button>)}</div></div>)}</div></section> : null}</div>}</main>;
+}

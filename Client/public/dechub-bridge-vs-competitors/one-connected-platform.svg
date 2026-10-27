@@ -1,0 +1,34 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" fill="white"/>
+  <path d="M86 204L284 62L542 146L580 360L300 418L86 204Z" fill="#FBF2DE"/>
+  <circle cx="255" cy="219" r="171" fill="#5B38BF"/>
+  <path d="M255 48C209.133 48 165.144 66.2214 132.716 98.6487C100.289 131.076 82.0674 175.065 82.0674 220.932H150.596C150.596 193.24 161.596 166.681 181.177 147.1C200.758 127.519 227.317 116.52 255.009 116.52L255 48Z" fill="#BBA7F8"/>
+  <circle cx="255" cy="219" r="126" fill="#FFF7E9"/>
+  <circle cx="255" cy="130" r="32" fill="#FF5A36"/>
+  <circle cx="255" cy="130" r="7" fill="#FFF7E9"/>
+  <circle cx="255" cy="108" r="4.5" fill="#FFF7E9"/>
+  <circle cx="255" cy="152" r="4.5" fill="#FFF7E9"/>
+  <circle cx="233" cy="130" r="4.5" fill="#FFF7E9"/>
+  <circle cx="277" cy="130" r="4.5" fill="#FFF7E9"/>
+  <circle cx="240" cy="115" r="4.5" fill="#FFF7E9"/>
+  <circle cx="270" cy="145" r="4.5" fill="#FFF7E9"/>
+  <circle cx="240" cy="145" r="4.5" fill="#FFF7E9"/>
+  <circle cx="270" cy="115" r="4.5" fill="#FFF7E9"/>
+  <path d="M255 123V112" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M255 137V148" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M248 130H237" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M262 130H273" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M249.8 124.8L242.3 117.3" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M260.2 135.2L267.7 142.7" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M249.8 135.2L242.3 142.7" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M260.2 124.8L267.7 117.3" stroke="#FFF7E9" stroke-width="4" stroke-linecap="round"/>
+  <text x="255" y="193" text-anchor="middle" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">One</text>
+  <text x="255" y="231" text-anchor="middle" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">connected</text>
+  <text x="255" y="269" text-anchor="middle" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">platform</text>
+  <text x="255" y="305" text-anchor="middle" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">for HR, payroll, IT,</text>
+  <text x="255" y="331" text-anchor="middle" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">hiring, and workflows</text>
+  <circle cx="434" cy="279" r="10" fill="#5B38BF"/>
+  <circle cx="434" cy="328" r="10" fill="#BBA7F8"/>
+  <text x="453" y="285" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500">Dechub-Bridge</text>
+  <text x="453" y="334" fill="#1B1B1B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500">Others</text>
+</svg>

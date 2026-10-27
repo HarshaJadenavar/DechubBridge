@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:var(--www-fiverr-com-inter-semi-bold-font-weight),var(--www-deel-com-inter-medium-upper-font-weight),var(--www-deel-com-inter-medium-font-weight),600,700,var(--www-deel-com-inter-bold-upper-font-weight),800,var(--www-deel-com-inter-regular-font-weight),400,var(--www-fiverr-com-inter-regular-font-weight)|Plus+Jakarta+Sans:400,800,500,700,600,italic|DM+Sans:800,600,400,700"); /* @FONTWARNING[{"type": "restricted", "family": "Arial-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+:root {
+  --page-design-width: 1440;
+  --page-design-height: 10965;
+  --page-scale: min(1, calc(100vw / var(--page-design-width)));
+}
+
+html,
+body {
+  margin: 0px;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background: #f8fafc;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Arial-Regular";
+  src: local("Arial-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Arial", "weight": "var(--www-deel-com-arial-regular-font-weight)", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Arial";
+  src: local("Arial");
+}

@@ -1,0 +1,1436 @@
+.deel-clone-body {
+  background: #fff;
+}
+
+.deel-clone-app-root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.deel-clone-root {
+  --deel-clone-shell-max: 1704px;
+  --deel-clone-gutter: clamp(16px, 1.75vw, 28px);
+  overflow-x: hidden;
+  width: 100%;
+  background: #fff;
+}
+
+.deel-clone-root [data-ab-page="true"] {
+  background: #fff !important;
+}
+
+.deel-clone-root #navbar-logo-link img {
+  width: 122px;
+  height: auto;
+  max-width: 122px !important;
+}
+
+.deel-clone-root .deel-footer-logo {
+  width: 122px;
+  height: auto;
+  max-width: 122px !important;
+}
+
+@keyframes deel-logo-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes deel-logo-scroll-reverse {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes deel-paper-rocket-flight {
+  0% {
+    offset-distance: 0%;
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.72);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.92;
+  }
+
+  34% {
+    transform: translate(-50%, -50%) rotate(24deg) scale(0.86);
+  }
+
+  62% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.95);
+    opacity: 0.96;
+  }
+
+  92% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 0.96;
+  }
+
+  100% {
+    offset-distance: 100%;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1.02);
+    opacity: 0;
+  }
+}
+
+@keyframes deel-paper-rocket-trail {
+  0% {
+    offset-distance: 0%;
+    transform: translate(-50%, -50%) rotate(-16deg) scaleX(0.2);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.24;
+  }
+
+  36% {
+    transform: translate(-50%, -50%) rotate(-5deg) scaleX(0.68);
+  }
+
+  64% {
+    transform: translate(-50%, -50%) rotate(7deg) scaleX(0.9);
+    opacity: 0.22;
+  }
+
+  90% {
+    transform: translate(-50%, -50%) rotate(15deg) scaleX(1);
+    opacity: 0.16;
+  }
+
+  100% {
+    offset-distance: 100%;
+    transform: translate(-50%, -50%) rotate(20deg) scaleX(0.4);
+    opacity: 0;
+  }
+}
+
+.deel-clone-root .deel-clone-shell {
+  width: min(100%, calc(var(--deel-clone-shell-max) + (var(--deel-clone-gutter) * 2)));
+  margin-inline: auto;
+}
+
+.deel-clone-root .deel-clone-band {
+  width: 100%;
+  padding-inline: var(--deel-clone-gutter);
+  box-sizing: border-box;
+}
+
+.deel-clone-root .deel-clone-band > * {
+  width: 100%;
+}
+
+.deel-clone-root .deel-clone-band--proof,
+.deel-clone-root .deel-clone-band--solutions,
+.deel-clone-root .deel-clone-band--speed,
+.deel-clone-root .deel-clone-band--workforce,
+.deel-clone-root .deel-clone-band--testimonials,
+.deel-clone-root .deel-clone-band--metrics,
+.deel-clone-root .deel-clone-band--reviews,
+.deel-clone-root .deel-clone-band--footer {
+  padding-inline: 0;
+}
+
+.deel-clone-root .deel-clone-band--reviews,
+.deel-clone-root .deel-clone-band--reviews .deel-clone-shell {
+  background: #1b1b1b;
+}
+
+.deel-clone-root .solution-footer-banner {
+  width: 100%;
+  padding: 48px var(--deel-clone-gutter);
+  background: #fff;
+}
+
+.deel-clone-root .solution-footer-banner__inner {
+  position: relative;
+  width: min(100%, 1368px);
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 28px;
+  aspect-ratio: 2.47 / 1;
+}
+
+.deel-clone-root .solution-footer-banner__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.deel-clone-root .solution-footer-banner__content {
+  position: absolute;
+  top: 50%;
+  left: clamp(20px, 2.8vw, 42px);
+  width: min(56%, 640px);
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.deel-clone-root .solution-footer-banner__content h2 {
+  margin: 0;
+  color: inherit;
+  font-size: clamp(24px, 2.3vw, 34px);
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+.deel-clone-root .solution-footer-banner__button {
+  min-height: 44px;
+  margin-top: clamp(16px, 2vw, 28px);
+  padding: 0 24px;
+  border: 0;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .deel-clone-root .solution-footer-banner {
+    padding-block: 28px;
+  }
+
+  .deel-clone-root .solution-footer-banner__inner {
+    border-radius: 16px;
+  }
+
+  .deel-clone-root .solution-footer-banner__content {
+    left: 5%;
+    width: 50%;
+  }
+
+  .deel-clone-root .solution-footer-banner__content h2 {
+    font-size: clamp(13px, 3.8vw, 20px);
+  }
+
+  .deel-clone-root .solution-footer-banner__button {
+    min-height: 32px;
+    margin-top: 10px;
+    padding-inline: 14px;
+    font-size: 11px;
+  }
+}
+
+.deel-clone-root .deel-clone-band--hero {
+  /* padding-top: 14px; */
+}
+
+.deel-clone-root .deel-logo-strip {
+  width: 100%;
+  padding: 42px 16px 78px;
+  background: var(--color-surface-white);
+}
+
+.deel-clone-root .deel-logo-strip__inner {
+  display: flex;
+  max-width: 1704px;
+  margin-inline: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deel-clone-root .deel-logo-strip__eyebrow {
+  margin: 0 0 40px;
+  color: #5f6470;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.deel-clone-root .deel-logo-strip__rows {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.deel-clone-root .deel-logo-strip__viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    rgba(0, 0, 0, 0.22) 4%,
+    #000 10%,
+    #000 90%,
+    rgba(0, 0, 0, 0.22) 96%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    rgba(0, 0, 0, 0.22) 4%,
+    #000 10%,
+    #000 90%,
+    rgba(0, 0, 0, 0.22) 96%,
+    transparent 100%
+  );
+}
+
+.deel-clone-root .deel-logo-strip__track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 34px;
+  animation: deel-logo-scroll 46s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.deel-clone-root .deel-logo-strip__track--secondary {
+  animation-duration: 52s;
+}
+
+.deel-clone-root .deel-logo-strip__track--reverse {
+  animation-name: deel-logo-scroll-reverse;
+}
+
+.deel-clone-root .deel-logo-strip__logo {
+  width: auto;
+  height: 26px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+  opacity: 0.6;
+  filter: grayscale(1) brightness(0.45);
+}
+
+.deel-clone-root .deel-promo-stat {
+  width: 100%;
+  padding: 8px 16px ;
+  background: #fff;
+}
+
+.deel-clone-root .deel-promo-stat__inner {
+  position: relative;
+  display: flex;
+  min-height: 280px;
+  max-width: 1704px;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.deel-clone-root .deel-promo-stat__canvas {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -53%);
+  font-family: var(--font-bagoss-condensed);
+  font-size: clamp(172px, 31vw, 280px);
+  font-weight: 500;
+  line-height: 0.84;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+}
+/* .deel-promo-stat__canvas {
+  font-size: clamp(5rem, 10vw, 8rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  line-height: 1;
+
+  background: linear-gradient(
+    180deg,
+    #3c3c3c 0%,
+    #757575 18%,
+    #e9e8eb 42%,
+    #bebdbd 72%,
+    #0d0d0d 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+} */
+
+.deel-promo-stat__canvas {
+  font-size: clamp(5rem, 10vw, 8rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  line-height: 1;
+
+  background: linear-gradient(
+    180deg,
+    #8a8a8a 0%,
+    #a0a0a0 25%,
+    hsl(0, 0%, 78%) 50%,
+    #e5e5e5 80%,
+    #ffffff 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Reflection */
+  -webkit-box-reflect: below -8px
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,.18) 0%,
+      rgba(255,255,255,.08) 20%,
+      rgba(255,255,255,0) 70%
+    );
+  /* -webkit-text-stroke: 1px #ffffff; */
+
+}
+
+.deel-clone-root .deel-promo-stat__headline {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: rgb(69, 69, 69);
+  text-align: center;
+  font-family: var(--font-bagoss-condensed);
+  font-size: clamp(42px, 5vw, 45px);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+  /* -webkit-text-stroke: 2px #000000; */
+}
+
+/* .deel-clone-root .deel-promo-stat__headline span {
+  color: #852fd5;
+  font-family:fantasy;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+} */
+
+.deel-clone-root .deel-promo-stat__headline span {
+  display: inline-block;
+  position: relative;
+  color: rgb(43, 43, 43);
+  font-family: fantasy;
+  background: linear-gradient(
+    120deg,
+    rgb(43, 43, 43) 0%,
+    rgb(43, 43, 43) 40%,
+    #ffffff 50%,
+    rgb(43, 43, 43) 60%,
+    rgb(43, 43, 43) 100%
+  );
+  background-size: 250% 100%;
+  background-position: -200% 0;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shineSweep 4s linear infinite;
+}
+
+@keyframes shineSweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.deel-clone-root .deel-clone-band--hero section {
+  padding: 0;
+}
+
+.deel-clone-root .deel-hero-section {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 12px 12px 0;
+}
+
+.deel-clone-root .deel-hero-shell {
+  width: 100%;
+  max-width: 1704px;
+  margin-inline: auto;
+}
+
+.deel-clone-root .deel-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 620px;
+  border-radius: 12px;
+  padding: 24px;
+  background: #1c0d41;
+}
+
+.deel-clone-root .deel-hero__bg,
+.deel-clone-root .deel-hero__overlay,
+.deel-clone-root .deel-hero__glow {
+  position: absolute;
+  inset: 0;
+}
+
+.deel-clone-root .deel-hero__bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: 78% center; */
+  pointer-events: none;
+}
+
+.deel-clone-root .deel-hero__overlay {
+  /* background: */
+    /* linear-gradient(90deg, rgba(18, 8, 39, 0.96) 0%, rgba(31, 12, 68, 0.9) 32%, rgba(72, 28, 141, 0.62) 57%, rgba(72, 28, 141, 0.16) 100%); */
+  pointer-events: none;
+}
+
+.deel-clone-root .deel-hero__glow {
+  background:
+    radial-gradient(circle at 15% 18%, rgba(169, 141, 246, 0.18), transparent 28%),
+    radial-gradient(circle at 18% 80%, rgba(169, 141, 246, 0.12), transparent 26%);
+  pointer-events: none;
+}
+
+.deel-clone-root .deel-hero__rocket-layer {
+  display: none;
+  position: absolute;
+  inset: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.deel-clone-root .deel-hero__rocket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: clamp(38px, 4vw, 56px);
+  height: auto;
+  opacity: 0;
+  filter: drop-shadow(0 8px 18px rgba(255, 182, 118, 0.24));
+  transform-origin: center center;
+  offset-path: path("M -30 44 C 150 -8, 340 430, 620 388 C 790 360, 900 205, 1020 290 C 1155 386, 1295 130, 1468 6");
+  offset-rotate: 0deg;
+  animation: deel-paper-rocket-flight 5.4s cubic-bezier(0.22, 1, 0.36, 1) 0.55s 1 both;
+}
+
+.deel-clone-root .deel-hero__rocket-trail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: clamp(54px, 6vw, 82px);
+  height: 6px;
+  border-radius: 999px;
+  opacity: 0;
+  background: linear-gradient(90deg, rgba(255, 219, 177, 0), rgba(255, 219, 177, 0.22) 30%, rgba(255, 184, 126, 0.42) 100%);
+  filter: blur(4px);
+  transform-origin: left center;
+  offset-path: path("M -46 48 C 136 -4, 326 434, 604 392 C 772 364, 882 211, 1002 296 C 1138 392, 1278 136, 1450 12");
+  offset-rotate: 0deg;
+  animation: deel-paper-rocket-trail 5.4s cubic-bezier(0.22, 1, 0.36, 1) 0.55s 1 both;
+}
+
+.deel-clone-root .deel-hero__inner {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  min-height: 588px;
+  align-items: center;
+}
+
+.deel-clone-root .deel-hero__content {
+  display: flex;
+  width: 100%;
+  max-width: 30%;
+  flex-direction: column;
+  text-align: left;
+}
+
+.deel-clone-root .deel-hero__title {
+  width: 100%;
+  max-width: 10ch;
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-bagoss-condensed);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+}
+
+.deel-clone-root .deel-hero__panel {
+  width: 100%;
+  max-width: 410px;
+  margin-top: 26px;
+}
+
+.deel-clone-root .deel-hero__prompt {
+  margin: 0 0 12px;
+  color: var(--color-surface-white);
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.09px;
+}
+
+.deel-clone-root .deel-hero__option-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deel-clone-root .deel-hero__option-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.deel-clone-root .deel-hero__option-grid--primary,
+.deel-clone-root .deel-hero__option-grid--secondary {
+  grid-template-columns: 1fr;
+}
+
+.deel-clone-root .deel-hero__option {
+  display: flex;
+  min-height: 76px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.deel-clone-root .deel-hero__option:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.deel-clone-root .deel-hero__option--selected {
+  border-color: rgba(202, 183, 255, 0.95);
+  background: #cfbcff;
+  color: #20103f;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.deel-clone-root .deel-hero__option:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+.deel-clone-root .deel-hero__option-check {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-purple-525);
+  border-radius: 4px;
+  background: transparent;
+}
+
+.deel-clone-root .deel-hero__option--selected .deel-hero__option-check {
+  border-color: #20103f;
+  background: #20103f;
+  box-shadow: none;
+  position: relative;
+}
+
+.deel-clone-root .deel-hero__option--selected .deel-hero__option-check::after {
+  content: "✓";
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.deel-clone-root .deel-hero__option-label {
+  white-space: pre-line;
+  color: #fff;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.deel-clone-root .deel-hero__option--selected .deel-hero__option-label {
+  color: #20103f;
+}
+
+.deel-clone-root .deel-hero__cta-wrap {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.deel-clone-root .deel-hero__cta {
+  width: 100%;
+  min-height: 50px;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: #1b1b1b;
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.deel-clone-root .deel-hero__cta:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.deel-clone-root .deel-hero__reviews {
+  display: none;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.deel-clone-root .deel-hero__reviews-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #fff;
+}
+
+.deel-clone-root .deel-hero__review-item {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 8px;
+  padding-block: 2px;
+  color: #fff;
+  font-family: var(--font-inter);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.deel-clone-root .deel-hero__review-item--trustpilot {
+  gap: 4px;
+}
+
+.deel-clone-root .deel-speed-timeline {
+  position: relative;
+}
+
+.deel-clone-root .deel-speed-timeline--desktop {
+  display: none;
+}
+
+.deel-clone-root .deel-speed-timeline--mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.deel-clone-root .deel-speed-timeline__mobile-step {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.deel-clone-root .deel-speed-timeline__mobile-step--spaced {
+  padding-bottom: 24px;
+}
+
+.deel-clone-root .deel-speed-timeline__mobile-rail {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.deel-clone-root .deel-speed-timeline__mobile-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-neutral-300);
+}
+
+.deel-clone-root .deel-speed-timeline__mobile-line {
+  width: 1px;
+  flex: 1;
+  border-left: 2px dashed var(--color-neutral-300);
+  margin-bottom: -36px;
+}
+
+.deel-clone-root .deel-speed-timeline__line {
+  position: absolute;
+  margin: 0 auto;
+  width: 83%;
+  top: 5px;
+  right: 0;
+  left: 0;
+  border-top: 2px dashed var(--color-neutral-300);
+}
+
+.deel-clone-root .deel-hero__review-copy {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.deel-clone-root .deel-hero__review-strong {
+  font-weight: 600;
+}
+
+.deel-clone-root .deel-hero__review-divider {
+  opacity: 0.15;
+}
+
+.deel-clone-root .deel-clone-band--proof .logo-stripe-standard-wrapper,
+.deel-clone-root .deel-clone-band--solutions section,
+.deel-clone-root .deel-clone-band--speed section,
+.deel-clone-root .deel-clone-band--workforce section,
+.deel-clone-root .deel-clone-band--testimonials .video-carousel,
+.deel-clone-root .deel-clone-band--metrics section,
+.deel-clone-root .deel-clone-band--reviews > div,
+.deel-clone-root .deel-clone-band--footer footer {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.deel-clone-root .deel-clone-band--proof .logo-stripe-standard-wrapper {
+  padding-left: clamp(20px, 2vw, 36px);
+  padding-right: clamp(20px, 2vw, 36px);
+}
+
+.deel-clone-root .deel-clone-band--solutions > section,
+.deel-clone-root .deel-clone-band--speed > section,
+.deel-clone-root .deel-clone-band--workforce > section {
+  padding-left: clamp(20px, 2vw, 36px);
+  padding-right: clamp(20px, 2vw, 36px);
+}
+
+.deel-clone-root .deel-clone-band--testimonials .video-carousel {
+  padding-left: clamp(20px, 2vw, 36px);
+  padding-right: clamp(20px, 2vw, 36px);
+}
+
+.deel-clone-root .deel-clone-band--metrics > section,
+.deel-clone-root .deel-clone-band--reviews > div {
+  padding-left: clamp(20px, 2vw, 36px);
+  padding-right: clamp(20px, 2vw, 36px);
+}
+
+.deel-clone-root .deel-clone-band--footer > footer {
+  padding-left: clamp(20px, 2vw, 36px);
+  padding-right: clamp(20px, 2vw, 36px);
+}
+
+.deel-clone-root .deel-nav-dropdown-shell {
+  position: absolute;
+  top: 100%;
+  left: -84px;
+  padding-top: 10px;
+  z-index: 700;
+  transform-origin: top left;
+  will-change: opacity, transform, filter;
+  transition:
+    opacity 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.22s ease-out;
+}
+
+.deel-clone-root .deel-solutions-menu {
+  width: min(1116px, calc(100vw - 36px));
+  overflow: hidden;
+  border: 1px solid rgba(27, 27, 27, 0.14);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 28px 70px rgba(17, 17, 17, 0.12);
+}
+
+.deel-clone-root .deel-solutions-menu__main {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 376px);
+}
+
+.deel-clone-root .deel-solutions-menu--no-promo .deel-solutions-menu__main {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.deel-clone-root .deel-solutions-menu__left {
+  padding: 32px 36px 32px;
+}
+
+.deel-clone-root .deel-solutions-menu__section {
+  border-bottom: 1px solid rgba(27, 27, 27, 0.14);
+  padding-bottom: 28px;
+}
+
+.deel-clone-root .deel-solutions-menu__section--compact {
+  border-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.deel-clone-root .deel-solutions-menu__eyebrow {
+  margin: 0 0 14px;
+  color: rgba(27, 27, 27, 0.72);
+  font-family: var(--font-inter);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.deel-clone-root .deel-solutions-menu__offer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 34px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(27, 27, 27, 0.14);
+}
+
+.deel-clone-root .deel-solutions-menu__text-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px 46px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(27, 27, 27, 0.14);
+}
+
+.deel-clone-root .deel-solutions-menu__text-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #1b1b1b;
+}
+
+.deel-clone-root .deel-solutions-menu__text-link--static {
+  cursor: default;
+  pointer-events: none;
+}
+
+.deel-clone-root .deel-solutions-menu__columns {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  padding: 32px 36px 28px;
+}
+
+.deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__columns {
+  gap: 28px;
+}
+
+.deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__column-links {
+  gap: 22px;
+  padding-top: 14px;
+}
+
+.deel-clone-root .deel-solutions-menu__column {
+  min-width: 0;
+}
+
+.deel-clone-root .deel-solutions-menu__column-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(27, 27, 27, 0.14);
+}
+
+.deel-clone-root .deel-solutions-menu__title--inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.deel-clone-root .deel-solutions-menu__badge {
+  display: inline-flex;
+  min-width: 22px;
+  height: 18px;
+  padding: 0 6px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #ffcf25;
+  color: #1b1b1b;
+  font-family: var(--font-inter);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.deel-clone-root .deel-solutions-menu__offer-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  min-height: 48px;
+  color: #1b1b1b;
+}
+
+.deel-clone-root .deel-solutions-menu__icon-box {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #f4edff;
+  color: #1b1b1b;
+}
+
+.deel-clone-root .deel-solutions-menu__icon-box svg {
+  width: 20px;
+  height: 20px;
+}
+
+.deel-clone-root .deel-solutions-menu__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 2px;
+}
+
+.deel-clone-root .deel-solutions-menu__title,
+.deel-clone-root .deel-solutions-menu__utility-title {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #1b1b1b;
+}
+
+.deel-clone-root .deel-solutions-menu__text,
+.deel-clone-root .deel-solutions-menu__utility-text {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgba(27, 27, 27, 0.78);
+}
+
+.deel-clone-root .deel-solutions-menu__utility-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 20px;
+  padding-top: 28px;
+}
+
+.deel-clone-root .deel-solutions-menu__utility-card {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #faf7f2;
+}
+
+.deel-clone-root .deel-solutions-menu__utility-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.deel-clone-root .deel-solutions-menu__utility-title {
+  font-size: 15px;
+}
+
+.deel-clone-root .deel-solutions-menu__utility-text {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.deel-clone-root .deel-solutions-menu__utility-image {
+  width: 108px;
+  max-width: 42%;
+  height: 34px;
+  object-fit: contain;
+  object-position: right center;
+}
+
+.deel-clone-root .deel-solutions-menu__promo {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  overflow: hidden;
+  background: #1b1b1b;
+}
+
+.deel-clone-root .deel-solutions-menu__promo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.deel-clone-root .deel-solutions-menu__promo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(18, 18, 18, 0.06) 8%, rgba(18, 18, 18, 0.82) 100%);
+}
+
+.deel-clone-root .deel-solutions-menu__promo-copy {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #fff;
+}
+
+.deel-clone-root .deel-solutions-menu__promo-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.deel-clone-root .deel-solutions-menu__promo-title svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.deel-clone-root .deel-solutions-menu__promo-text {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.deel-clone-root .deel-solutions-menu--compact .deel-solutions-menu__promo-copy {
+  right: 28px;
+  bottom: 34px;
+  left: 28px;
+}
+
+.deel-clone-root .deel-solutions-menu--compact .deel-solutions-menu__left {
+  padding: 32px 36px 28px;
+}
+
+.deel-clone-root .deel-solutions-menu--compact .deel-solutions-menu__eyebrow {
+  margin-bottom: 14px;
+}
+
+.deel-clone-root .deel-solutions-menu__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 24px;
+  border-top: 1px solid rgba(27, 27, 27, 0.1);
+  background: #fff0d8;
+}
+
+.deel-clone-root .deel-solutions-menu__footer-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.deel-clone-root .deel-solutions-menu__footer-link {
+  padding: 0 16px;
+  border-right: 1px solid rgba(27, 27, 27, 0.16);
+  color: #1b1b1b;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.deel-clone-root .deel-solutions-menu__footer-link:first-child {
+  padding-left: 0;
+}
+
+.deel-clone-root .deel-solutions-menu__footer-link:last-child {
+  border-right: 0;
+}
+
+.deel-clone-root .deel-solutions-menu__close {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  background: transparent;
+  color: #1b1b1b;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.deel-clone-root .deel-solutions-menu__close svg {
+  width: 16px;
+  height: 16px;
+}
+
+.deel-clone-root .deel-simple-menu {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border: 1px solid rgba(27, 27, 27, 0.12);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.08);
+}
+
+.deel-clone-root .deel-simple-menu__link {
+  padding: 10px 12px;
+  border-radius: 12px;
+  color: #1b1b1b;
+  font-family: var(--font-inter);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.deel-clone-root .deel-simple-menu__link:hover,
+.deel-clone-root .deel-solutions-menu__offer-link:hover,
+.deel-clone-root .deel-solutions-menu__text-link:hover,
+.deel-clone-root .deel-solutions-menu__utility-card:hover,
+.deel-clone-root .deel-solutions-menu__footer-link:hover {
+  opacity: 0.84;
+}
+
+.deel-clone-root .deel-clone-band--speed .max-w-\[1312px\],
+.deel-clone-root .deel-clone-band--workforce .max-w-\[1312px\],
+.deel-clone-root .deel-clone-band--testimonials .max-w-container {
+  margin-inline: auto;
+}
+
+.deel-clone-root .deel-clone-band--metrics .MuiBox-root.mui-57ckbi,
+.deel-clone-root .deel-clone-band--reviews .MuiBox-root.mui-1em5jyh {
+  max-width: 1312px;
+  margin-inline: auto;
+}
+
+@media (min-width: 460px) {
+  .deel-clone-root .deel-hero__option-grid--primary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .deel-clone-root .deel-hero__option-grid--secondary {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .deel-clone-root .deel-logo-strip {
+    padding: 64px 32px 0px;
+  }
+
+  .deel-clone-root .deel-logo-strip__eyebrow {
+    font-size: 17px;
+  }
+
+  .deel-clone-root .deel-logo-strip__rows {
+    gap: 36px;
+  }
+
+  .deel-clone-root .deel-logo-strip__track {
+    gap: 64px;
+  }
+
+  .deel-clone-root .deel-logo-strip__logo {
+    height: 42px;
+  }
+
+  .deel-clone-root .deel-promo-stat {
+    padding: 0 24px ;
+  }
+
+  .deel-clone-root .deel-promo-stat__inner {
+    min-height: 340px;
+  }
+
+  .deel-clone-root .deel-hero {
+    padding: 48px;
+  }
+
+  .deel-clone-root .deel-hero__title {
+    font-size: 50px;
+  }
+
+  .deel-clone-root .deel-speed-timeline--desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .deel-clone-root .deel-speed-timeline--mobile {
+    display: none;
+  }
+
+  .deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__columns {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__eyebrow,
+  .deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__title,
+  .deel-clone-root .deel-solutions-menu--columns .deel-solutions-menu__title--inline {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1700px) {
+  .deel-clone-root .deel-hero__bg {
+    object-fit: fill;
+  }
+
+  .deel-clone-root .deel-hero {
+    min-height: 86vh;
+    padding: 44px 38px 34px;
+  }
+
+  .deel-clone-root .deel-hero__inner {
+    min-height: calc(86vh - 80px);
+  }
+
+  .deel-clone-root .deel-hero__content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .deel-clone-root .deel-hero__title {
+    font-size: 74px;
+  }
+
+  .deel-clone-root .deel-hero__panel {
+    margin-top: 30px;
+  }
+
+  .deel-clone-root .deel-hero__prompt {
+    margin-bottom: 18px;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+  }
+
+  .deel-clone-root .deel-hero__option {
+    min-height: 82px;
+  }
+
+  .deel-clone-root .deel-hero__cta-wrap {
+    margin-top: 22px;
+  }
+
+  .deel-clone-root .deel-hero__reviews {
+    margin-top: 18px;
+  }
+
+  .deel-clone-root .deel-hero__reviews-row {
+    justify-content: flex-start;
+  }
+
+  .deel-clone-root .deel-hero__bg {
+    object-position: 73% center;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .deel-clone-root .deel-promo-stat {
+    /* padding-bottom: 104px; */
+  }
+
+  .deel-clone-root .deel-promo-stat__inner {
+    min-height: 380px;
+  }
+
+  .deel-clone-root .deel-hero {
+    padding: 48px 6% 36px;
+  }
+
+  .deel-clone-root .deel-hero__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .deel-clone-root .hidden-phone {
+    display: inline-flex !important;
+  }
+
+  .deel-clone-root .deel-promo-stat {
+    padding: 0 12px 56px;
+  }
+
+  .deel-clone-root .deel-promo-stat__inner {
+    min-height: 188px;
+  }
+
+  .deel-clone-root .deel-promo-stat__canvas {
+    transform: translate(-50%, -55%);
+    font-size: clamp(126px, 40vw, 210px);
+  }
+
+  .deel-clone-root .deel-promo-stat__headline {
+    font-size: clamp(28px, 8.2vw, 42px);
+    line-height: 0.98;
+  }
+
+  .deel-clone-root .deel-hero__overlay {
+    /* background: */
+      /* linear-gradient(180deg, rgba(18, 8, 39, 0.78) 0%, rgba(18, 8, 39, 0.5) 18%, rgba(31, 12, 68, 0.76) 42%, rgba(31, 12, 68, 0.92) 100%), */
+      /* linear-gradient(90deg, rgba(18, 8, 39, 0.9) 0%, rgba(31, 12, 68, 0.55) 62%, rgba(72, 28, 141, 0.16) 100%); */
+  }
+
+  .deel-clone-root .deel-hero__bg {
+    object-position: 68% center;
+  }
+
+  .deel-clone-root .deel-hero__content {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+  .deel-clone-root .deel-hero__rocket {
+    offset-path: path("M -18 34 C 74 0, 154 220, 270 208 C 354 194, 406 118, 474 156 C 548 196, 616 74, 708 14");
+  }
+
+  .deel-clone-root .deel-hero__rocket-trail {
+    offset-path: path("M -30 38 C 62 4, 142 224, 258 212 C 342 198, 394 124, 462 162 C 536 202, 602 80, 694 20");
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deel-clone-root .deel-hero__rocket,
+  .deel-clone-root .deel-hero__rocket-trail {
+    animation: none;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,25 @@
+# Root
+node_modules/
+.env
+.env.local
+dist/
+*.mp4
+*.tsbuildinfo
+
+# Client
+client/node_modules/
+client/dist/
+Client/vite.config.js
+Client/vite.config.d.ts
+Client/tmp-pricing-tab-snippets.txt
+
+# Server
+server/node_modules/
+server/dist/
+Server/uploads/
+
+# Local development database
+Server/.local-mongodb/
+
+# Workspace scratch folders
+tmp_*/

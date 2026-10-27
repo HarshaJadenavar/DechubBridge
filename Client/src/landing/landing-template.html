@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script>
+      const scope = {"channelId":"2781f7ed70b9ec0"};
+      var t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};function r(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,"default")?t.default:t}var e={},n={};!function(t){t.__esModule=!0,t.default=["log","debug","info","warn","error","table","clear","time","timeEnd","count","assert","command","result"]}(n);var a,o={},i={};(a=i).__esModule=!0,a.default=function(){var t=function(){return(65536*(1+Math.random())|0).toString(16).substring(1)};return t()+t()+"-"+t()+"-"+t()+"-"+t()+"-"+t()+"-"+Date.now()};var u={},s={__esModule:!0};s.update=s.state=void 0,s.update=function(t){s.state=t};var f={},c={};!function(r){var e=t&&t.__assign||function(){return e=Object.assign||function(t){for(var r,e=1,n=arguments.length;e<n;e++)for(var a in r=arguments[e])Object.prototype.hasOwnProperty.call(r,a)&&(t[a]=r[a]);return t},e.apply(this,arguments)};r.__esModule=!0,r.initialState=void 0,r.initialState={timings:{},count:{}};var n=function(){return"undefined"!=typeof performance&&performance.now?performance.now():Date.now()};r.default=function(t,a){var o,i,u;switch(void 0===t&&(t=r.initialState),a.type){case"COUNT":var s=t.count[a.name]||0;return e(e({},t),{count:e(e({},t.count),(o={},o[a.name]=s+1,o))});case"TIME_START":return e(e({},t),{timings:e(e({},t.timings),(i={},i[a.name]={start:n()},i))});case"TIME_END":var f=t.timings[a.name],c=n(),l=c-f.start;return e(e({},t),{timings:e(e({},t.timings),(u={},u[a.name]=e(e({},f),{end:c,time:l}),u))});default:return t}}}(c),function(r){var e=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};r.__esModule=!0;var n=e(c),a=s;r.default=function(t){a.update(n.default(a.state,t))}}(f);var l={__esModule:!0};l.timeEnd=l.timeStart=l.count=void 0,l.count=function(t){return{type:"COUNT",name:t}},l.timeStart=function(t){return{type:"TIME_START",name:t}},l.timeEnd=function(t){return{type:"TIME_END",name:t}};var d=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};u.__esModule=!0,u.stop=u.start=void 0;var p=s,h=d(f),m=l;u.start=function(t){h.default(m.timeStart(t))},u.stop=function(t){var r=null===p.state||void 0===p.state?void 0:p.state.timings[t];return r&&!r.end?(h.default(m.timeEnd(t)),{method:"log",data:[t+": "+p.state.timings[t].time+"ms"]}):{method:"warn",data:["Timer '"+t+"' does not exist"]}};var y={},v=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};y.__esModule=!0,y.increment=void 0;var _=s,b=v(f),g=l;y.increment=function(t){return b.default(g.count(t)),{method:"log",data:[t+": "+_.state.count[t]]}};var M={},T=t&&t.__spreadArrays||function(){for(var t=0,r=0,e=arguments.length;r<e;r++)t+=arguments[r].length;var n=Array(t),a=0;for(r=0;r<e;r++)for(var o=arguments[r],i=0,u=o.length;i<u;i++,a++)n[a]=o[i];return n};M.__esModule=!0,M.test=void 0,M.test=function(t){for(var r=[],e=1;e<arguments.length;e++)r[e-1]=arguments[e];return!t&&(0===r.length&&r.push("console.assert"),{method:"error",data:T(["Assertion failed:"],r)})},function(r){var e=t&&t.__assign||function(){return e=Object.assign||function(t){for(var r,e=1,n=arguments.length;e<n;e++)for(var a in r=arguments[e])Object.prototype.hasOwnProperty.call(r,a)&&(t[a]=r[a]);return t},e.apply(this,arguments)},n=t&&t.__createBinding||(Object.create?function(t,r,e,n){void 0===n&&(n=e),Object.defineProperty(t,n,{enumerable:!0,get:function(){return r[e]}})}:function(t,r,e,n){void 0===n&&(n=e),t[n]=r[e]}),a=t&&t.__setModuleDefault||(Object.create?function(t,r){Object.defineProperty(t,"default",{enumerable:!0,value:r})}:function(t,r){t.default=r}),o=t&&t.__importStar||function(t){if(t&&t.__esModule)return t;var r={};if(null!=t)for(var e in t)"default"!==e&&Object.prototype.hasOwnProperty.call(t,e)&&n(r,t,e);return a(r,t),r},s=t&&t.__spreadArrays||function(){for(var t=0,r=0,e=arguments.length;r<e;r++)t+=arguments[r].length;var n=Array(t),a=0;for(r=0;r<e;r++)for(var o=arguments[r],i=0,u=o.length;i<u;i++,a++)n[a]=o[i];return n},f=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};r.__esModule=!0;var c=f(i),l=o(u),d=o(y),p=o(M);r.default=function(t,r,n){var a=n||c.default();switch(t){case"clear":return{method:t,id:a};case"count":return!!(o="string"==typeof r[0]?r[0]:"default")&&e(e({},d.increment(o)),{id:a});case"time":case"timeEnd":var o;return!!(o="string"==typeof r[0]?r[0]:"default")&&("time"===t?(l.start(o),!1):e(e({},l.stop(o)),{id:a}));case"assert":if(0!==r.length){var i=p.test.apply(p,s([r[0]],r.slice(1)));if(i)return e(e({},i),{id:a})}return!1;case"error":return{method:t,id:a,data:r.map((function(t){try{return t.stack||t}catch(r){return t}}))};default:return{method:t,id:a,data:r}}}}(o);var S={},O={};!function(t){var r;t.__esModule=!0,function(t){t[t.infinity=0]="infinity",t[t.minusInfinity=1]="minusInfinity",t[t.minusZero=2]="minusZero"}(r||(r={})),t.default={type:"Arithmetic",lookup:Number,shouldTransform:function(t,r){return"number"===t&&(r===1/0||r===-1/0||function(t){return 1/t==-1/0}(r))},toSerializable:function(t){return t===1/0?r.infinity:t===-1/0?r.minusInfinity:r.minusZero},fromSerializable:function(t){return t===r.infinity?1/0:t===r.minusInfinity?-1/0:t===r.minusZero?-0:t}}}(O);var w={};!function(t){t.__esModule=!0,t.default={type:"Function",lookup:Function,shouldTransform:function(t,r){return"function"==typeof r},toSerializable:function(t){var r="";try{r=t.toString().substring(r.indexOf("{")+1,r.lastIndexOf("}"))}catch(t){}return{name:t.name,body:r,proto:Object.getPrototypeOf(t).constructor.name}},fromSerializable:function(t){try{var r=function(){};return"string"==typeof t.name&&Object.defineProperty(r,"name",{value:t.name,writable:!1}),"string"==typeof t.body&&Object.defineProperty(r,"body",{value:t.body,writable:!1}),"string"==typeof t.proto&&(r.constructor={name:t.proto}),r}catch(r){return t}}}}(w);var A={};!function(t){var r;function e(t){for(var r={},e=0,n=t.attributes;e<n.length;e++){var a=n[e];r[a.name]=a.value}return r}t.__esModule=!0,t.default={type:"HTMLElement",shouldTransform:function(t,r){return r&&r.children&&"string"==typeof r.innerHTML&&"string"==typeof r.tagName},toSerializable:function(t){return{tagName:t.tagName.toLowerCase(),attributes:e(t),innerHTML:t.innerHTML}},fromSerializable:function(t){try{var e=(r||(r=document.implementation.createHTMLDocument("sandbox"))).createElement(t.tagName);e.innerHTML=t.innerHTML;for(var n=0,a=Object.keys(t.attributes);n<a.length;n++){var o=a[n];try{e.setAttribute(o,t.attributes[o])}catch(t){}}return e}catch(r){return t}}}}(A);var j={};!function(r){var e=t&&t.__assign||function(){return e=Object.assign||function(t){for(var r,e=1,n=arguments.length;e<n;e++)for(var a in r=arguments[e])Object.prototype.hasOwnProperty.call(r,a)&&(t[a]=r[a]);return t},e.apply(this,arguments)};r.__esModule=!0,r.default={type:"Map",shouldTransform:function(t,r){return r&&r.constructor&&"Map"===r.constructor.name},toSerializable:function(t){var r={};return t.forEach((function(t,e){var n="object"==typeof e?JSON.stringify(e):e;r[n]=t})),{name:"Map",body:r,proto:Object.getPrototypeOf(t).constructor.name}},fromSerializable:function(t){var r=t.body,n=e({},r);return"string"==typeof t.proto&&(n.constructor={name:t.proto}),n}}}(j);var z={};!function(t){t.__esModule=!0;var r="@t",e=/^#*@(t|r)$/,n=(0,eval)("this"),a="function"==typeof ArrayBuffer,o="function"==typeof Map,i="function"==typeof Set,u=["Int8Array","Uint8Array","Uint8ClampedArray","Int16Array","Uint16Array","Int32Array","Uint32Array","Float32Array","Float64Array"],s=Array.prototype.slice,f={serialize:function(t){return JSON.stringify(t)},deserialize:function(t){return JSON.parse(t)}},c=function(){function t(t,r){this.references=t,this.transforms=r,this.transformsMap=this._makeTransformsMap(),this.circularCandidates=[],this.circularCandidatesDescrs=[],this.circularRefCount=0}return t._createRefMark=function(t){var r=Object.create(null);return r["@r"]=t,r},t.prototype._createCircularCandidate=function(t,r,e){this.circularCandidates.push(t),this.circularCandidatesDescrs.push({parent:r,key:e,refIdx:-1})},t.prototype._applyTransform=function(t,e,n,a){var o=Object.create(null),i=a.toSerializable(t);return"object"==typeof i&&this._createCircularCandidate(t,e,n),o[r]=a.type,o.data=this._handleValue((function(){return i}),e,n),o},t.prototype._handleArray=function(t){for(var r=[],e=function(e){r[e]=n._handleValue((function(){return t[e]}),r,e)},n=this,a=0;a<t.length;a++)e(a);return r},t.prototype._handlePlainObject=function(t){var r,n,a=Object.create(null),o=function(r){if(Reflect.has(t,r)){var n=e.test(r)?"#"+r:r;a[n]=i._handleValue((function(){return t[r]}),a,n)}},i=this;for(var u in t)o(u);var s=null===(n=null===(r=null==t?void 0:t.__proto__)||void 0===r?void 0:r.constructor)||void 0===n?void 0:n.name;return s&&"Object"!==s&&(a.constructor={name:s}),a},t.prototype._handleObject=function(t,r,e){return this._createCircularCandidate(t,r,e),Array.isArray(t)?this._handleArray(t):this._handlePlainObject(t)},t.prototype._ensureCircularReference=function(r){var e=this.circularCandidates.indexOf(r);if(e>-1){var n=this.circularCandidatesDescrs[e];return-1===n.refIdx&&(n.refIdx=n.parent?++this.circularRefCount:0),t._createRefMark(n.refIdx)}return null},t.prototype._handleValue=function(t,r,e){try{var n=t(),a=typeof n,o="object"===a&&null!==n;if(o){var i=this._ensureCircularReference(n);if(i)return i}var u=this._findTransform(a,n);return u?this._applyTransform(n,r,e,u):o?this._handleObject(n,r,e):n}catch(t){try{return this._handleValue((function(){return t instanceof Error?t:new Error(t)}),r,e)}catch(t){return null}}},t.prototype._makeTransformsMap=function(){if(o){var t=new Map;return this.transforms.forEach((function(r){r.lookup&&t.set(r.lookup,r)})),t}},t.prototype._findTransform=function(t,r){if(o&&r&&r.constructor&&(null==(a=this.transformsMap.get(r.constructor))?void 0:a.shouldTransform(t,r)))return a;for(var e=0,n=this.transforms;e<n.length;e++){var a;if((a=n[e]).shouldTransform(t,r))return a}},t.prototype.transform=function(){for(var r=this,e=[this._handleValue((function(){return r.references}),null,null)],n=0,a=this.circularCandidatesDescrs;n<a.length;n++){var o=a[n];o.refIdx>0&&(e[o.refIdx]=o.parent[o.key],o.parent[o.key]=t._createRefMark(o.refIdx))}return e},t}(),l=function(){function t(t,r){this.activeTransformsStack=[],this.visitedRefs=Object.create(null),this.references=t,this.transformMap=r}return t.prototype._handlePlainObject=function(t){var r=Object.create(null);for(var n in"constructor"in t&&(t.constructor&&"string"==typeof t.constructor.name||(t.constructor={name:"Object"})),t)t.hasOwnProperty(n)&&(this._handleValue(t[n],t,n),e.test(n)&&(r[n.substring(1)]=t[n],delete t[n]));for(var a in r)t[a]=r[a]},t.prototype._handleTransformedObject=function(t,e,n){var a=t[r],o=this.transformMap[a];if(!o)throw new Error("Can't find transform for \""+a+'" type.');this.activeTransformsStack.push(t),this._handleValue(t.data,t,"data"),this.activeTransformsStack.pop(),e[n]=o.fromSerializable(t.data)},t.prototype._handleCircularSelfRefDuringTransform=function(t,r,e){var n=this.references;Object.defineProperty(r,e,{val:void 0,configurable:!0,enumerable:!0,get:function(){return void 0===this.val&&(this.val=n[t]),this.val},set:function(t){this.val=t}})},t.prototype._handleCircularRef=function(t,r,e){this.activeTransformsStack.includes(this.references[t])?this._handleCircularSelfRefDuringTransform(t,r,e):(this.visitedRefs[t]||(this.visitedRefs[t]=!0,this._handleValue(this.references[t],this.references,t)),r[e]=this.references[t])},t.prototype._handleValue=function(t,e,n){if("object"==typeof t&&null!==t){var a=t["@r"];if(void 0!==a)this._handleCircularRef(a,e,n);else if(t[r])this._handleTransformedObject(t,e,n);else if(Array.isArray(t))for(var o=0;o<t.length;o++)this._handleValue(t[o],t,o);else this._handlePlainObject(t)}},t.prototype.transform=function(){return this.visitedRefs[0]=!0,this._handleValue(this.references[0],this.references,0),this.references[0]},t}(),d=[{type:"[[NaN]]",shouldTransform:function(t,r){return"number"===t&&isNaN(r)},toSerializable:function(){return""},fromSerializable:function(){return NaN}},{type:"[[undefined]]",shouldTransform:function(t){return"undefined"===t},toSerializable:function(){return""},fromSerializable:function(){}},{type:"[[Date]]",lookup:Date,shouldTransform:function(t,r){return r instanceof Date},toSerializable:function(t){return t.getTime()},fromSerializable:function(t){var r=new Date;return r.setTime(t),r}},{type:"[[RegExp]]",lookup:RegExp,shouldTransform:function(t,r){return r instanceof RegExp},toSerializable:function(t){var r={src:t.source,flags:""};return t.globalThis&&(r.flags+="g"),t.ignoreCase&&(r.flags+="i"),t.multiline&&(r.flags+="m"),r},fromSerializable:function(t){return new RegExp(t.src,t.flags)}},{type:"[[Error]]",lookup:Error,shouldTransform:function(t,r){return r instanceof Error},toSerializable:function(t){var r,e;return t.stack||null===(e=(r=Error).captureStackTrace)||void 0===e||e.call(r,t),{name:t.name,message:t.message,stack:t.stack}},fromSerializable:function(t){var r=new(n[t.name]||Error)(t.message);return r.stack=t.stack,r}},{type:"[[ArrayBuffer]]",lookup:a&&ArrayBuffer,shouldTransform:function(t,r){return a&&r instanceof ArrayBuffer},toSerializable:function(t){var r=new Int8Array(t);return s.call(r)},fromSerializable:function(t){if(a){var r=new ArrayBuffer(t.length);return new Int8Array(r).set(t),r}return t}},{type:"[[TypedArray]]",shouldTransform:function(t,r){if(a)return ArrayBuffer.isView(r)&&!(r instanceof DataView);for(var e=0,o=u;e<o.length;e++){var i=o[e];if("function"==typeof n[i]&&r instanceof n[i])return!0}return!1},toSerializable:function(t){return{ctorName:t.constructor.name,arr:s.call(t)}},fromSerializable:function(t){return"function"==typeof n[t.ctorName]?new n[t.ctorName](t.arr):t.arr}},{type:"[[Map]]",lookup:o&&Map,shouldTransform:function(t,r){return o&&r instanceof Map},toSerializable:function(t){var r=[];return t.forEach((function(t,e){r.push(e),r.push(t)})),r},fromSerializable:function(t){if(o){for(var r=new Map,e=0;e<t.length;e+=2)r.set(t[e],t[e+1]);return r}for(var n=[],a=0;a<t.length;a+=2)n.push([t[e],t[e+1]]);return n}},{type:"[[Set]]",lookup:i&&Set,shouldTransform:function(t,r){return i&&r instanceof Set},toSerializable:function(t){var r=[];return t.forEach((function(t){r.push(t)})),r},fromSerializable:function(t){if(i){for(var r=new Set,e=0;e<t.length;e++)r.add(t[e]);return r}return t}}],p=function(){function t(t){this.transforms=[],this.transformsMap=Object.create(null),this.serializer=t||f,this.addTransforms(d)}return t.prototype.addTransforms=function(t){for(var r=0,e=t=Array.isArray(t)?t:[t];r<e.length;r++){var n=e[r];if(this.transformsMap[n.type])throw new Error('Transform with type "'+n.type+'" was already added.');this.transforms.push(n),this.transformsMap[n.type]=n}return this},t.prototype.removeTransforms=function(t){for(var r=0,e=t=Array.isArray(t)?t:[t];r<e.length;r++){var n=e[r],a=this.transforms.indexOf(n);a>-1&&this.transforms.splice(a,1),delete this.transformsMap[n.type]}return this},t.prototype.encode=function(t){var r=new c(t,this.transforms).transform();return this.serializer.serialize(r)},t.prototype.decode=function(t){var r=this.serializer.deserialize(t);return new l(r,this.transformsMap).transform()},t}();t.default=p}(z);var E=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};S.__esModule=!0,S.Decode=P=S.Encode=void 0;var k=E(O),C=E(w),D=E(A),I=E(j),N=E(z),R=[D.default,C.default,k.default,I.default],x=new N.default;x.addTransforms(R);var P=S.Encode=function(t){return JSON.parse(x.encode(t))};S.Decode=function(t){return x.decode(JSON.stringify(t))},function(r){var e=t&&t.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};r.__esModule=!0;var a=e(n),i=e(o),u=S;r.default=function(t,r,e){void 0===e&&(e=!0);for(var n=t,o={pointers:{},src:{npm:"https://npmjs.com/package/console-feed",github:"https://github.com/samdenty99/console-feed"}},s=function(t){var a=n[t];n[t]=function(){a.apply(this,arguments);var n=[].slice.call(arguments);setTimeout((function(){var a=i.default(t,n);if(a){var o=a;e&&(o=u.Encode(a)),r(o,a)}}))},o.pointers[t]=a},f=0,c=a.default;f<c.length;f++)s(c[f]);return n.feed=o,n}}(e),r(e)(window.console,(function(t){var r=P(t);parent.postMessage({type:"console",codesandbox:!0,log:Array.isArray(r)?r[0]:r,channelId:scope.channelId},"*")}));
+
+    </script>
+
+<script>
+  window.addEventListener("message", (message) => {
+    if(message.data.type === "refresh") {
+      window.location.reload();
+    }
+  })
+</script>
+	<script defer="" src="./injectScript.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="globals.css">
+<link rel="stylesheet" href="styleguide.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div data-uid="hGyjXddJsa3dQ3iR" class="main-landing-page"><div data-uid="qvKRi9Q2lLG4XjMM" class="container"></div>
+<div data-uid="8MdsSvve6zJ9c47H" class="div"><p data-uid="Ce6cf8QVJ6yJbEc6" class="text-wrapper">Your global hiring partner for India and the US</p>
+<div data-uid="vy75wXaKrQNWRLh0" class="div-erink"><div data-uid="Qjnch8l9eVNEfIHj" class="div-margin"><div data-uid="TOI7wLnB8zUbatGc" class="div-gwtp"><div data-uid="ngAQPSe1gEsSuS2M" class="h-erink"></div>
+<div data-uid="KMVAwUL9Qokcr3IK" class="ul"><div data-uid="aLimvlH0OHNCMgdS" class="li"><div data-uid="qicbXtsgoPi1NW69" class="text"></div>
+<div data-uid="cVJuxfnvtC6OsCT2" class="p"><p data-uid="bsTdF9iLvarQ5qG5" class="text-wrapper-2">Hire verified talent across India and the US</p></div></div>
+<div data-uid="h9bHtH5vUCFWUkSO" class="li"><div data-uid="bPM3gw5FwjducFLN" class="text"></div>
+<div data-uid="WzKKru3silw8Tdov" class="p"><p data-uid="4MU0Aw6RPSyGMIrQ" class="text-wrapper-2"> Manage contracts, onboarding, and payments in one place</p></div></div>
+<div data-uid="Rp3kdjw6NAFS1f3R" class="li"><div data-uid="dCLuRFEmLwnzlvdm" class="text"></div>
+<div data-uid="P6kmYNQ0QrcBfArb" class="p"><p data-uid="kXuLDsfP8ndZHtcS" class="text-wrapper-2"> Build remote teams faster with secure workforce solutions</p></div></div></div></div></div>
+<div data-uid="zkSiXQ1dBC2uKZlW" class="div-vlwumj"><div data-uid="mCriTexpbhPLcHaH" class="component"><p data-uid="F7p2CK1nKni4wt2r" class="span-wrapper"><span data-uid="6eipLAut8LLkd8HL" class="span">Get Started Free</span></p></div>
+<div data-uid="HLzG5KpuQLJo1uAw" class="div-2"><div data-uid="QWN8EtJEmBgWE1Tg" class="element-money-back"></div>
+<div data-uid="JSrlGDabNzFhSYly" class="div-3"><div data-uid="9QVb7zjiyR9vdvyt" class="text-wrapper-3">100% money-back guarantee</div></div></div></div></div>
+<img data-uid="gl5CZCyB5L7SHEi3" class="image" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/image-32.png"></div>
+<div data-uid="jYvWE2dcWvYANnOf" class="frame"><div data-uid="QjHIdv4IX5PvBykv" class="component-2"><img data-uid="pC3A34cPsj0p7bTQ" class="vector" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-12.svg">
+<img data-uid="EZHbaKZbbyoYOlKd" class="img" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-2.svg">
+<img data-uid="WfqquRjxZeoq5Z4b" class="vector-2" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-3.svg"></div>
+<div data-uid="HVHgWDijA7YkwMbz" class="frame-2"></div></div>
+<div data-uid="O8cIcaHYGC4OET2a" class="container-2"><div data-uid="gxX0C371Ndh4aJrv" class="what-people-say">WHAT PEOPLE SAY</div>
+<p data-uid="ZBAeP5XI04h6f9aS" class="loved-by-companies">Loved by companies &amp; contractors</p>
+<div data-uid="LVz8epvqrEcNmOJt" class="container-3"><div data-uid="wY5X7bGbee11Wksv" class="container-4"><div data-uid="qxAxEIVOo4D1LqNZ" class="text-wrapper-4">★★★★★</div>
+<p data-uid="p0ynRV6mLaxFfZBS" class="we-hired-US">"We hired 3 US contractors in one afternoon. <br data-uid="mXlKFG9Po61bu6AP">Contract generated, signed via DocuSign <br data-uid="7ItTzMljerZnWXMP">same day, payment through Wise without <br data-uid="mxAizKjY416mNdlO">any issues."</p>
+<div data-uid="pR6MGJUq9AtSDdPr" class="container-5"><div data-uid="aSmUYb1bwaWO2R9a" class="text-wrapper-5">CEO, BuildAI · Bengaluru</div>
+<div data-uid="16y8lVuTaWvMxhK9" class="text-wrapper-6">Ravi Kumar</div>
+<div data-uid="NeOzV2tymp6MUT5Q" class="div-wrapper"><div data-uid="AzrGz7pW9lG7lcMu" class="text-wrapper-7">RK</div></div></div></div>
+<div data-uid="T5w7GRUTK8F56wQJ" class="container-4"><div data-uid="u4aNkzntKcPovdSA" class="text-wrapper-4">★★★★★</div>
+<p data-uid="yrNWvjolzXIsTzwh" class="as-a-US-contractor">"As a US contractor working with Indian <br data-uid="TofSHi8VBTviNbvS">companies, getting paid was a nightmare. <br data-uid="y9kzKMIDrCNH06yk">Dechub made it seamless — invoice <br data-uid="96JeFSsMTRWC9gdH">approved, Wise transfer next day."</p>
+<div data-uid="9GwPj0eZXJHmXcD1" class="container-5"><p data-uid="898FybpkOQl3qsMf" class="text-wrapper-8">Senior React Developer · Austin, TX</p>
+<div data-uid="ER9okrloEbt7zCSv" class="text-wrapper-9">John Smith</div>
+<div data-uid="mBuIZOmKSRsa9LEU" class="container-6"><div data-uid="jyVnAca2Gp5Gx4rp" class="text-wrapper-10">JS</div></div></div></div>
+<div data-uid="qRAs6QzwPvOJNJjL" class="container-4"><div data-uid="5ni5F1xi7kpqHgk4" class="text-wrapper-4">★★★★★</div>
+<p data-uid="0sSCkqtc0q9cYYwc" class="we-were-spending">"We were spending $800/month on legal <br data-uid="lNQ5AMdJFmFEDWpe">fees for contractor agreements. Dechub cut <br data-uid="177V8dZrdGf8xUQ6">that to zero and gave our board the <br data-uid="JqJiMWZvcJeK9ROp">compliance confidence they needed."</p>
+<div data-uid="j9IaMMvFCeqc8086" class="container-5"><div data-uid="BehWOCT87pka97tx" class="text-wrapper-11">COO, VentureScale · Mumbai</div>
+<div data-uid="WlLlaos4KB5uS5on" class="text-wrapper-6">Anjali Patel</div>
+<div data-uid="ETmG7qv88WfZCofm" class="container-7"><div data-uid="MDKtfSNoUrzBMqVR" class="text-wrapper-12">AP</div></div></div></div></div></div>
+<div data-uid="kBRPtjkr4BB7msAs" class="container-8"><div data-uid="s9G04yw8jyVaWO4e" class="container-9"><div data-uid="mSNBv8tqzcflW0jN" class="container-10"><div data-uid="Ud9eCr9TqQodGnH1" class="container-11"></div>
+<div data-uid="56tFgdMPO3lPnkXx" class="container-12"></div>
+<div data-uid="PGkEfezl67dUvcrv" class="container-13"></div></div>
+<div data-uid="XYIT3NGRhS9zUXe3" class="container-14"><div data-uid="gHYvOsJ5IglnJPKe" class="text-wrapper-13">app.dechub.in/dashboard</div></div></div>
+<div data-uid="tkSL68bTELicDAmu" class="container-15"><div data-uid="6ZYhvwdvH6EgjLRM" class="container-16"><div data-uid="XBcEwv0rZZ3vpcJk" class="container-17"></div>
+<div data-uid="1panpN57YBrpbIlK" class="text-wrapper-14">Settings</div>
+<div data-uid="E4erwVwrh208VoiF" class="container-18"></div>
+<div data-uid="fGVMxk78VP5cJk7o" class="text-wrapper-15">Documents</div>
+<div data-uid="2bwHNRstVNiKTNLe" class="other">OTHER</div>
+<div data-uid="CNrGUmW5wuw3g7B2" class="container-19"></div>
+<div data-uid="4Q3LSOOMULs4omR1" class="text-wrapper-16">Invoices</div>
+<div data-uid="tRT5pcLVHyyjMVGn" class="container-20"></div>
+<div data-uid="q8bczJtG8t1fn2e7" class="text-wrapper-17">Contracts</div>
+<div data-uid="e4PbHLX6lZdw9iBF" class="container-21"></div>
+<div data-uid="KWBg8gMJimR0hoQX" class="text-wrapper-18">Workers</div>
+<div data-uid="EdbDdASWfyJDsUSX" class="main">MAIN</div>
+<div data-uid="80GBTGKoYm8AoFGu" class="container-22"><div data-uid="uIJMPQC8Az0efJCp" class="container-23"></div>
+<div data-uid="Eos81BWjUuqaJ5TY" class="text-wrapper-19">Dashboard</div></div></div>
+<div data-uid="1KMeAy0fKhhOh9eQ" class="container-24"><div data-uid="vmyJbdx4gYBNEuaT" class="container-25"><div data-uid="Rtv7Dfb2WdZXXowB" class="container-26"><div data-uid="Tnk0l6qfypNHSuwP" class="text-wrapper-20">12</div>
+<div data-uid="TFAoXarEVzQKkDOe" class="active-workers">ACTIVE WORKERS</div></div>
+<div data-uid="g5hUaZda1cczd8x3" class="container-26"><div data-uid="VGw3ZCs8wpI2WhBc" class="text-wrapper-21">3</div>
+<div data-uid="Gbv69CpP7wSrqFcP" class="pending-invoices">PENDING INVOICES</div></div>
+<div data-uid="ZfVfEb6GIFhTTRhO" class="container-26"><div data-uid="jw2kfSHrrPFItXUq" class="text-wrapper-22">May 31</div>
+<div data-uid="lfQ8N2hb4KXDImRV" class="next-payroll">NEXT PAYROLL</div></div>
+<div data-uid="CbWDaILmE0NEo6js" class="container-26"><div data-uid="OjC4lJCb7xzcOyQb" class="text-wrapper-23">$36k</div>
+<div data-uid="RHQZtpua06uKFvmm" class="monthly-cost">MONTHLY COST</div></div></div>
+<div data-uid="GTOiPphLCIGHPkct" class="container-27"><div data-uid="gXskceaGwEiz5Xa5" class="worker">WORKER</div>
+<div data-uid="AgDOzhVHveG8U4iV" class="track">TRACK</div>
+<div data-uid="cfpH5B3ToNcMBXcY" class="role">ROLE</div>
+<div data-uid="a2cNLY2v717oU5zZ" class="status">STATUS</div>
+<div data-uid="I0bj2JHa9xGihxtQ" class="pay">PAY</div></div>
+<div data-uid="xXf1Gya31W62YfQ1" class="container-28"><div data-uid="bXex7hFrEVOqzMR6" class="text-wrapper-24">John Smith</div>
+<div data-uid="IwSLzbrxJILr1PRF" class="text-wrapper-25"><img src="assets/us-flag.svg" alt="US" class="landing-flag" /></div>
+<div data-uid="Y5E1X2bpZ56MhmHY" class="text-wrapper-26">React Dev</div>
+<div data-uid="E0zPUX2f36egXQLP" class="container-29"><div data-uid="JZPZxhKdwKNEJxBq" class="text-wrapper-27">Active</div></div>
+<div data-uid="oCx35JsEtB7au8mW" class="text-wrapper-28">$5k</div></div>
+<div data-uid="nkflXpaxgn0EdBMs" class="container-28"><div data-uid="MEAM6OlWiWjX52gX" class="text-wrapper-29">Sarah Lee</div>
+<div data-uid="qotQADgIoNEj5ti7" class="text-wrapper-30"><img src="assets/us-flag.svg" alt="US" class="landing-flag" /></div>
+<div data-uid="GzC2HDpRml6vZxxE" class="text-wrapper-31">Designer</div>
+<div data-uid="TLBWLAZHCgnLQ17t" class="container-30"><div data-uid="b0DG3VteeR0LuUwb" class="text-wrapper-32">KYC</div></div>
+<div data-uid="AevselpIk8zaG9RD" class="text-wrapper-33">$3k</div></div>
+<div data-uid="lPTqku2S3711uyRn" class="container-28"><div data-uid="T6MK80RGnwE5Ys2A" class="text-wrapper-24">Mike Torres</div>
+<div data-uid="qwQdFohTkXLMw07f" class="text-wrapper-25"><img src="assets/us-flag.svg" alt="US" class="landing-flag" /></div>
+<div data-uid="pDJRluDnYC52rxib" class="text-wrapper-34">PM</div>
+<div data-uid="rGYY3kCact1v9eIa" class="container-31"><div data-uid="jg4k5rzSUcjqYS3c" class="text-wrapper-35">Invited</div></div>
+<div data-uid="HlyJ5pHBmyt2FtkL" class="text-wrapper-36">$4k</div></div></div></div></div>
+<div data-uid="WD0MyufZpF3jp8yi" modern-experience-section__labelslass="semodern-experience-section__labelstion"><div data-uid="WiF4uLz3modern-experience-section__labelsSWEMHAD" modern-experience-section__labelslass="text-wrapper-37">modern-experience-section__labelsloudBase</div>
+<div data-uid="FXXVJ8FbSrxgn44Z" modern-experience-section__labelslass="text-wrapper-38">VentureSmodern-experience-section__labelsale</div>
+<div data-uid="NGgBKBXiF7Mo8Eqt" modern-experience-section__labelslass="text-wrapper-39">DataStream</div>
+<div data-uid="eg2duN6WhbO3dBTO" modern-experience-section__labelslass="text-wrapper-40">Nexus modern-experience-section__labelsorp</div>
+<div data-uid="SnfpBBFqbfRaHbrM" modern-experience-section__labelslass="text-wrapper-41">BuildAI</div>
+<div data-uid="5ZrkitUfIyvWntKK" modern-experience-section__labelslass="text-wrapper-42">Temodern-experience-section__labelshflow Inmodern-experience-section__labels.</div>
+<p data-uid="VGJ7zSjBvrU7jbEY" class="text-wrapper-43">Trusted by companies hiring global talent</p></div>
+<div data-uid="nEYRtSq34kIX9zZZ" class="container-32"><div data-uid="dp4fiELzqh7lzhn6" class="platform-features">PLATFORM FEATURES</div>
+<p data-uid="LHIUOStlxes8zIbD" class="everything-you-need">Everything you need to <br data-uid="EfAL6FSCCdlGEOw6">run a global team</p>
+<p data-uid="Ii3kq6U07qoSQxeJ" class="one-platform">One platform replaces 6+ tools — contracts, e-sign, KYC, <br data-uid="AewMQl8ehFuVNvpn">payments, documents, and compliance.</p>
+<div data-uid="ffB322rXRudxfUEb" class="container-33"><div data-uid="fj0inD3DbvIgobGo" class="container-34"><div data-uid="Gvj1pfhALFRpf0Pn" class="container-35"><div data-uid="WmW59NGSi5bfhGzu" class="text-wrapper-44">📄</div></div>
+<div data-uid="gNN85GBhkBcC7zYO" class="text-wrapper-45">Smart contract generation</div>
+<p data-uid="u1B1oQCRLM0qD6g2" class="legally-compliant">Legally compliant contractor agreements auto-<br data-uid="65ao8TFR5lxXCdzq">generated from your inputs. No lawyer needed <br data-uid="hAtKDbJqYsXvbGNK">for standard hires.</p>
+<div data-uid="RPW7A7ftBJjw5mfX" class="container-36"><div data-uid="fEz5cLkaHTQWf7Vm" class="container-37"><div data-uid="5GHkaLPFhHkPIOfn" class="text-wrapper-46">✓</div>
+<p data-uid="gGCZWq9HaesyUNOu" class="fixed-milestone">Fixed, milestone &amp; hourly contracts</p></div>
+<div data-uid="vKAIOKqCCtNRymrM" class="container-37"><div data-uid="dG4bcQHwR6MZqQKL" class="text-wrapper-46">✓</div>
+<p data-uid="FqcKOwdUDZmVIPAA" class="IP-assignment-NDA">IP assignment &amp; NDA clauses</p></div>
+<div data-uid="QxrSpsJX0K56SVGJ" class="container-37"><div data-uid="CBifv0wVQTp62bqi" class="text-wrapper-46">✓</div>
+<div data-uid="HNMkW9rWpI9BvdtO" class="text-wrapper-47">Delaware law jurisdiction (US)</div></div></div></div>
+<div data-uid="80FWAy5gAtsSEks2" class="container-38"><div data-uid="DzOvmQHm6YW2spDC" class="container-39"><div data-uid="u2Q4oigrnaLNKofS" class="text-wrapper-48">✍️</div></div>
+<div data-uid="WaAYrJfdRdGEicuJ" class="text-wrapper-49">DocuSign e-signature</div>
+<p data-uid="F8nxqdPDJxM5baoT" class="both-parties-sign">Both parties sign electronically via DocuSign. <br data-uid="XERCdulzEZ67SBcI">Contractor signs first, then your company <br data-uid="wfDdnN3gXQb9t3cJ">countersigns.</p>
+<div data-uid="JlRXFLGPk7MqrNbC" class="container-36"><div data-uid="USTlUP0uFCRhLtNq" class="container-37"><div data-uid="pwymEP7WaKLtsf9E" class="text-wrapper-46">✓</div>
+<p data-uid="xQG6duv7gk4edtuT" class="text-wrapper-50">Embedded signing — no app download</p></div>
+<div data-uid="vuxmGt7i0Y9xB8Xq" class="container-37"><div data-uid="CW7rlIRVGxHPLHrt" class="text-wrapper-46">✓</div>
+<div data-uid="dVraKMthLcXrh5Gr" class="text-wrapper-51">Dual-party signature tracking</div></div>
+<div data-uid="w0prlUc4pVe8D2Y0" class="container-37"><div data-uid="NYD4CV3iTz1mLDuM" class="text-wrapper-46">✓</div>
+<div data-uid="CyykyI3u5Lh26Hra" class="text-wrapper-52">Instant PDF on completion</div></div></div></div>
+<div data-uid="EEkOTd1QCEb2wqvY" class="container-40"><div data-uid="xmrLZA0UIBjTmZow" class="container-41"><div data-uid="5U0EC7xyyDUB13qt" class="text-wrapper-44">🪪</div></div>
+<div data-uid="VyiZrc6psvwV4P0Y" class="text-wrapper-53">KYC identity verification</div>
+<p data-uid="sq9eQGHgnI44Dl87" class="contractor-uploads">Contractor uploads ID + selfie. Verified within <br data-uid="Rho16VNPFwLI2n9g">24 hours. Payments unlock only after approval.</p>
+<div data-uid="7gi4Ik2jAnQXfiaT" class="container-42"><div data-uid="F3A6T2yzAmzoCysS" class="container-37"><div data-uid="6dZgR0rDv17S8rfp" class="text-wrapper-46">✓</div>
+<div data-uid="7FcfFzwquboQoXp2" class="text-wrapper-54">Passport, license, national ID</div></div>
+<div data-uid="sTMvYy8vCDGWjaZl" class="container-37"><div data-uid="HcvZyxHluNMg9kJU" class="text-wrapper-46">✓</div>
+<div data-uid="aGXIhjUD24ilE0pQ" class="text-wrapper-55">Liveness check via selfie</div></div>
+<div data-uid="YDXk8h6tB0ZXjVSv" class="container-37"><div data-uid="7S5T6jD69j8mCaX1" class="text-wrapper-46">✓</div>
+<div data-uid="Gt74wJWh3bFr4YaQ" class="text-wrapper-56">AES-256 encrypted storage</div></div></div></div>
+<div data-uid="7gIu0q41BjXOsrJg" class="container-43"><div data-uid="CVf2c3vwpsgprTcI" class="container-44"><div data-uid="vMFWKRG62ZgJ6EAs" class="text-wrapper-44">💸</div></div>
+<div data-uid="L7jVZXNhbnDTJTm4" class="text-wrapper-57">Wise global payments</div>
+<p data-uid="GsxHXFqIEhhsct9f" class="after-invoice">After invoice approval, Wise transfers funds in <br data-uid="h5TewrNzQghDCdI3">1–2 business days in the contractor's local <br data-uid="h73szBuR7vcoaRSr">currency.</p>
+<div data-uid="yHETrc14eWXHSI01" class="container-36"><div data-uid="JoDyTLvBsXTPhwLS" class="container-37"><div data-uid="yCnOltrfogGfNTDY" class="text-wrapper-46">✓</div>
+<div data-uid="ZGHpkV7RZS3JmVHr" class="text-wrapper-58">170+ countries supported</div></div>
+<div data-uid="bdhIARZMP52rXqXI" class="container-37"><div data-uid="7CIPQjGBPB6APfSR" class="text-wrapper-46">✓</div>
+<div data-uid="ejYUS3g9eqQ8SMRT" class="text-wrapper-59">Zero hidden fees</div></div>
+<div data-uid="cKeGBRReiQzCaoL4" class="container-37"><div data-uid="83JxGxfl2aHKiiiu" class="text-wrapper-46">✓</div>
+<p data-uid="UxfjnJ2tfNiG4BIK" class="text-wrapper-54">Bank, Wise, or PayPal payout</p></div></div></div>
+<div data-uid="rUjpgIqQVcMKTGu5" class="container-45"><div data-uid="VO9lWwoy30wdulXg" class="container-46"><div data-uid="32BFrkUgP77ojXdb" class="text-wrapper-44">🧾</div></div>
+<div data-uid="FrP8nze5B3eP0NzF" class="text-wrapper-60">Invoice management</div>
+<p data-uid="6tEF4xmemptnBw1O" class="contractors-submit">Contractors submit monthly invoices from their <br data-uid="XwCqRq1O010gvMTj">portal. Approve or dispute with one click.</p>
+<div data-uid="Fn3ufESF1BhaN9TJ" class="container-42"><div data-uid="wggHr8k3vIhzZoG3" class="container-37"><div data-uid="1Bcbl4eD24cegM9m" class="text-wrapper-46">✓</div>
+<div data-uid="9ZKCKsTIoUnHUuDL" class="text-wrapper-61">Contractor self-service portal</div></div>
+<div data-uid="FbVfVCeAtJg2VoMz" class="container-37"><div data-uid="q5U4ZzFDXXNv1lgr" class="text-wrapper-46">✓</div>
+<p data-uid="gkYdZTk90v0gZeFU" class="text-wrapper-62">Approve, dispute, or request changes</p></div>
+<div data-uid="8yPwUc6VOCSE6qD3" class="container-37"><div data-uid="UODMSTCtU4c8cL8A" class="text-wrapper-46">✓</div>
+<div data-uid="ZyUOjUZ1gWyTVVlM" class="text-wrapper-63">PDF receipts auto-generated</div></div></div></div>
+<div data-uid="RACvrBpSO0m8jtiT" class="container-47"><div data-uid="T5PSiJUmaf0l9Wpz" class="container-48"><div data-uid="92ok09PafYHSWMoI" class="text-wrapper-64">⚖️</div></div>
+<div data-uid="fq9ylkn0KjGhWWNq" class="compliance-tax-forms">Compliance &amp; tax forms</div>
+<p data-uid="w7RU0yTjdXVTi9wF" class="w-and-w">W-9 and W-8BEN guidance for US <br data-uid="XGnMwkA13wR5HL3W">engagements. Completion certificates issued <br data-uid="x9SSUBJz6BJ3GGw6">at contract end.</p>
+<div data-uid="YYPQrz8rBPSrO1JV" class="container-36"><div data-uid="l3DTmRmPrFegJ5XH" class="container-37"><div data-uid="8OuYnoHGfP8u4SUX" class="text-wrapper-46">✓</div>
+<p data-uid="VOd166v2MtcNDzTq" class="text-wrapper-65">W-9 / W-8BEN guided collection</p></div>
+<div data-uid="i2U7bs0kqvyyPwyq" class="container-37"><div data-uid="CltD8qbbzCRbuZY6" class="text-wrapper-46">✓</div>
+<div data-uid="34F9MIJWtj9FU6J3" class="text-wrapper-66">Completion certificate on end</div></div>
+<div data-uid="COEVFH5G0Vf6jl56" class="container-37"><div data-uid="d7yBKWCexQvDc8gg" class="text-wrapper-46">✓</div>
+<p data-uid="XUyBdoZyyK9JxjP3" class="tax-calendar">Tax calendar &amp; reminders (add-on)</p></div></div></div></div></div>
+<div data-uid="8kglp1kIL0mM1Qq3" class="tracks"><div data-uid="FrVdVugpwYlKKWpU" class="coverage">COVERAGE</div>
+<div data-uid="H9bJJGkdAiwgWvk9" class="text-wrapper-67">Global hiring, phased rollout</div>
+<p data-uid="S8H0bouS3be1G1kT" class="text-wrapper-68">Starting with US contractors, expanding to India payroll in Q3 2026.</p>
+<div data-uid="086jveyhdfQ0MZnW" class="container-49"><div data-uid="pjTSaCOAGgZIuGdO" class="container-50"><div data-uid="u4vKLvil6Gqkg9H9" class="text-wrapper-69"><img src="assets/us-flag.svg" alt="US" class="landing-flag" /></div>
+<p data-uid="UzHS3GrPXvxZ7ZBk" class="text-wrapper-70">Track 2 — US Contractors</p>
+<div data-uid="pNA2opVZPAhyToxH" class="container-51"><div data-uid="syVg3KS4A8SbYQFH" class="text-wrapper-71">Live now</div></div>
+<p data-uid="foPWg7pThkjQcyn4" class="hire-US-based">Hire US-based independent contractors from any country. Full contract, <br data-uid="YxkeMuCt7Dh5wPOk">KYC, e-sign, and Wise payout pipeline — production ready.</p>
+<div data-uid="jaJqtGFTDCdJfCak" class="container-52"><div data-uid="cEqgoMrpN0MEgdCh" class="container-53"><div data-uid="uP3ewzvZEefhx6wH" class="frame-3"></div>
+<p data-uid="aqoAObqFxCA26FQv" class="text-wrapper-72">USD contracts with DocuSign e-signature</p></div>
+<div data-uid="W8KS8yeXN1Pg7Wwd" class="container-53"><div data-uid="37DmGw07ayVKjd8s" class="frame-3"></div>
+<p data-uid="NnhStxWkEOliphpD" class="text-wrapper-73">W-9 / W-8BEN tax form guidance</p></div>
+<div data-uid="7bJLuBZGP5kyRj6d" class="container-53"><div data-uid="1e4Zh5HB1vCIjNjO" class="frame-3"></div>
+<p data-uid="e2ENUKAZ5PdgeoDJ" class="text-wrapper-74">Wise global payout in 1–2 business days</p></div>
+<div data-uid="aoOFGDgbsiU7SKBU" class="container-53"><div data-uid="XreuKche14UDyrTG" class="frame-3"></div>
+<div data-uid="St148CcXRCOjUiig" class="text-wrapper-75">KYC identity verification</div></div>
+<div data-uid="TPC1Bd7aB889ZtPu" class="container-53"><div data-uid="6syazkEs6zwAfHvJ" class="frame-3"></div>
+<p data-uid="t8oZpHApFNwfxUvX" class="text-wrapper-76">Completion certificate at contract end</p></div></div></div>
+<div data-uid="MwoGP5mKmcK45eAf" class="container-54"><div data-uid="ykbKage3jcPnXpoN" class="text-wrapper-69"><img src="assets/in-flag.svg" alt="IN" class="landing-flag" /></div>
+<p data-uid="4jw61s6dI7t5K2A6" class="text-wrapper-77">Track 1 — India Payroll</p>
+<div data-uid="kzaip50i1Dl5HkHA" class="container-55"><div data-uid="3rZrNsJREVqregHk" class="text-wrapper-78">Coming Q3 2026</div></div>
+<p data-uid="gD7cK5NKNiVZ3vN1" class="full-india-statutory">Full India statutory payroll with TDS, PF, ESI, and Form 16. For Indian <br data-uid="xF2G9xrdLQmI3lWg">employees hired by foreign companies.</p>
+<div data-uid="0HA6OG2YUDG4kIxH" class="container-56"><div data-uid="e0x3gSE9Faw6nRYp" class="container-53"><div data-uid="iOp8muu8b0hgTPzC" class="frame-3"></div>
+<p data-uid="sq5OgGQbPVMyYTor" class="text-wrapper-79">INR payroll with TDS deduction</p></div>
+<div data-uid="2dAsHwRT97TnL8HD" class="container-53"><div data-uid="mLx6bV68wK0Ocixr" class="frame-3"></div>
+<div data-uid="LeneCG2s00DZEtes" class="PF-ESI-compliance">PF &amp; ESI compliance</div></div>
+<div data-uid="2VCe5OdrmQ1c1UQF" class="container-53"><div data-uid="Cpd5qh2MfrErpyHz" class="frame-3"></div>
+<div data-uid="FR68PKd4gzP8XGJ4" class="text-wrapper-80">Form 16 auto-generation</div></div>
+<div data-uid="Gty066Y1h3mQCg6u" class="container-53"><div data-uid="TC8BOx5prs7CfOnr" class="frame-3"></div>
+<p data-uid="C939QAIMmZO2WDoV" class="india-banking-UPI">India banking &amp; UPI integration</p></div></div></div></div></div>
+<div data-uid="eXJ3RyxKrqcZRud7" class="frame-4"><div data-uid="MPWmQWwlieVeVSpU" class="container-57"><div data-uid="aLY5g5qhVPOptS0M" class="how-it-works">HOW IT WORKS</div>
+<div data-uid="JSfUGjEvr9gQF9Xk" class="group"><div data-uid="vXaAcE0BDwWFPYtP" class="text-wrapper-81">Hire a global contractor</div>
+<div data-uid="MZLr75GriGAX1qIj" class="text-wrapper-82">in under 10 minutes</div></div>
+<p data-uid="YY9fVBqRPubgg8nW" class="no-lawyers-no">No lawyers, no paperwork, no back-and-forth. Dechub handles the <br data-uid="cRnZvOCx4AASK8xn">entire lifecycle.</p></div>
+<div data-uid="uoJTUzDtHQNlFcm3" class="component-3"><img data-uid="w34iod9dMuWnEnNJ" class="vector-3" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-11.svg">
+<img data-uid="CuDGwZKpgumlkRkp" class="vector-4" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-4.svg">
+<img data-uid="QAoNTCP4sAGAmExT" class="vector-5" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-5.svg"></div>
+<div data-uid="iDdTwYjv0v2PKw5l" class="container-58"><p data-uid="CEBfr87hcGLRBhag" class="contractor-submits">Contractor submits an invoice. You approve&nbsp;&nbsp;with one click. Wise processes payment in 1– 2 business days.</p>
+<p data-uid="FvK4cfV9IH2NVa3E" class="they-receive-an">They receive an invite email, complete KYC, <br data-uid="iAmHOKinAfrKkuz6">add bank details, and sign via DocuSign — <br data-uid="75C5JG6TrahvIol0">fully guided.</p>
+<p data-uid="u7GoUgD1xP88cblP" class="enter-their-details">Enter their details, choose services, set pay <br data-uid="epRxXJmmQIyZ3OcH">rate and start date. Dechub generates the <br data-uid="yGv1hbHnSmlMrdqp">contract automatically.</p>
+<div data-uid="e0tZYcz5Iix5PYvT" class="text-wrapper-83">Pay every month</div>
+<div data-uid="sHtL2MPXw5MF40jm" class="text-wrapper-84">Contractor onboards</div>
+<div data-uid="lHrQW1mBGLPJLtbZ" class="text-wrapper-85">Add a contractor</div>
+<div data-uid="ZiqID6AsIFRbeV03" class="text-wrapper-86">💸</div>
+<div data-uid="s4eue7VDQnq4B7vU" class="text-wrapper-87">✍️</div>
+<div data-uid="deYoBM0CKuM2ceea" class="text-wrapper-88">➕</div>
+<div data-uid="niHSORWztwWRsww5" class="container-59"><div data-uid="yuhqaJm4lGBCfMZF" class="text-wrapper-89">3</div></div>
+<div data-uid="fScAF2ms0DUH4RBp" class="container-60"><div data-uid="lXQc6FlLnLAWOhug" class="text-wrapper-90">Invoice approval</div>
+<div data-uid="xmBSYVrKeqnHacIM" class="text-wrapper-91">Wise payout</div>
+<div data-uid="YM42Hb7Wm81eE7u7" class="text-wrapper-92">Auto receipts</div></div>
+<div data-uid="0pA656NS6VJSoDon" class="container-61"><div data-uid="UMaRjVIIA5WnhlDD" class="text-wrapper-93">2</div></div>
+<div data-uid="GpVIuyKScKvgF67X" class="container-62"><div data-uid="8Q6zoAkd0Bzcr2kO" class="text-wrapper-94">KYC verification</div>
+<div data-uid="fgMX6833OqUGFo9z" class="text-wrapper-95">DocuSign e-sign</div>
+<div data-uid="3dMl6idfEkmh0rso" class="text-wrapper-96">Wise / bank setup</div></div>
+<div data-uid="NiWQZ6jr3oU1Rt2G" class="container-63"><div data-uid="PYKGw7nKO18qGj3r" class="text-wrapper-97">1</div></div>
+<div data-uid="XaFQUVeXKKUDlXUc" class="container-64"><div data-uid="Shh2yizPyquA7Il9" class="text-wrapper-98">Contract generation</div>
+<div data-uid="7kMHqfxT4POmEyZU" class="text-wrapper-99">Service selection</div>
+<div data-uid="k8h2hak78CnyziHS" class="text-wrapper-100">Legal templates</div></div></div>
+<div data-uid="YgulwowpzbwV9J1z" class="frame-2"></div></div>
+<!-- <div data-uid="QjPaqSVYoFbFd1Ml" class="component-4"></div> -->
+<div data-uid="f7lxc9UZxfqqehFt" class="container-65"><div data-uid="dvF7Wb9ueCMd1FiQ" class="container-66"></div>
+<p data-uid="xWWFuxTK9UtZTTpE" class="join-companies">Join companies hiring smarter with Dechub. Set up in 10 <br data-uid="6sXt4hkIathJlaeM">minutes, no credit card required.</p>
+<div data-uid="fb8LL2LoeIbakzpv" class="text-wrapper-101">Ready to hire your</div>
+<div data-uid="jbePG26ORMKtlCIb" class="text-wrapper-102">first global contractor?</div>
+<div data-uid="OOzDp3VDWftjEwwP" class="container-67"><div data-uid="GLWlErcJtjyA2KP4" class="button"><p data-uid="A1XR1amVm66fmBtG" class="text-wrapper-103">Get started for free →</p></div>
+<button data-uid="8nNwqWO9lQ8rrWMq" class="button-2"><div data-uid="PU4MtgBoZaLBvk4E" class="text-wrapper-104">Book a demo</div></button></div></div>
+<div data-uid="r2Fb680I1YVTHqEI" class="pricing"><div data-uid="RrrvcGC2KqAahfpD" class="simple-pricing">SIMPLE PRICING</div>
+<div data-uid="ESPbiikg7eLZvoZE" class="text-wrapper-105">One price. No surprises.</div>
+<p data-uid="M86b6J92B0LdCAF9" class="pay-per-active">Pay per active worker. No setup fee, no annual commitment, no <br data-uid="A0PcEln06QkFR1QY">hidden charges.</p>
+<div data-uid="8SFlNupkYzZwMlv5" class="container-68"><div data-uid="XxkSGsGBjMNYZUH2" class="container-69"><div data-uid="NRfeixwUY4lhjz53" class="text-wrapper-106">$</div>
+<div data-uid="pKAJZ0VYENeRBDzO" class="text-wrapper-107">49</div>
+<div data-uid="JGJ7JTI6iiFpF2AJ" class="text-wrapper-108">/worker/month</div></div>
+<p data-uid="kdPVVZ0dRQ0CgZbx" class="text-wrapper-109">Billed monthly per active worker. Add or remove workers anytime.</p>
+<div data-uid="63jhYcAjxXBDS1fl" class="container-70"><div data-uid="hE4LfsUnp3DaiaiD" class="container-71"><div data-uid="lVovDP2Gtkvu6O6m" class="text-wrapper-110">✓</div>
+<div data-uid="dSfAq5MfZ2wcTbPE" class="contract-generation">Contract generation &amp; PDF</div></div>
+<div data-uid="6ov0GKSJvWpUZsPX" class="container-71"><div data-uid="i9e6sXOsGPbunBY2" class="text-wrapper-110">✓</div>
+<div data-uid="kE0C8TgvQDv9B8wt" class="text-wrapper-111">DocuSign e-signature (both parties)</div></div>
+<div data-uid="gR6g2IpfiOJDf4RO" class="container-71"><div data-uid="QuJCZ7RivbxdwNNV" class="text-wrapper-110">✓</div>
+<div data-uid="F29YC5YNHcEmiqbI" class="text-wrapper-112">KYC identity verification ($1.50/check)</div></div>
+<div data-uid="KdEs27CNB0LHK2T4" class="container-71"><div data-uid="kF8Ztadega6zUpdq" class="text-wrapper-110">✓</div>
+<p data-uid="rDHUX2zOlx6Dmwws" class="invoice-management">Invoice management &amp; approval flow</p></div>
+<div data-uid="ty1Ccx8bTHX9NMom" class="container-71"><div data-uid="JMQkbjtiRjhNFay4" class="text-wrapper-110">✓</div>
+<div data-uid="KxSAGpTIS7WPSXdD" class="text-wrapper-113">Wise payment processing</div></div>
+<div data-uid="e1SLaZJAQipAkKtb" class="container-71"><div data-uid="Idq0eTNOrb9czjVK" class="text-wrapper-110">✓</div>
+<div data-uid="D3smL3B0ZafspO9r" class="text-wrapper-114">AES-256 encrypted document storage</div></div>
+<div data-uid="LCdImhZwNPdilY0S" class="container-71"><div data-uid="nCii8OEkkCHZWljC" class="text-wrapper-110">✓</div>
+<div data-uid="1qqWU9X16fAnpcvh" class="text-wrapper-115">Completion certificate</div></div></div>
+<div data-uid="9nnA7daOVBupwing" class="button-3"><p data-uid="dMRSo3JwVgDampJo" class="text-wrapper-116">Start free — first contractor on us →</p></div>
+<p data-uid="AtruAKwcN1Q8j5gO" class="optional-add-ons">Optional add-ons: Compliance advisory +$5/mo · HRMS +$5/mo (coming <br data-uid="ow7MO520U8TfijQL">soon)</p></div></div>
+<div data-uid="yFz6f9Oj1GtgFhTG" class="container-72"><div data-uid="PBtJ1Bo0A4YDUn2M" class="container-73"><div data-uid="JTxRdRr7L63MHSz5" class="container-74"><p data-uid="C9hgkbTnJIwj72qv" class="global-HR-payroll">Global HR, payroll &amp; contractor <br data-uid="Ud663c82DHB4sKw7">management. Built in Bengaluru, used <br data-uid="UpZaCYtLuWNvSbwg">worldwide.</p>
+<div data-uid="B9y7bZVM4EU1fj9I" class="container-75"><div data-uid="P3GWdTFA3vf0lFQh" class="div-wrapper-2"><div data-uid="08YXXzKAFqN8LyoB" class="text-wrapper-117">𝕏</div></div>
+<div data-uid="c9KaYPjVroShXVud" class="div-wrapper-2"><div data-uid="zjF3BQsUVGfbQoRz" class="text-wrapper-118">in</div></div>
+<div data-uid="wba9MDgJYREgXsZK" class="div-wrapper-2"><div data-uid="aoBhehKwd1BKgw0r" class="text-wrapper-119">⌥</div></div></div></div>
+<div data-uid="GO2JPfbInMFv6H48" class="container-76"><div data-uid="Whe3tDFX1sGjPISq" class="product">PRODUCT</div>
+<div data-uid="0VhPR4U2Mkx36ayO" class="text-wrapper-120">Features</div>
+<div data-uid="rvg52pkxGP0zkrmX" class="text-wrapper-121">How it works</div>
+<div data-uid="qzq9Pq6Cwua7fnuk" class="text-wrapper-122">Pricing</div>
+<div data-uid="oZj3CP399fp2KrcP" class="text-wrapper-123">Coverage</div>
+<div data-uid="fAoHi3x0lmTYKR1F" class="what-s-new">What's new</div></div>
+<div data-uid="eIzMoBAVFGqyuIpH" class="container-76"><div data-uid="W0oAInvQ2QERl3RG" class="company">COMPANY</div>
+<div data-uid="m1kMvz30UgOV5ano" class="text-wrapper-124">About us</div>
+<div data-uid="Y6kZ51lolMTlK5z0" class="text-wrapper-125">Blog</div>
+<div data-uid="KedBa9Xc9lDiAhCi" class="text-wrapper-126">Careers</div>
+<div data-uid="MbVaKjck7r6znLGz" class="text-wrapper-127">Press</div>
+<div data-uid="7LuKuiO2boymHixX" class="text-wrapper-128">Contact</div></div>
+<div data-uid="yfdz7UUBY70FccoG" class="container-76"><div data-uid="2dbHouE2kCcHirT8" class="resources">RESOURCES</div>
+<div data-uid="BS31Rll7QZT1dCxe" class="text-wrapper-129">Documentation</div>
+<div data-uid="mH9KZRUZt7ahS0Rh" class="text-wrapper-130">API reference</div>
+<div data-uid="gRPY4jdHjqRqsOTK" class="text-wrapper-131">Hiring guides</div>
+<div data-uid="GtzCoPdL5gu36IS2" class="text-wrapper-128">Support</div>
+<div data-uid="eEOBhs1xqcmGZbNP" class="text-wrapper-132">Status</div></div>
+<div data-uid="alkXfTK0O5n9bkPI" class="container-76"><div data-uid="FE1BfsEB4EvcC15u" class="legal">LEGAL</div>
+<div data-uid="JApPyQBTW7rBLCIP" class="text-wrapper-133">Privacy policy</div>
+<div data-uid="PM1KVcAGSamvS8BT" class="text-wrapper-134">Terms of service</div>
+<div data-uid="pcpNIXaSQImYovsV" class="text-wrapper-135">Cookie policy</div>
+<div data-uid="pbJRiP0tRtP8rHZi" class="text-wrapper-136">Compliance</div></div></div>
+<div data-uid="t21lc5dyr5KE406N" class="container-77"><p data-uid="FnE5h9j7f0xCVTKe" class="text-wrapper-137">© 2026 Dechub Pvt. Ltd. · Bengaluru, India</p>
+<div data-uid="qn8v8xxDsYxmOF7h" class="container-78"><div data-uid="yhLznAjTwJ9PEU0w" class="text-wrapper-138">Privacy</div>
+<div data-uid="iTcOgmE8kagoX5jY" class="text-wrapper-139">Terms</div>
+<div data-uid="fAQmLp93h8MiSp84" class="text-wrapper-140">Cookies</div></div></div>
+<img data-uid="CajhBqKQJdEaQ8Xa" class="image-2" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/image-27-2.png"></div>
+<p data-uid="IKsAlAeW6segnBjV" class="trusted-by">TRUSTED BY 40,000+ COMPANIES FROM STARTUPS TO ENTERPRISE</p>
+<div data-uid="GSmbZEpJZcI71aTa" class="text-wrapper-141">For contractors</div>
+<div data-uid="dGAOBnE49Y1JnBJ5" class="text-wrapper-142">For businesses</div>
+<div data-uid="VXYguLc4jSr8v2bk" class="text-wrapper-143">Set up your workspace</div>
+<img data-uid="xJPOImxEN7rR7LxE" class="next-page" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/next-page-3.png">
+<div data-uid="H49d01feWSM1Irvh" class="text-wrapper-144">Start Earning Globally</div>
+<div data-uid="70LlkBFdSFOrOLEa" class="built-for-both-sides">BUILT FOR BOTH SIDES</div>
+<div data-uid="g3yManOD8lDjQIXn" class="built-for-both-sides">BUILT FOR BOTH SIDES</div>
+<p data-uid="AxLLPCujJ3GFGT6m" class="text-wrapper-145">Two roles. One seamless system.</p>
+<p data-uid="jZCYq7kAJsy2JLKq" class="text-wrapper-145">Two roles. One seamless system.</p>
+<p data-uid="2hDwlyddrbkboozn" class="text-wrapper-146">DecHub bridges the gap between the businesses that hire and the professionals who deliver — no back-and-forth, no paperwork pile-ups.</p>
+<p data-uid="ZTgJWU0FTq4Zj16U" class="text-wrapper-146">DecHub bridges the gap between the businesses that hire and the professionals who deliver — no back-and-forth, no paperwork pile-ups.</p>
+<div data-uid="W5DV25hSVaIX17oo" class="rectangle"></div>
+<p data-uid="i2tge1L3yb8YPdq2" class="do-the-work-you-love">Do the work you love.<br data-uid="PF5PFCg05mNA3gQt">Get paid without the wait.</p>
+<p data-uid="9fg4KorCcWySr0EU" class="do-the-work-you-love">Do the work you love.<br data-uid="uiQP7TgfdwMK2BHp">Get paid without the wait.</p>
+<p data-uid="ZnFjWFfaxjH200eq" class="build-your-remote">Build your remote team.<br data-uid="qSBzXmZoiKgTy1p9">Skip the compliance chaos.</p>
+<img data-uid="0X7zL6KDwRTuzBmx" class="rectangle-2" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/rectangle-45.svg">
+<p data-uid="xIvk1rXKkcBCuU7d" class="text-wrapper-147">Onboard contractors across borders, issue contracts in minutes, and trigger payments automatically — no legal team or finance ops required.</p>
+<p data-uid="qWDz1haUhqNoYVii" class="text-wrapper-147">Onboard contractors across borders, issue contracts in minutes, and trigger payments automatically — no legal team or finance ops required.</p>
+<p data-uid="fLD0h23Fi76fTB2Q" class="text-wrapper-148">Accept a project invite, sign digitally, submit your invoice, and receive payment to your local account — wherever you are in the world.</p>
+<p data-uid="FcM5P0ZT5jkb5gsz" class="text-wrapper-148">Accept a project invite, sign digitally, submit your invoice, and receive payment to your local account — wherever you are in the world.</p>
+<ul data-uid="KobePskg896RQgxN" class="email-invite-to-join">
+  <li><span data-uid="wVNJNnr3IYOAeb3a" class="text-wrapper-149">Email invite to join — no account creation needed upfront</span></li>
+  <li><span data-uid="xj6nojrqf2kK7r2G" class="text-wrapper-149">5-step mobile-first profile and onboarding flow</span></li>
+  <li><span data-uid="a59mqY4QLy6jhTuG" class="text-wrapper-149">Raise invoices and watch payment status in real time</span></li>
+  <li><span data-uid="YVOeQfFyhMm0adWy" class="text-wrapper-149">Paid in your currency across 170+ countries via Wise</span></li>
+  <li><a data-uid="dGscyS6Lu5SBkGXe" href="#" target="_blank" rel="noopener noreferrer"><span data-uid="jTzgibN4or1JPNXJ" class="text-wrapper-150">Start earning globally</span></a></li>
+</ul>
+
+<ul data-uid="CNlyD4LHesTo49UD" class="email-invite-to-join">
+  <li><span data-uid="kAFUloYXVp0YX65G" class="text-wrapper-149">Email invite to join — no account creation needed upfront</span></li>
+  <li><span data-uid="gvogvuKCQiJE5YCI" class="text-wrapper-149">5-step mobile-first profile and onboarding flow</span></li>
+  <li><span data-uid="PAQuK3JWYrJv4kPa" class="text-wrapper-149">Raise invoices and watch payment status in real time</span></li>
+  <li><span data-uid="KBPLWzNxnfcVGVCZ" class="text-wrapper-149">Paid in your currency across 170+ countries via Wise</span></li>
+  <li><a data-uid="fB7JOfHwE7R1EQXE" href="#" target="_blank" rel="noopener noreferrer"><span data-uid="SNAlI3tg2k7EG7Hy" class="text-wrapper-150">Start earning globally</span></a></li>
+</ul>
+
+<ul data-uid="9448CH0ysjbxvJpP" class="live-dashboard-track">
+  <li>Live dashboard — track every contractor and contract status</li>
+  <li>Auto-generated compliant contracts, ready to sign</li>
+  <li>One-click invoice approval with instant Wise payout</li>
+  <li>All documents in one place — contracts, KYC, invoices</li>
+</ul>
+
+<ul data-uid="mz6Bfb3ESCw25Op5" class="live-dashboard-track">
+  <li>Live dashboard — track every contractor and contract status</li>
+  <li>Auto-generated compliant contracts, ready to sign</li>
+  <li>One-click invoice approval with instant Wise payout</li>
+  <li>All documents in one place — contracts, KYC, invoices</li>
+</ul>
+<div data-uid="FuEwDDHJZ267lMfC" class="rectangle-3"></div>
+<div data-uid="6RV56RstwlE2N8yg" class="rectangle-4"></div>
+<img data-uid="MvLQl9codQLqi1PN" class="next-page-2" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/next-page-2.png">
+<div data-uid="oC8clsxSZ8H83d2A" class="text-wrapper-143">Set up your workspace</div>
+<img data-uid="yVTqNTX5nDYAPOk6" class="next-page-2" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/next-page-2.png">
+<img data-uid="cmwY25JfR8o15Jw8" class="rectangle-5" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/rectangle-45.svg">
+<div data-uid="2DBPeZq0WMX1znxP" class="text-wrapper-142">For businesses</div>
+<div data-uid="KJqULocQVzBDCB3p" class="text-wrapper-141">For contractors</div>
+<div data-uid="TXtah0Lz4ukYKiox" class="text-wrapper-144">Start Earning Globally</div>
+<img data-uid="YY043xBymnAci4zk" class="next-page" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/next-page-2.png">
+<div data-uid="2OTG2SZPMMOGt9ZM" class="frame-5"><div data-uid="0DgiVu5Y92aJR7HJ" class="text-wrapper-151">TESTIMONIALS</div>
+<div data-uid="3caVxypTUgo0iqJb" class="frame-6"><div data-uid="5Z840rhHDeMRirlB" class="text-wrapper-152">Our Customer Reviews</div>
+<p data-uid="rSeJgfZLkCmJJz0G" class="discover-the">Discover the insights from customers regarding their<br data-uid="6ixQZwqA8i0utH5c">experiences with Dechub.</p></div></div>
+<div data-uid="GQl2cfgvvsSTJMSB" class="revolut-logo"><div data-uid="3rR622JiqgSASxeu" class="component-5"></div></div>
+<p data-uid="cKfHGM3XW0leVRR4" class="see-how-the-revolut">See how the Revolut team has hired 150+ workers and<br data-uid="Qjmottd8nBGEZ87H">relocated 10+ people through Deel.</p>
+<div data-uid="SPuc9NjwhrVXqMlL" class="frame-7"><a data-uid="YLEr43zXCZbvMj5h" href="https://www.deel.com/case-studies/revolut/" target="_blank" rel="noopener noreferrer"></a><p data-uid="uNl6pTcjLEWtkWfk" class="learn-more"><a data-uid="YLEr43zXCZbvMj5h" href="https://www.deel.com/case-studies/revolut/" target="_blank" rel="noopener noreferrer"></a><a data-uid="VbC4P8ZVRnYc3EDP" href="https://www.deel.com/case-studies/revolut/" target="_blank" rel="noopener noreferrer"><span data-uid="BHg7dyb5tYsgfG1h" class="text-wrapper-153">Learn more</span></a></p>
+<img data-uid="btI6DW98qvmrUuz7" class="component-6" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1-2.svg"></div>
+<div data-uid="tBZEdNByLGCKzWKz" class="component-wrapper"><img data-uid="fgUPXPErSpcqcRQ0" class="component-7" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1.svg"></div>
+<div data-uid="uTE4JhPaHWqCZlgz" class="element-wrapper"><div data-uid="sHXrOEwrxYXuSM10" class="element"><div data-uid="410HerzHFcDIR3Sc" class="play-video"><img data-uid="WxPSqqMuvx8ekqCT" class="component-8" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1.svg"></div></div></div>
+<div data-uid="EEy9YO22yCYjK4Dx" class="div-w-full"><div data-uid="PHIjWMUPd6Unwyqx" class="div-w-fit"><div data-uid="706eOsokGEuiZWT3" class="logo"></div></div>
+<div data-uid="UJPRjFrtWSZfScNX" class="div-w-full-2"><div data-uid="P5WBNAyhzJaHE65I" class="p-m"><p data-uid="x5uw4R4W34AX5GrA" class="text-wrapper-154">By embedding Deel into their platform, Cocorocoautomated every hire, contract, and payment through asingle, fully branded experience. Check out more on how Deel’s become the perfect product partner for Cocoroco.</p></div>
+<div data-uid="h7JZGFddaoSfbPFz" class="div-3"><div data-uid="o9QLM32BB5aVmx9y" class="www-deel-com-case"><div data-uid="ah0BHDx3Ue4QpuNp" class="span-mui"><a data-uid="9YfSfBhSKYc3gyEL" href="https://www.deel.com/case-studies/cocoroco/" target="_blank" rel="noopener noreferrer"><div data-uid="i3VEkCl2Me0grqvG" class="text-wrapper-155">Learn more</div></a>
+<div data-uid="y0EW9WWc6SKd0zG9" class="div-cta-icon"><img data-uid="mzI8XclkxZlS45k6" class="component-9" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1-2.svg"></div></div></div></div></div></div>
+<p data-uid="AYoqrBozNKROQDN2" class="text-wrapper-156">By embedding Deel into their platform, Cocorocoautomated every hire, contract, and payment through asingle, fully branded experience. Check out more on how Deel’s become the perfect product partner for Cocoroco.</p>
+<img data-uid="EsY9Fdo7JtYhjFQI" class="frame-8" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/frame-2147224578.svg">
+<div data-uid="BXbFlZd7YGT5MlSp" class="img-wrapper"><img data-uid="IV3pG81lKJTC3luy" class="component-7" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1.svg"></div>
+<div data-uid="tnnxErhE55BtQVhn" class="frame-9"><img data-uid="ndxrNGTRioCt7Kq2" class="component-10" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1.svg"></div>
+<div data-uid="wbHz6NPFV90xtIKp" class="frame-10"><img data-uid="o3Ik77J94z5PGleG" class="image-3" src="./back_img.png">
+<img data-uid="heroLaptopAsset" class="hero-laptop" src="./laptop.png">
+<div data-uid="EwLVmVkDpxqNlUnG" class="group-2"><div data-uid="ctyiVk0Lnp0QBnUL" class="component-11"><img data-uid="VZ8CGtZ3uEAzwx7S" class="vector-7" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-10.svg">
+<img data-uid="sQs6D2PaIDEAaHuP" class="vector-8" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-6.svg">
+<img data-uid="lsMhMTzejuaDwPhg" class="vector-9" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector.svg"></div>
+<!-- <img data-uid="NDcZxTbBC8zLPdcg" class="noise-texture" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/noise---texture.png"> -->
+<div data-uid="pPWsMRR8HqcoSV4N" class="rectangle-6"></div></div>
+<div data-uid="oS4DYtmmko6gmSN6" class="button-4"><p data-uid="1ANXJxLkUlkLj3N3" class="text-wrapper-157">Book a Demo</p></div>
+<div data-uid="98ftutCJVuzYhsju" class="button-5"></div>
+<p data-uid="6iJ5q7Fr8hFQsP8Q" class="now-live-track-US">🌏 NOW LIVE — TRACK 2 US CONTRACTORS</p>
+<div data-uid="AuB3KYl0loDPMnHc" class="h"><div data-uid="QxdlcvuFT2E5Ao5m" class="hire-pay-manage">Hire, Pay &amp; Manage</div>
+<img data-uid="4vI55LXSCxqQzjK2" class="global-contractors" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/global-contractors.svg">
+<div data-uid="VElckwnoJgZyzynm" class="text-wrapper-158">without the chaos.</div>
+<p data-uid="IuDyAP9UTtNHlQPz" class="text-wrapper-159">Dechub is the all-in-one platform to onboard US contractors, generate contracts, collect e-signatures, and process payments via Wise — all from one dashboard.</p></div>
+<div data-uid="2wfov8gp0l4KSewH" class="container-79"><img data-uid="gdXzB8SiZAgQ88aL" class="image-5" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/image-27-2.png">
+<div data-uid="XViHkBgUSwfewvTw" class="navbar"><div data-uid="CKjTRCrc2tYMfyeg" class="text-wrapper-160">Solutions</div>
+<div data-uid="pf2LyUG9Iq2WNl4F" class="text-wrapper-160">How it works</div>
+<div data-uid="hyqeqK0MXHXnkT9h" class="text-wrapper-160">Who it’s for</div>
+<div data-uid="bEmNXM0eoTgGHWht" class="text-wrapper-160">Covergae</div>
+<div data-uid="UkkpApCEai9AYiVr" class="text-wrapper-160">Pricing</div>
+<div data-uid="AAsRUWCjhUf6dTLx" class="frame-11"><div data-uid="W5gpipOqhex1VnRo" class="frame-12"><div data-uid="d5M2KxfQ0Cd6tqMh" class="text-wrapper-161">Marketplace</div></div>
+<div data-uid="nvYEz0NvOOFegVmL" class="frame-13"><div data-uid="ah3NPVC6bhpWgpvS" class="text-wrapper-162">Get Started</div></div></div></div></div>
+<form data-uid="PnihU659gW1eONzR" class="form-search-form" action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer"><input data-uid="Cx34RjxcSo4yYD1H" class="input-long" type="search" name="q" placeholder="Search for any service..." aria-label="Search for any service">
+<button data-uid="wuswZ2yiqNptO1SN" class="div-submit-button-wrapper" type="submit" aria-label="Search"><span data-uid="b7d6d7YFCJSUvBGy" class="div-submit-button"><img data-uid="7NcQoMoIBcQVCwm1" class="component-12" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/component-1-5.svg"></span></button></form>
+<div data-uid="serviceChipRow" class="service-chip-row">
+<div data-uid="vDuWMIPVFf11Amqa" class="a"><div data-uid="p6EjCbx5RtG8d19J" class="div-4"><div data-uid="xTK6tuILGF64yz4j" class="p-erink"><a data-uid="uvwZ6wu72lLopAA6" href="https://www.fiverr.com/categories/graphics-design/architectural-design-services" target="_blank" rel="noopener noreferrer"><div data-uid="McjkPpod9COrNUFO" class="text-wrapper-164">Full-Stack Developer</div></a></div>
+<div data-uid="jbKKSNDtXYX2Rn9W" class="vector-wrapper"><img data-uid="h9MS44V4IhlWiQqQ" class="vector-10" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-7.svg"></div></div></div>
+<div data-uid="qOWZUJ8v4t1V5BRM" class="a-erinr"><div data-uid="YgZogK7n8Ss9VrCL" class="div-5"><div data-uid="6bgT6A3gJ9PaEhCu" class="p-2"><div data-uid="k1D8J6o8mp9htsGg" class="text-wrapper-164">Graphic Designer</div></div>
+<div data-uid="ZTUF9KBNYVkypfJD" class="vector-wrapper"><img data-uid="PXU2uOMojGCODUSw" class="vector-10" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-7.svg"></div></div></div>
+<div data-uid="qlS5nOMQkWqG1wvp" class="div-gwtp-wrapper"><div data-uid="ch56JCUVf0Pr40Ps" class="div-6"><div data-uid="c86DaoBKP1tpG3i6" class="p-2"><div data-uid="IEtFgc9BUHHM0mVh" class="text-wrapper-164">Front-End Developer</div></div>
+<div data-uid="tv3X3JEGEnCuHxOg" class="vector-wrapper"><img data-uid="hOoERoZh2TrbE6uS" class="vector-10" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/vector-7.svg"></div></div></div>
+</div>
+<!-- <img data-uid="nXCOqsUPLkzlTVcb" class="image-6" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/image-27-2.png"></div> -->
+<div data-uid="Aiek5RSpHAvOatOe" class="container-80"></div>
+<div data-uid="heroTrustNote" class="hero-trust-note"><img data-uid="GmQp9MJdhaZRX2Da" class="svg" src="https://c.animaapp.com/mpdmfpod17G5Pz/img/svg.svg">
+<p data-uid="UlWkNdcnmO6cJL9V" class="text-wrapper-165">No credit card · No setup fee · Cancel anytime</p></div>
+</div>
+
+</body></html>

@@ -1,0 +1,1162 @@
+{
+  "generatedAt": "2026-07-27T23:08:22.520Z",
+  "downloadedAssetCount": 231,
+  "downloadedAssetsThisRun": [
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/searchIndex-seGWyFx6BTMN.json",
+      "localPath": "assets/json/searchIndex-seGWyFx6BTMN.json",
+      "bytes": 38666
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/searchIndex-8Vn9AbffB7ry.json",
+      "localPath": "assets/json/searchIndex-8Vn9AbffB7ry.json",
+      "bytes": 38666
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/TSWicQDwdTtpZMobHjvdYZDYi4.svg",
+      "localPath": "assets/svg/TSWicQDwdTtpZMobHjvdYZDYi4.svg",
+      "bytes": 504
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/XvqfvsdQvanMXHXeQWC84y5o.svg",
+      "localPath": "assets/svg/XvqfvsdQvanMXHXeQWC84y5o.svg",
+      "bytes": 504
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/asqzOfZ3IGp8InHlE5GhuAEz5E.png",
+      "localPath": "assets/images/asqzOfZ3IGp8InHlE5GhuAEz5E.png",
+      "bytes": 1168
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/dRFhKiULpMKlJDirqgajwjhFzgU.png",
+      "localPath": "assets/images/dRFhKiULpMKlJDirqgajwjhFzgU.png",
+      "bytes": 4159
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZEOqTSkLBP.woff2",
+      "localPath": "assets/fonts/KFOhCnGXkPOLlhx6jD8_b1ZEOqTSkLBP.woff2",
+      "bytes": 21240
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZEOsjSkLBP.woff2",
+      "localPath": "assets/fonts/KFOhCnGXkPOLlhx6jD8_b1ZEOsjSkLBP.woff2",
+      "bytes": 4852
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkA.woff2",
+      "localPath": "assets/fonts/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkA.woff2",
+      "bytes": 23928
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "bytes": 3020
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "bytes": 14112
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "bytes": 25224
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "localPath": "assets/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "bytes": 8896
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "localPath": "assets/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "bytes": 7116
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "localPath": "assets/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "bytes": 4504
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "localPath": "assets/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "bytes": 6652
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "localPath": "assets/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "bytes": 25348
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "localPath": "assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "bytes": 27380
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "localPath": "assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "bytes": 4168
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "localPath": "assets/fonts/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "bytes": 8892
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "localPath": "assets/fonts/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "bytes": 7080
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "localPath": "assets/fonts/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "bytes": 4628
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "localPath": "assets/fonts/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "bytes": 6672
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "localPath": "assets/fonts/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "bytes": 26076
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "localPath": "assets/fonts/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "bytes": 27900
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "localPath": "assets/fonts/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "bytes": 4268
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/ePuN3mCjzajIHnyCdvKBFiZkyY0.woff2",
+      "localPath": "assets/fonts/ePuN3mCjzajIHnyCdvKBFiZkyY0.woff2",
+      "bytes": 8820
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/V3j1L0o5vPFKe26Sw4HcpXCfHo.woff2",
+      "localPath": "assets/fonts/V3j1L0o5vPFKe26Sw4HcpXCfHo.woff2",
+      "bytes": 7052
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/F3kdpd2N0cToWV5huaZjjgM.woff2",
+      "localPath": "assets/fonts/F3kdpd2N0cToWV5huaZjjgM.woff2",
+      "bytes": 4608
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/0iDmxkizU9goZoclqIqsV5rvETU.woff2",
+      "localPath": "assets/fonts/0iDmxkizU9goZoclqIqsV5rvETU.woff2",
+      "bytes": 6448
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/r0mv3NegmA0akcQsNFotG32Las.woff2",
+      "localPath": "assets/fonts/r0mv3NegmA0akcQsNFotG32Las.woff2",
+      "bytes": 25972
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "localPath": "assets/fonts/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "bytes": 27404
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/Ii21jnSJkulBKsHHXKlapi7fv9w.woff2",
+      "localPath": "assets/fonts/Ii21jnSJkulBKsHHXKlapi7fv9w.woff2",
+      "bytes": 4124
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/gazZKZuUEtvr9ULhdA4SprP0AZ0.woff2",
+      "localPath": "assets/fonts/gazZKZuUEtvr9ULhdA4SprP0AZ0.woff2",
+      "bytes": 8812
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/pe8RoujoPxuTZhqoNzYqHX2MXA.woff2",
+      "localPath": "assets/fonts/pe8RoujoPxuTZhqoNzYqHX2MXA.woff2",
+      "bytes": 7040
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/teGhWnhH3bCqefKGsIsqFy3hK8.woff2",
+      "localPath": "assets/fonts/teGhWnhH3bCqefKGsIsqFy3hK8.woff2",
+      "bytes": 4624
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/qQHxgTnEk6Czu1yW4xS82HQWFOk.woff2",
+      "localPath": "assets/fonts/qQHxgTnEk6Czu1yW4xS82HQWFOk.woff2",
+      "bytes": 6528
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/MJ3N6lfN4iP5Um8rJGqLYl03tE.woff2",
+      "localPath": "assets/fonts/MJ3N6lfN4iP5Um8rJGqLYl03tE.woff2",
+      "bytes": 26132
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "localPath": "assets/fonts/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "bytes": 27612
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/0SEEmmWc3vovhaai4RlRQSWRrz0.woff2",
+      "localPath": "assets/fonts/0SEEmmWc3vovhaai4RlRQSWRrz0.woff2",
+      "bytes": 4100
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2",
+      "localPath": "assets/fonts/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2",
+      "bytes": 9560
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2",
+      "localPath": "assets/fonts/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2",
+      "bytes": 7436
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2",
+      "localPath": "assets/fonts/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2",
+      "bytes": 4968
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2",
+      "localPath": "assets/fonts/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2",
+      "bytes": 7204
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2",
+      "localPath": "assets/fonts/4oIO9fB59bn3cKFWz7piCj28z9s.woff2",
+      "bytes": 27628
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/MzumQQZJQBC6KM1omtmwOtsogtI.woff2",
+      "localPath": "assets/fonts/MzumQQZJQBC6KM1omtmwOtsogtI.woff2",
+      "bytes": 29760
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/F5Lmfd3fCAu7TwiYbI4DLWw4ks.woff2",
+      "localPath": "assets/fonts/F5Lmfd3fCAu7TwiYbI4DLWw4ks.woff2",
+      "bytes": 4232
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/A5P4nkYCJlLQxGxaS1lzG8PNSc.woff2",
+      "localPath": "assets/fonts/A5P4nkYCJlLQxGxaS1lzG8PNSc.woff2",
+      "bytes": 9544
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/vuPfygr1n1zYxscvWgGI8hRf3LE.woff2",
+      "localPath": "assets/fonts/vuPfygr1n1zYxscvWgGI8hRf3LE.woff2",
+      "bytes": 7476
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/jplzYzqFHXreyADwk9yrkQlWQ.woff2",
+      "localPath": "assets/fonts/jplzYzqFHXreyADwk9yrkQlWQ.woff2",
+      "bytes": 4896
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/sSIKP2TfVPvfK7YVENPE5H87A.woff2",
+      "localPath": "assets/fonts/sSIKP2TfVPvfK7YVENPE5H87A.woff2",
+      "bytes": 7220
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/gawbeo7iEJSRZ4kcrh6YRrU8o.woff2",
+      "localPath": "assets/fonts/gawbeo7iEJSRZ4kcrh6YRrU8o.woff2",
+      "bytes": 27784
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/RkMAGv2iAm3rw7tZzs7FaZf0rM.woff2",
+      "localPath": "assets/fonts/RkMAGv2iAm3rw7tZzs7FaZf0rM.woff2",
+      "bytes": 29768
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/8E92vrr3j1gDqzepmeSbD2u0JxA.woff2",
+      "localPath": "assets/fonts/8E92vrr3j1gDqzepmeSbD2u0JxA.woff2",
+      "bytes": 4156
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2",
+      "localPath": "assets/fonts/2uIBiALfCHVpWbHqRMZutfT7giU.woff2",
+      "bytes": 8632
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2",
+      "localPath": "assets/fonts/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2",
+      "bytes": 6948
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2",
+      "localPath": "assets/fonts/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2",
+      "bytes": 4424
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2",
+      "localPath": "assets/fonts/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2",
+      "bytes": 6324
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2",
+      "localPath": "assets/fonts/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2",
+      "bytes": 24696
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+      "localPath": "assets/fonts/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+      "bytes": 26588
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2",
+      "localPath": "assets/fonts/vebZUMjGyKkYsfcY73iwWTzLNag.woff2",
+      "bytes": 4016
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/THWAFHoAcmqLMy81E8hCSdziVKA.woff2",
+      "localPath": "assets/fonts/THWAFHoAcmqLMy81E8hCSdziVKA.woff2",
+      "bytes": 9384
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/sQxGYWDlRkDr0eOKqiNRl6g5rs.woff2",
+      "localPath": "assets/fonts/sQxGYWDlRkDr0eOKqiNRl6g5rs.woff2",
+      "bytes": 7348
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/NNTAT1XAm8ZRkr824inYPkjNeL4.woff2",
+      "localPath": "assets/fonts/NNTAT1XAm8ZRkr824inYPkjNeL4.woff2",
+      "bytes": 4764
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/P2qr9PAWBt905929rHfxmneMUG0.woff2",
+      "localPath": "assets/fonts/P2qr9PAWBt905929rHfxmneMUG0.woff2",
+      "bytes": 7044
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/2BmSa4TZZvFKAZg2DydxTbvKlTU.woff2",
+      "localPath": "assets/fonts/2BmSa4TZZvFKAZg2DydxTbvKlTU.woff2",
+      "bytes": 26448
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/P0JCAnd2N1Q6qwTQohre3XmQ.woff2",
+      "localPath": "assets/fonts/P0JCAnd2N1Q6qwTQohre3XmQ.woff2",
+      "bytes": 28780
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/KMFW46iYsEZaUBwXbwPc9nQm71o.woff2",
+      "localPath": "assets/fonts/KMFW46iYsEZaUBwXbwPc9nQm71o.woff2",
+      "bytes": 4080
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2",
+      "localPath": "assets/fonts/I11LrmuBDQZweplJ62KkVsklU5Y.woff2",
+      "bytes": 8780
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2",
+      "localPath": "assets/fonts/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2",
+      "bytes": 6988
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2",
+      "localPath": "assets/fonts/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2",
+      "bytes": 4584
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2",
+      "localPath": "assets/fonts/UTeedEK21hO5jDxEUldzdScUqpg.woff2",
+      "bytes": 6460
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2",
+      "localPath": "assets/fonts/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2",
+      "bytes": 25772
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+      "localPath": "assets/fonts/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+      "bytes": 27412
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2",
+      "localPath": "assets/fonts/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2",
+      "bytes": 4124
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/KKQXBq6BF0xEmVbrTnWxh3Yw.woff2",
+      "localPath": "assets/fonts/KKQXBq6BF0xEmVbrTnWxh3Yw.woff2",
+      "bytes": 9576
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/ugFYeIKZEJXDxI6Kh0YQUX6EK9I.woff2",
+      "localPath": "assets/fonts/ugFYeIKZEJXDxI6Kh0YQUX6EK9I.woff2",
+      "bytes": 7480
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/DgDysCLt0HkIpWMu2uN5tivgQ.woff2",
+      "localPath": "assets/fonts/DgDysCLt0HkIpWMu2uN5tivgQ.woff2",
+      "bytes": 4924
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/2yEyxokC6poTg3Uc5E2ogfVi6WE.woff2",
+      "localPath": "assets/fonts/2yEyxokC6poTg3Uc5E2ogfVi6WE.woff2",
+      "bytes": 7160
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/wmHLUqO4QxLaADUScavxvknnBQ.woff2",
+      "localPath": "assets/fonts/wmHLUqO4QxLaADUScavxvknnBQ.woff2",
+      "bytes": 27872
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/e3ySEnhUUpItjJUo5buJawUl4Y.woff2",
+      "localPath": "assets/fonts/e3ySEnhUUpItjJUo5buJawUl4Y.woff2",
+      "bytes": 29920
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/DuYGXsyDXsSnxlZ8qzmcA4x3JiI.woff2",
+      "localPath": "assets/fonts/DuYGXsyDXsSnxlZ8qzmcA4x3JiI.woff2",
+      "bytes": 4200
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/EZSFVoaPWKnZ6GuVk5dlS5pk.woff2",
+      "localPath": "assets/fonts/EZSFVoaPWKnZ6GuVk5dlS5pk.woff2",
+      "bytes": 8620
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/TMYuLEOqLWgunxD5qCFeADEgk.woff2",
+      "localPath": "assets/fonts/TMYuLEOqLWgunxD5qCFeADEgk.woff2",
+      "bytes": 6840
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/EL4v8OG6t2XwHSJLO1YF25DNiDw.woff2",
+      "localPath": "assets/fonts/EL4v8OG6t2XwHSJLO1YF25DNiDw.woff2",
+      "bytes": 4540
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/vSoBOmgqFUd0rVCgogjwL7jQI.woff2",
+      "localPath": "assets/fonts/vSoBOmgqFUd0rVCgogjwL7jQI.woff2",
+      "bytes": 6360
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/bIwBTbnyeAOa9wQIBagEdRDHXhE.woff2",
+      "localPath": "assets/fonts/bIwBTbnyeAOa9wQIBagEdRDHXhE.woff2",
+      "bytes": 25044
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/x8eJ5VkmPMHVhVbF0E8JYFJmwc.woff2",
+      "localPath": "assets/fonts/x8eJ5VkmPMHVhVbF0E8JYFJmwc.woff2",
+      "bytes": 26912
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/fmXYBApyDC604dR7g2aaACGvCk.woff2",
+      "localPath": "assets/fonts/fmXYBApyDC604dR7g2aaACGvCk.woff2",
+      "bytes": 4072
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/yHWoQPBZSEiCC3aW3JXtcoFby8o.woff2",
+      "localPath": "assets/fonts/yHWoQPBZSEiCC3aW3JXtcoFby8o.woff2",
+      "bytes": 9376
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/UHqhq621TbUtspKtPKPA1Ne8qY.woff2",
+      "localPath": "assets/fonts/UHqhq621TbUtspKtPKPA1Ne8qY.woff2",
+      "bytes": 7340
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/6dsy2CbviAWDcszGLlgyaLpRMk.woff2",
+      "localPath": "assets/fonts/6dsy2CbviAWDcszGLlgyaLpRMk.woff2",
+      "bytes": 4820
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/TQqnntSFYYGDv7XtyT3ZhfvDA.woff2",
+      "localPath": "assets/fonts/TQqnntSFYYGDv7XtyT3ZhfvDA.woff2",
+      "bytes": 7144
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/nE03Xxh2GngsU8hDpg6CRGxqfoM.woff2",
+      "localPath": "assets/fonts/nE03Xxh2GngsU8hDpg6CRGxqfoM.woff2",
+      "bytes": 26732
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/U1kEiQQO1ar9PuYJyyRkclmq8o.woff2",
+      "localPath": "assets/fonts/U1kEiQQO1ar9PuYJyyRkclmq8o.woff2",
+      "bytes": 29060
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/dWFiPjtJpfcxAIDV8RPyuCq04.woff2",
+      "localPath": "assets/fonts/dWFiPjtJpfcxAIDV8RPyuCq04.woff2",
+      "bytes": 4100
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2",
+      "localPath": "assets/fonts/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2",
+      "bytes": 8716
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2",
+      "localPath": "assets/fonts/X5hj6qzcHUYv7h1390c8Rhm6550.woff2",
+      "bytes": 6984
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2",
+      "localPath": "assets/fonts/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2",
+      "bytes": 4528
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2",
+      "localPath": "assets/fonts/cugnVhSraaRyANCaUtI5FV17wk.woff2",
+      "bytes": 6572
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2",
+      "localPath": "assets/fonts/5HcVoGak8k5agFJSaKa4floXVu0.woff2",
+      "bytes": 25276
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "localPath": "assets/fonts/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "bytes": 27436
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2",
+      "localPath": "assets/fonts/P2Bw01CtL0b9wqygO0sSVogWbo.woff2",
+      "bytes": 4168
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
+      "localPath": "assets/fonts/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
+      "bytes": 9444
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
+      "localPath": "assets/fonts/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
+      "bytes": 7376
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2",
+      "localPath": "assets/fonts/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2",
+      "bytes": 4828
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2",
+      "localPath": "assets/fonts/3ZmXbBKToJifDV9gwcifVd1tEY.woff2",
+      "bytes": 7208
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2",
+      "localPath": "assets/fonts/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2",
+      "bytes": 27036
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2",
+      "localPath": "assets/fonts/gcnfba68tfm7qAyrWRCf9r34jg.woff2",
+      "bytes": 29692
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
+      "localPath": "assets/fonts/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
+      "bytes": 4172
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "localPath": "assets/fonts/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "bytes": 9564
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "localPath": "assets/fonts/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "bytes": 7556
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "localPath": "assets/fonts/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "bytes": 4960
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "localPath": "assets/fonts/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "bytes": 7360
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "localPath": "assets/fonts/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "bytes": 27736
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "localPath": "assets/fonts/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "bytes": 30368
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "localPath": "assets/fonts/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "bytes": 4236
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/DJis4jbvxfiPHNnoy09s1NXK2tY.mp4",
+      "localPath": "assets/videos/DJis4jbvxfiPHNnoy09s1NXK2tY.mp4",
+      "bytes": 12178387
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/B3ezc1nswXFkpzW9KWX40t7bHKY.png?width=400&height=400",
+      "localPath": "assets/images/B3ezc1nswXFkpzW9KWX40t7bHKY.png",
+      "bytes": 2350
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/VuvajiHW5WLZ7HaFJKa9GXEU4.png?width=300&height=400",
+      "localPath": "assets/images/VuvajiHW5WLZ7HaFJKa9GXEU4.png",
+      "bytes": 2245
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/gPEzEKsNKBusglCCgdohBhJTkLQ.png?width=400&height=400",
+      "localPath": "assets/images/gPEzEKsNKBusglCCgdohBhJTkLQ.png",
+      "bytes": 3178
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/KozRZhi5uV6U8G42qYcpQAiAm3g.png?width=360&height=400",
+      "localPath": "assets/images/KozRZhi5uV6U8G42qYcpQAiAm3g.png",
+      "bytes": 1607
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/3Kj5xxCxyAVG0RRecGPwrAsuQck.png?width=400&height=381",
+      "localPath": "assets/images/3Kj5xxCxyAVG0RRecGPwrAsuQck.png",
+      "bytes": 3479
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/8xUlkui6JB2C37cRKDMNSY7oT8.png?width=350&height=400",
+      "localPath": "assets/images/8xUlkui6JB2C37cRKDMNSY7oT8.png",
+      "bytes": 2424
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/IUGqTKBBS7ZPIEUIjuT3cXDVVoA.svg?width=40&height=40",
+      "localPath": "assets/svg/IUGqTKBBS7ZPIEUIjuT3cXDVVoA.svg",
+      "bytes": 608
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/DffJuhPDmqBmLHK8bBHXYmXna4.png?width=400&height=400",
+      "localPath": "assets/images/DffJuhPDmqBmLHK8bBHXYmXna4.png",
+      "bytes": 3524
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/A8jK11J6hi5ME6g2v4KvTx8nw.png?width=400&height=257",
+      "localPath": "assets/images/A8jK11J6hi5ME6g2v4KvTx8nw.png",
+      "bytes": 1719
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/qdwkjZaOXSVErvC0s7nS80QgVzU.png?width=400&height=298",
+      "localPath": "assets/images/qdwkjZaOXSVErvC0s7nS80QgVzU.png",
+      "bytes": 2044
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/kdE9hrfAodhH1Rhxb44aQDWm1Yw.png?width=400&height=372",
+      "localPath": "assets/images/kdE9hrfAodhH1Rhxb44aQDWm1Yw.png",
+      "bytes": 1680
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/esp0BsdoimoqjlYQ8eKpt5xblg.png?width=350&height=350",
+      "localPath": "assets/images/esp0BsdoimoqjlYQ8eKpt5xblg.png",
+      "bytes": 28890
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/hR33yRBq2G6LCXxTn6Y5sti0.png?width=350&height=350",
+      "localPath": "assets/images/hR33yRBq2G6LCXxTn6Y5sti0.png",
+      "bytes": 19393
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/fTGUzVSjFory1PUj2VH6vpuGVk.png?width=350&height=350",
+      "localPath": "assets/images/fTGUzVSjFory1PUj2VH6vpuGVk.png",
+      "bytes": 31308
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/LwS0YQv9rhm2hpKAGbBX8XNo4.png?width=350&height=350",
+      "localPath": "assets/images/LwS0YQv9rhm2hpKAGbBX8XNo4.png",
+      "bytes": 22457
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/lYReV53ztcWrvGJnwRkhXuzhOMI.png?width=391&height=442",
+      "localPath": "assets/images/lYReV53ztcWrvGJnwRkhXuzhOMI.png",
+      "bytes": 34927
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/Z7hsMakrTcUEE9ZP7Exj3YYlSgo.png?width=350&height=350",
+      "localPath": "assets/images/Z7hsMakrTcUEE9ZP7Exj3YYlSgo.png",
+      "bytes": 27535
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/fpODKahXpVBEE5lsDa05QgFhBp4.png?width=350&height=350",
+      "localPath": "assets/images/fpODKahXpVBEE5lsDa05QgFhBp4.png",
+      "bytes": 21698
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/BV1GIO9DspBGeFhSmqgjByjOps.png?width=512&height=512",
+      "localPath": "assets/images/BV1GIO9DspBGeFhSmqgjByjOps.png",
+      "bytes": 27910
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/3T8vswzOiWNPxJn88d0s762Hzj8.jpg?scale-down-to=512&width=6154&height=4216",
+      "localPath": "assets/images/3T8vswzOiWNPxJn88d0s762Hzj8.jpg",
+      "bytes": 38368
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/DSvyYwtmoyTg7p6yuwLQ5eY5XY.jpg?scale-down-to=512&width=4880&height=3160",
+      "localPath": "assets/images/DSvyYwtmoyTg7p6yuwLQ5eY5XY.jpg",
+      "bytes": 40190
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/3aBEQKMKuIVrHtOwISRdfetG6c.jpg?scale-down-to=512&width=5906&height=3937",
+      "localPath": "assets/images/3aBEQKMKuIVrHtOwISRdfetG6c.jpg",
+      "bytes": 36040
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/2QvxLDVSYsdK8rVitNkHw4qL3eE.svg?width=260&height=40",
+      "localPath": "assets/svg/2QvxLDVSYsdK8rVitNkHw4qL3eE.svg",
+      "bytes": 2090
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/8UH05IooWOpjHSedjpFoppsGX8.jpg?scale-down-to=1024&width=3456&height=5184",
+      "localPath": "assets/images/8UH05IooWOpjHSedjpFoppsGX8.jpg",
+      "bytes": 88345
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/YR5ogHEHXqNnMFsCoiZCW76yG4.jpg?scale-down-to=1024&width=4480&height=6720",
+      "localPath": "assets/images/YR5ogHEHXqNnMFsCoiZCW76yG4.jpg",
+      "bytes": 106456
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/KTk9MzQnMMBD973HpYFYiaWpEZg.jpg?scale-down-to=512&width=3888&height=2592",
+      "localPath": "assets/images/KTk9MzQnMMBD973HpYFYiaWpEZg.jpg",
+      "bytes": 35898
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/LHeVRJhmrz5sryD5GX2vMxa5tZ8.jpg?scale-down-to=1024&width=4000&height=6000",
+      "localPath": "assets/images/LHeVRJhmrz5sryD5GX2vMxa5tZ8.jpg",
+      "bytes": 106301
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/8RXSQfEKFhVsJBwFTWH99nDP5I.jpg?scale-down-to=512&width=4034&height=3840",
+      "localPath": "assets/images/8RXSQfEKFhVsJBwFTWH99nDP5I.jpg",
+      "bytes": 110754
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "localPath": "assets/icons/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "bytes": 214
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "localPath": "assets/icons/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "bytes": 215
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/react.CDBuzeIJ.mjs",
+      "localPath": "assets/js/react.CDBuzeIJ.mjs",
+      "bytes": 144681
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/rolldown-runtime.uXsZyavj.mjs",
+      "localPath": "assets/js/rolldown-runtime.uXsZyavj.mjs",
+      "bytes": 191
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/motion.jTM5ZvmJ.mjs",
+      "localPath": "assets/js/motion.jTM5ZvmJ.mjs",
+      "bytes": 151269
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/framer.xtR9RrBw.mjs",
+      "localPath": "assets/js/framer.xtR9RrBw.mjs",
+      "bytes": 480372
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/NqOBQqRTG.DxsdE9ue.mjs",
+      "localPath": "assets/js/NqOBQqRTG.DxsdE9ue.mjs",
+      "bytes": 11001
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/CZhcsmPUo.Cple9j5J.mjs",
+      "localPath": "assets/js/CZhcsmPUo.Cple9j5J.mjs",
+      "bytes": 9219
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/PeLcf7ehs.DM2BudU6.mjs",
+      "localPath": "assets/js/PeLcf7ehs.DM2BudU6.mjs",
+      "bytes": 632
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/pAzayDUZg.avRUebBZ.mjs",
+      "localPath": "assets/js/pAzayDUZg.avRUebBZ.mjs",
+      "bytes": 9212
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/E64lfTJ9Y.-ZguqjQh.mjs",
+      "localPath": "assets/js/E64lfTJ9Y.-ZguqjQh.mjs",
+      "bytes": 9242
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/fuDQETWDsucxy9YG4eZ0Vz2Mq08eU5_S-uV1YI9aHZ4.DjopkctI.mjs",
+      "localPath": "assets/js/fuDQETWDsucxy9YG4eZ0Vz2Mq08eU5_S-uV1YI9aHZ4.DjopkctI.mjs",
+      "bytes": 746927
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/QgMyyAavm.BfY69dQ2.mjs",
+      "localPath": "assets/js/QgMyyAavm.BfY69dQ2.mjs",
+      "bytes": 60038
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/BgF22VJBv.B1jO8C5o.mjs",
+      "localPath": "assets/js/BgF22VJBv.B1jO8C5o.mjs",
+      "bytes": 9207
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/risoZ9TJU.8pCtwpJF.mjs",
+      "localPath": "assets/js/risoZ9TJU.8pCtwpJF.mjs",
+      "bytes": 11816
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/WYuZcOffX.BhIciz1x.mjs",
+      "localPath": "assets/js/WYuZcOffX.BhIciz1x.mjs",
+      "bytes": 28483
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/shared-lib.DktxwfCt.mjs",
+      "localPath": "assets/js/shared-lib.DktxwfCt.mjs",
+      "bytes": 15815
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/VFXGrPBrq.DMYH9RDS.mjs",
+      "localPath": "assets/js/VFXGrPBrq.DMYH9RDS.mjs",
+      "bytes": 11781
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/GNVtTCpd1.DmyhtC57.mjs",
+      "localPath": "assets/js/GNVtTCpd1.DmyhtC57.mjs",
+      "bytes": 25754
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/oBvWttoAP.BOPjHReb.mjs",
+      "localPath": "assets/js/oBvWttoAP.BOPjHReb.mjs",
+      "bytes": 11964
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/eWNvTdAfh.T-fswfvj.mjs",
+      "localPath": "assets/js/eWNvTdAfh.T-fswfvj.mjs",
+      "bytes": 6366
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/btOMgah8g.BaI9_tx2.mjs",
+      "localPath": "assets/js/btOMgah8g.BaI9_tx2.mjs",
+      "bytes": 11958
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/kOiotlVqs.BU_XjDHy.mjs",
+      "localPath": "assets/js/kOiotlVqs.BU_XjDHy.mjs",
+      "bytes": 9235
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/augiA20Il.D_gErdQy.mjs",
+      "localPath": "assets/js/augiA20Il.D_gErdQy.mjs",
+      "bytes": 854
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/script_main.BKRmVcEr.mjs",
+      "localPath": "assets/js/script_main.BKRmVcEr.mjs",
+      "bytes": 104398
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/google-654GT66W.CxEMsRID.mjs",
+      "localPath": "assets/js/google-654GT66W.CxEMsRID.mjs",
+      "bytes": 34119
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/fontshare-Q7VOJ3QT.BHT5oott.mjs",
+      "localPath": "assets/js/fontshare-Q7VOJ3QT.BHT5oott.mjs",
+      "bytes": 2038
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/google-HHQRBNOM.T2riOK1K.mjs",
+      "localPath": "assets/js/google-HHQRBNOM.T2riOK1K.mjs",
+      "bytes": 2580428
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/fontshare-LJWOE5KG.COlffxdd.mjs",
+      "localPath": "assets/js/fontshare-LJWOE5KG.COlffxdd.mjs",
+      "bytes": 107795
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/framer-font-G73BNA7N.Xney-Rza.mjs",
+      "localPath": "assets/js/framer-font-G73BNA7N.Xney-Rza.mjs",
+      "bytes": 27881
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/google-MNOHFPXZ.BKYffscL.mjs",
+      "localPath": "assets/js/google-MNOHFPXZ.BKYffscL.mjs",
+      "bytes": 69293
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/fontshare-MHXFPDHS.DzUsv3Ky.mjs",
+      "localPath": "assets/js/fontshare-MHXFPDHS.DzUsv3Ky.mjs",
+      "bytes": 7985
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
+      "localPath": "assets/videos/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
+      "bytes": 1741729
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/5ILRvlYXf72kHSVHqpa3snGzjU.jpg",
+      "localPath": "assets/images/5ILRvlYXf72kHSVHqpa3snGzjU.jpg",
+      "bytes": 44557
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/64l3Qidyw4y3D5wng0mTJwvxA.jpg?width=7678&height=5038",
+      "localPath": "assets/images/64l3Qidyw4y3D5wng0mTJwvxA.jpg",
+      "bytes": 9964677
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/FvbhkdToIFavBZ7jK7KxKkRzZl8.svg?width=209&height=40",
+      "localPath": "assets/svg/FvbhkdToIFavBZ7jK7KxKkRzZl8.svg",
+      "bytes": 3374
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/HeVgVTWNCzHL4jsg0JEZnn0j6Ho.svg?width=176&height=40",
+      "localPath": "assets/svg/HeVgVTWNCzHL4jsg0JEZnn0j6Ho.svg",
+      "bytes": 1794
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnN4FNh4UI_1U.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnN4FNh4UI_1U.woff2",
+      "bytes": 45176
+    },
+    {
+      "remoteUrl": "https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZECsTYkYBPY3o.woff2",
+      "localPath": "assets/fonts/KFOhCnGXkPOLlhx6jD8_b1ZECsTYkYBPY3o.woff2",
+      "bytes": 41348
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/j4ZA8sFgWVGjdBemOAYa-BLIaCB5hajVTt04cpHdPXI.BVGrUeC8.mjs",
+      "localPath": "assets/js/j4ZA8sFgWVGjdBemOAYa-BLIaCB5hajVTt04cpHdPXI.BVGrUeC8.mjs",
+      "bytes": 10627
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/Ja2kl9GC1GS2AzDQBFzzUBE8rR1OWA5AKYKGPWhzB5M.B292CrXq.mjs",
+      "localPath": "assets/js/Ja2kl9GC1GS2AzDQBFzzUBE8rR1OWA5AKYKGPWhzB5M.B292CrXq.mjs",
+      "bytes": 717
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/B8_JI7o_w3Z1LQcezKU3JWmOvkqXwA-e5Muv5Hd_yJw.CvxREFR2.mjs",
+      "localPath": "assets/js/B8_JI7o_w3Z1LQcezKU3JWmOvkqXwA-e5Muv5Hd_yJw.CvxREFR2.mjs",
+      "bytes": 126040
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/4xShclhSYutMctctyCZjlZAJd-7EGDdT9L3jFgo7-Ao.DY5xaNIf.mjs",
+      "localPath": "assets/js/4xShclhSYutMctctyCZjlZAJd-7EGDdT9L3jFgo7-Ao.DY5xaNIf.mjs",
+      "bytes": 41971
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/UUUACsVxs5-9iUnCx8JHZ50-Og3QOiWq5Dr-ipbnxz8.Du17tZ_-.mjs",
+      "localPath": "assets/js/UUUACsVxs5-9iUnCx8JHZ50-Og3QOiWq5Dr-ipbnxz8.Du17tZ_-.mjs",
+      "bytes": 29608
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/Tt9HZ8fCYm54jf3iAp9yiA1I1yX5m8JGcgHj_l0aTAM.DTXbtGjw.mjs",
+      "localPath": "assets/js/Tt9HZ8fCYm54jf3iAp9yiA1I1yX5m8JGcgHj_l0aTAM.DTXbtGjw.mjs",
+      "bytes": 19093
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/OxXQ-avw-OVBnaAMmyAr_d2k9lxWNxE1jo-xdZ4LHlE.NV74RPPd.mjs",
+      "localPath": "assets/js/OxXQ-avw-OVBnaAMmyAr_d2k9lxWNxE1jo-xdZ4LHlE.NV74RPPd.mjs",
+      "bytes": 12909
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/G8vY5CYOwQIyJU7aufssipKuYeutx75Ol0ueIA5KO3Q.Ct256fNV.mjs",
+      "localPath": "assets/js/G8vY5CYOwQIyJU7aufssipKuYeutx75Ol0ueIA5KO3Q.Ct256fNV.mjs",
+      "bytes": 155
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/uFkFu8DjwKv72kDvaTROvVE8_G-NL0D1pfMutNuuNf8.WJdzGQ2Z.mjs",
+      "localPath": "assets/js/uFkFu8DjwKv72kDvaTROvVE8_G-NL0D1pfMutNuuNf8.WJdzGQ2Z.mjs",
+      "bytes": 155
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/PX9hIOIVM.CroWH988.mjs",
+      "localPath": "assets/js/PX9hIOIVM.CroWH988.mjs",
+      "bytes": 19684
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/fKd9zcNBHSmwL95zPRIa82e3Fg.jpg?width=1861&height=2792",
+      "localPath": "assets/images/fKd9zcNBHSmwL95zPRIa82e3Fg.jpg",
+      "bytes": 1065242
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/vZW3QExeafY8ogiiWnlsg3Z00.jpg?width=4000&height=6000",
+      "localPath": "assets/images/vZW3QExeafY8ogiiWnlsg3Z00.jpg",
+      "bytes": 1670059
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/iNybHyn2ecySOW7eNCg1SPLRFw.jpg?width=6000&height=3977",
+      "localPath": "assets/images/iNybHyn2ecySOW7eNCg1SPLRFw.jpg",
+      "bytes": 5075106
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/tFRlXQyUZh2unEJZYoPOtHFn4D4.jpg?width=9504&height=6336",
+      "localPath": "assets/images/tFRlXQyUZh2unEJZYoPOtHFn4D4.jpg",
+      "bytes": 9868599
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/5G6HsD1Y2LVlytum6ySpROPOqk.jpg?width=5304&height=7952",
+      "localPath": "assets/images/5G6HsD1Y2LVlytum6ySpROPOqk.jpg",
+      "bytes": 10531685
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/1LSUOyLvfeSzgUYYr4dDm9VzClI.jpg?width=6192&height=4128",
+      "localPath": "assets/images/1LSUOyLvfeSzgUYYr4dDm9VzClI.jpg",
+      "bytes": 4195106
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/0gsPrzDEBrQ4buIPWQfYgibSyVk.jpg?width=1760&height=2367",
+      "localPath": "assets/images/0gsPrzDEBrQ4buIPWQfYgibSyVk.jpg",
+      "bytes": 1119719
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/PTJEIm6DqZaFpjtkxfshf1RIXr4.jpg?width=4160&height=6240",
+      "localPath": "assets/images/PTJEIm6DqZaFpjtkxfshf1RIXr4.jpg",
+      "bytes": 1935432
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/YAwtWkYtm4bbvY7b5A64lHX3BPw.jpg?width=6240&height=4160",
+      "localPath": "assets/images/YAwtWkYtm4bbvY7b5A64lHX3BPw.jpg",
+      "bytes": 3405399
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/XRUjVEWOndjuvYWGqBbyxu1Iis.jpg?width=3375&height=4219",
+      "localPath": "assets/images/XRUjVEWOndjuvYWGqBbyxu1Iis.jpg",
+      "bytes": 2442109
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/qjZNscFOCo7uabYYsoewpJcsA.jpg?width=3840&height=2160",
+      "localPath": "assets/images/qjZNscFOCo7uabYYsoewpJcsA.jpg",
+      "bytes": 845468
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/XrAkB5lDZ7p7k8FlKgFA3Z8Uxw.jpg?width=3643&height=5465",
+      "localPath": "assets/images/XrAkB5lDZ7p7k8FlKgFA3Z8Uxw.jpg",
+      "bytes": 2033737
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg?width=20&height=20",
+      "localPath": "assets/svg/pGiXYozQ3mE4cilNOItfe2L2fUA.svg",
+      "bytes": 201
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/EEuio2Ax9y08Y79cCnap8h3ytY.jpg?width=904&height=1200",
+      "localPath": "assets/images/EEuio2Ax9y08Y79cCnap8h3ytY.jpg",
+      "bytes": 51947
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/yjDKyqegL.ZtYD0XYx.mjs",
+      "localPath": "assets/js/yjDKyqegL.ZtYD0XYx.mjs",
+      "bytes": 22474
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/xej9I_B53.C7D6CsGz.mjs",
+      "localPath": "assets/js/xej9I_B53.C7D6CsGz.mjs",
+      "bytes": 20657
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/SIOt3vdZC.jd8I7TZx.mjs",
+      "localPath": "assets/js/SIOt3vdZC.jd8I7TZx.mjs",
+      "bytes": 1805
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/modules/LyTBQO0TrxWi8daekqEX/qzU0btwb5hjJO5jyCilx/xej9I_B53.js",
+      "localPath": "assets/js/xej9I_B53.js",
+      "bytes": 2706
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/cms/LyTBQO0TrxWi8daekqEX/qzU0btwb5hjJO5jyCilx/xej9I_B53-chunk-default-0.framercms",
+      "localPath": "assets/other/xej9I_B53-chunk-default-0.framercms",
+      "bytes": 3390
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/d4w9L3yJRCN2zGIIGy0PVnUAI.jpg?width=3600&height=2703",
+      "localPath": "assets/images/d4w9L3yJRCN2zGIIGy0PVnUAI.jpg",
+      "bytes": 1065039
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/a4gOuJE0M.D6hwsen9.mjs",
+      "localPath": "assets/js/a4gOuJE0M.D6hwsen9.mjs",
+      "bytes": 2044
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/cFKuJyYC1.DfrqhbF9.mjs",
+      "localPath": "assets/js/cFKuJyYC1.DfrqhbF9.mjs",
+      "bytes": 31198
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/xkzlRLqk6.T5nOUg-G.mjs",
+      "localPath": "assets/js/xkzlRLqk6.T5nOUg-G.mjs",
+      "bytes": 19374
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/modules/l3Z8atylYIPBaHLXUFDj/5x3w9U8VRZTuDvoTV2yJ/cFKuJyYC1.js",
+      "localPath": "assets/js/cFKuJyYC1.js",
+      "bytes": 5323
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/cms/l3Z8atylYIPBaHLXUFDj/5x3w9U8VRZTuDvoTV2yJ/cFKuJyYC1-chunk-default-0.framercms",
+      "localPath": "assets/other/cFKuJyYC1-chunk-default-0.framercms",
+      "bytes": 23564
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/cms/l3Z8atylYIPBaHLXUFDj/5x3w9U8VRZTuDvoTV2yJ/cFKuJyYC1-indexes-default-0.framercms",
+      "localPath": "assets/other/cFKuJyYC1-indexes-default-0.framercms",
+      "bytes": 24697
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/modules/uOW5FgddxylfiGreX5lG/NZvacogL0KmlLsBTyVOB/xkzlRLqk6.js",
+      "localPath": "assets/js/xkzlRLqk6.js",
+      "bytes": 2612
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/cms/uOW5FgddxylfiGreX5lG/NZvacogL0KmlLsBTyVOB/xkzlRLqk6-chunk-default-0.framercms",
+      "localPath": "assets/other/xkzlRLqk6-chunk-default-0.framercms",
+      "bytes": 652
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/YXDfozxMcDABDLL7Sa5xwRcJJc.jpg?width=4897&height=3264",
+      "localPath": "assets/images/YXDfozxMcDABDLL7Sa5xwRcJJc.jpg",
+      "bytes": 735865
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/kgREkxenSg9j7Xv7Dw9j1jfRvY.jpg?width=3840&height=2400",
+      "localPath": "assets/images/kgREkxenSg9j7Xv7Dw9j1jfRvY.jpg",
+      "bytes": 905611
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/goJMTBQU3gcbk0NtJenbN5YIuNg.jpg?width=3840&height=2160",
+      "localPath": "assets/images/goJMTBQU3gcbk0NtJenbN5YIuNg.jpg",
+      "bytes": 970895
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/ZSfYAgazERAxaqMCjss30SF0rj8.png?width=1200&height=673",
+      "localPath": "assets/images/ZSfYAgazERAxaqMCjss30SF0rj8.png",
+      "bytes": 207228
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/images/Edoudz9cL4vmeIy5xn9OhDeVtI.jpg?width=4758&height=3456",
+      "localPath": "assets/images/Edoudz9cL4vmeIy5xn9OhDeVtI.jpg",
+      "bytes": 1479557
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/czQha9DIH.BpxgBQrY.mjs",
+      "localPath": "assets/js/czQha9DIH.BpxgBQrY.mjs",
+      "bytes": 798
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/xksG1qwfk.BL3oQUhn.mjs",
+      "localPath": "assets/js/xksG1qwfk.BL3oQUhn.mjs",
+      "bytes": 796
+    },
+    {
+      "remoteUrl": "https://framerusercontent.com/sites/76ljWWjkk5B1TDb6r8crY7/lab5WFjmU.BoSAFzA7.mjs",
+      "localPath": "assets/js/lab5WFjmU.BoSAFzA7.mjs",
+      "bytes": 813
+    }
+  ],
+  "totalMappedAssets": 324
+}

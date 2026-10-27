@@ -1,0 +1,1257 @@
+{
+  "sourceHtmlPath": "D:\\Project_Section\\Deel\\Dechub\\New_Page\\solutions\\hire\\index.html",
+  "outputHtmlPath": "D:\\Project_Section\\Deel\\Dechub\\Client\\public\\solutions\\hire\\index.html",
+  "downloadedAssets": [
+    {
+      "url": "https://website-media.deel.com/_next/static/media/3f14e5d5f2325dba-s.p.woff2",
+      "localPath": "solutions/hire/assets/fonts/3f14e5d5f2325dba-s.p-c508696257.woff2",
+      "bytes": 42964
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/71aaabbca27eedbd-s.p.woff2",
+      "localPath": "solutions/hire/assets/fonts/71aaabbca27eedbd-s.p-5251df0f89.woff2",
+      "bytes": 44100
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/cd977f37204bcfbc-s.p.woff2",
+      "localPath": "solutions/hire/assets/fonts/cd977f37204bcfbc-s.p-a0176065da.woff2",
+      "bytes": 42648
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "localPath": "solutions/hire/assets/fonts/e4af272ccee01ff0-s.p-4696bf4632.woff2",
+      "bytes": 48432
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/fad621f95e01987c-s.p.woff2",
+      "localPath": "solutions/hire/assets/fonts/fad621f95e01987c-s.p-59cbcc42d4.woff2",
+      "bytes": 101804
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/css/2d2d3d8e0369f33a.css",
+      "localPath": "solutions/hire/assets/css/2d2d3d8e0369f33a-d38f4afe07.css",
+      "bytes": 6868
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/css/81b497cde0650b92.css",
+      "localPath": "solutions/hire/assets/css/81b497cde0650b92-ba61cb9798.css",
+      "bytes": 188143
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/css/1f56cfd86435b655.css",
+      "localPath": "solutions/hire/assets/css/1f56cfd86435b655-cc62e77a81.css",
+      "bytes": 4841
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/css/9e4fb54cdbaa5f1a.css",
+      "localPath": "solutions/hire/assets/css/9e4fb54cdbaa5f1a-b4abb998b9.css",
+      "bytes": 5312
+    },
+    {
+      "url": "https://website-media.deel.com/find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35.webp",
+      "localPath": "solutions/hire/assets/images/find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35-1680acb0dc.webp",
+      "bytes": 361800
+    },
+    {
+      "url": "https://website-media.deel.com/find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7.webp",
+      "localPath": "solutions/hire/assets/images/find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7-2b649b86a4.webp",
+      "bytes": 70002
+    },
+    {
+      "url": "https://deel-website-media-prod.s3.amazonaws.com/General_Purple_f6b2f3f9bd.png",
+      "localPath": "solutions/hire/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png",
+      "bytes": 135383
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/danger.777fe76b.svg",
+      "localPath": "solutions/hire/assets/svg/danger.777fe76b-eb65607e17.svg",
+      "bytes": 557
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/warning.a8417298.svg",
+      "localPath": "solutions/hire/assets/svg/warning.a8417298-0a5985e052.svg",
+      "bytes": 283
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/check-circle.e3dc67e6.svg",
+      "localPath": "solutions/hire/assets/svg/check-circle.e3dc67e6-9bd756e998.svg",
+      "bytes": 486
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/bullet-point.d079b42e.svg",
+      "localPath": "solutions/hire/assets/svg/bullet-point.d079b42e-aac4df9dcd.svg",
+      "bytes": 194
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/line-dash.44e3a200.svg",
+      "localPath": "solutions/hire/assets/svg/line-dash.44e3a200-81444800b3.svg",
+      "bytes": 180
+    },
+    {
+      "url": "https://website-media.deel.com/turing_hero_219032bbc6.webp",
+      "localPath": "solutions/hire/assets/images/turing_hero_219032bbc6-073b7d4f0f.webp",
+      "bytes": 105580
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_turing_hero_219032bbc6.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_turing_hero_219032bbc6-b0a3a45856.webp",
+      "bytes": 6670
+    },
+    {
+      "url": "https://website-media.deel.com/small_turing_hero_219032bbc6.webp",
+      "localPath": "solutions/hire/assets/images/small_turing_hero_219032bbc6-e862f82403.webp",
+      "bytes": 16656
+    },
+    {
+      "url": "https://website-media.deel.com/medium_turing_hero_219032bbc6.webp",
+      "localPath": "solutions/hire/assets/images/medium_turing_hero_219032bbc6-53699841ba.webp",
+      "bytes": 27356
+    },
+    {
+      "url": "https://website-media.deel.com/large_turing_hero_219032bbc6.webp",
+      "localPath": "solutions/hire/assets/images/large_turing_hero_219032bbc6-49dbfac168.webp",
+      "bytes": 37626
+    },
+    {
+      "url": "https://website-media.deel.com/revolut_hero_7b858da1a8.webp",
+      "localPath": "solutions/hire/assets/images/revolut_hero_7b858da1a8-c17212763d.webp",
+      "bytes": 69882
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_revolut_hero_7b858da1a8.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_revolut_hero_7b858da1a8-74938756c8.webp",
+      "bytes": 5990
+    },
+    {
+      "url": "https://website-media.deel.com/small_revolut_hero_7b858da1a8.webp",
+      "localPath": "solutions/hire/assets/images/small_revolut_hero_7b858da1a8-4a3eff27fe.webp",
+      "bytes": 14178
+    },
+    {
+      "url": "https://website-media.deel.com/medium_revolut_hero_7b858da1a8.webp",
+      "localPath": "solutions/hire/assets/images/medium_revolut_hero_7b858da1a8-1a0994fe8e.webp",
+      "bytes": 21562
+    },
+    {
+      "url": "https://website-media.deel.com/large_revolut_hero_7b858da1a8.webp",
+      "localPath": "solutions/hire/assets/images/large_revolut_hero_7b858da1a8-b0355565b9.webp",
+      "bytes": 30222
+    },
+    {
+      "url": "https://website-media.deel.com/Windows_Stock_Photo_2024_43dc45d319.png",
+      "localPath": "solutions/hire/assets/images/Windows_Stock_Photo_2024_43dc45d319-0fdb06d0f4.png",
+      "bytes": 3864440
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Windows_Stock_Photo_2024_43dc45d319.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Windows_Stock_Photo_2024_43dc45d319-5323cc4f0b.png",
+      "bytes": 87084
+    },
+    {
+      "url": "https://website-media.deel.com/small_Windows_Stock_Photo_2024_43dc45d319.png",
+      "localPath": "solutions/hire/assets/images/small_Windows_Stock_Photo_2024_43dc45d319-1854528f63.png",
+      "bytes": 350772
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Windows_Stock_Photo_2024_43dc45d319.png",
+      "localPath": "solutions/hire/assets/images/medium_Windows_Stock_Photo_2024_43dc45d319-5b14b34a2c.png",
+      "bytes": 763650
+    },
+    {
+      "url": "https://website-media.deel.com/large_Windows_Stock_Photo_2024_43dc45d319.png",
+      "localPath": "solutions/hire/assets/images/large_Windows_Stock_Photo_2024_43dc45d319-4121831bf9.png",
+      "bytes": 1326352
+    },
+    {
+      "url": "https://website-media.deel.com/Windows_Stock_Photo_2024_43dc45d319_avif.avif",
+      "localPath": "solutions/hire/assets/images/Windows_Stock_Photo_2024_43dc45d319_avif-174b07ad3e.avif",
+      "bytes": 1017326
+    },
+    {
+      "url": "https://website-media.deel.com/Windows_Stock_Photo_2024_43dc45d319_webp.webp",
+      "localPath": "solutions/hire/assets/images/Windows_Stock_Photo_2024_43dc45d319_webp-30bb83b9a2.webp",
+      "bytes": 597670
+    },
+    {
+      "url": "https://website-media.deel.com/BCG_3_min_89604e8e7e.jpg",
+      "localPath": "solutions/hire/assets/images/BCG_3_min_89604e8e7e-c9ba533d52.jpg",
+      "bytes": 195938
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_BCG_3_min_89604e8e7e.jpg",
+      "localPath": "solutions/hire/assets/images/thumbnail_BCG_3_min_89604e8e7e-a81f98090f.jpg",
+      "bytes": 8564
+    },
+    {
+      "url": "https://website-media.deel.com/small_BCG_3_min_89604e8e7e.jpg",
+      "localPath": "solutions/hire/assets/images/small_BCG_3_min_89604e8e7e-70a1aa349f.jpg",
+      "bytes": 24298
+    },
+    {
+      "url": "https://website-media.deel.com/medium_BCG_3_min_89604e8e7e.jpg",
+      "localPath": "solutions/hire/assets/images/medium_BCG_3_min_89604e8e7e-cef2fb4519.jpg",
+      "bytes": 42221
+    },
+    {
+      "url": "https://website-media.deel.com/large_BCG_3_min_89604e8e7e.jpg",
+      "localPath": "solutions/hire/assets/images/large_BCG_3_min_89604e8e7e-0ddf731bfd.jpg",
+      "bytes": 63153
+    },
+    {
+      "url": "https://website-media.deel.com/telin_hero_1d24ff105a.webp",
+      "localPath": "solutions/hire/assets/images/telin_hero_1d24ff105a-3cbb021087.webp",
+      "bytes": 168386
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_telin_hero_1d24ff105a.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_telin_hero_1d24ff105a-b37eed5c00.webp",
+      "bytes": 7740
+    },
+    {
+      "url": "https://website-media.deel.com/small_telin_hero_1d24ff105a.webp",
+      "localPath": "solutions/hire/assets/images/small_telin_hero_1d24ff105a-0643138c82.webp",
+      "bytes": 21584
+    },
+    {
+      "url": "https://website-media.deel.com/medium_telin_hero_1d24ff105a.webp",
+      "localPath": "solutions/hire/assets/images/medium_telin_hero_1d24ff105a-dc3744dece.webp",
+      "bytes": 37530
+    },
+    {
+      "url": "https://website-media.deel.com/large_telin_hero_1d24ff105a.webp",
+      "localPath": "solutions/hire/assets/images/large_telin_hero_1d24ff105a-d0a400a649.webp",
+      "bytes": 56088
+    },
+    {
+      "url": "https://website-media.deel.com/logo_revamp_164ddaed0c.svg",
+      "localPath": "solutions/hire/assets/svg/logo_revamp_164ddaed0c-07943198bc.svg",
+      "bytes": 3122
+    },
+    {
+      "url": "https://website-media.deel.com/Solutions_Image_1fe3692ef5_348057f282.webp",
+      "localPath": "solutions/hire/assets/images/Solutions_Image_1fe3692ef5_348057f282-6f263ffab8.webp",
+      "bytes": 209308
+    },
+    {
+      "url": "https://website-media.deel.com/monetization_on_fbfd76b291.svg",
+      "localPath": "solutions/hire/assets/svg/monetization_on_fbfd76b291-03c5964527.svg",
+      "bytes": 676
+    },
+    {
+      "url": "https://website-media.deel.com/recent_actors_70c9da4cc9.svg",
+      "localPath": "solutions/hire/assets/svg/recent_actors_70c9da4cc9-c08452e345.svg",
+      "bytes": 381
+    },
+    {
+      "url": "https://website-media.deel.com/dvr_8332b33b7d.svg",
+      "localPath": "solutions/hire/assets/svg/dvr_8332b33b7d-091975ead2.svg",
+      "bytes": 239
+    },
+    {
+      "url": "https://website-media.deel.com/stars_15b0b9085a.svg",
+      "localPath": "solutions/hire/assets/svg/stars_15b0b9085a-b0d2cdf29f.svg",
+      "bytes": 339
+    },
+    {
+      "url": "https://website-media.deel.com/group_6b4e265767.svg",
+      "localPath": "solutions/hire/assets/svg/group_6b4e265767-1484f70f5f.svg",
+      "bytes": 494
+    },
+    {
+      "url": "https://website-media.deel.com/explore_0222f8048d.svg",
+      "localPath": "solutions/hire/assets/svg/explore_0222f8048d-d0b0c7aee8.svg",
+      "bytes": 397
+    },
+    {
+      "url": "https://website-media.deel.com/settings_ethernet_4a5250d7ad.svg",
+      "localPath": "solutions/hire/assets/svg/settings_ethernet_4a5250d7ad-fbeeaa3dca.svg",
+      "bytes": 432
+    },
+    {
+      "url": "https://website-media.deel.com/layers_1638a84dbd.svg",
+      "localPath": "solutions/hire/assets/svg/layers_1638a84dbd-a7c7b05d79.svg",
+      "bytes": 260
+    },
+    {
+      "url": "https://website-media.deel.com/nav_row_visual_eor_0a32a2b56f.webp",
+      "localPath": "solutions/hire/assets/images/nav_row_visual_eor_0a32a2b56f-ad1ac8f8a0.webp",
+      "bytes": 1734
+    },
+    {
+      "url": "https://website-media.deel.com/nav_row_visual_contractors_v2_dfb050b8a1.webp",
+      "localPath": "solutions/hire/assets/images/nav_row_visual_contractors_v2_dfb050b8a1-9b0cbe893a.webp",
+      "bytes": 1818
+    },
+    {
+      "url": "https://website-media.deel.com/nav_row_visual_integrations_and_api_v2_af3a1dbf06.webp",
+      "localPath": "solutions/hire/assets/images/nav_row_visual_integrations_and_api_v2_af3a1dbf06-4b16efc95f.webp",
+      "bytes": 2416
+    },
+    {
+      "url": "https://website-media.deel.com/nav_row_visual_api_v2_c863a509fa.webp",
+      "localPath": "solutions/hire/assets/images/nav_row_visual_api_v2_c863a509fa-4017880051.webp",
+      "bytes": 920
+    },
+    {
+      "url": "https://website-media.deel.com/Use_Case_Image_b6c6429888_e790cb6ebb.webp",
+      "localPath": "solutions/hire/assets/images/Use_Case_Image_b6c6429888_e790cb6ebb-6830ac37dc.webp",
+      "bytes": 280338
+    },
+    {
+      "url": "https://website-media.deel.com/Global_Hiring_Guides_e634b390ed.png",
+      "localPath": "solutions/hire/assets/images/Global_Hiring_Guides_e634b390ed-b3a18eb79c.png",
+      "bytes": 103196
+    },
+    {
+      "url": "https://website-media.deel.com/logo_revamp_white_3237bd2303.svg",
+      "localPath": "solutions/hire/assets/svg/logo_revamp_white_3237bd2303-7268fb2537.svg",
+      "bytes": 3090
+    },
+    {
+      "url": "https://website-media.deel.com/find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35_avif.avif",
+      "localPath": "solutions/hire/assets/images/find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35_avif-d734cd25d0.avif",
+      "bytes": 458252
+    },
+    {
+      "url": "https://website-media.deel.com/large_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35.webp",
+      "localPath": "solutions/hire/assets/images/large_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35-d96305f120.webp",
+      "bytes": 41776
+    },
+    {
+      "url": "https://website-media.deel.com/small_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35.webp",
+      "localPath": "solutions/hire/assets/images/small_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35-f96bcf9ad4.webp",
+      "bytes": 14708
+    },
+    {
+      "url": "https://website-media.deel.com/medium_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35.webp",
+      "localPath": "solutions/hire/assets/images/medium_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35-19393f3f82.webp",
+      "bytes": 26540
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_find_and_hire_anyone_anywhere_all_in_one_place_0c4224ba35-d743739670.webp",
+      "bytes": 5264
+    },
+    {
+      "url": "https://website-media.deel.com/hire_1_dee4e64328_avif.avif",
+      "localPath": "solutions/hire/assets/images/hire_1_dee4e64328_avif-30c63bf07b.avif",
+      "bytes": 351003
+    },
+    {
+      "url": "https://website-media.deel.com/large_hire_1_dee4e64328.webp",
+      "localPath": "solutions/hire/assets/images/large_hire_1_dee4e64328-c510fc89d8.webp",
+      "bytes": 100110
+    },
+    {
+      "url": "https://website-media.deel.com/small_hire_1_dee4e64328.webp",
+      "localPath": "solutions/hire/assets/images/small_hire_1_dee4e64328-2fdf35e879.webp",
+      "bytes": 30254
+    },
+    {
+      "url": "https://website-media.deel.com/medium_hire_1_dee4e64328.webp",
+      "localPath": "solutions/hire/assets/images/medium_hire_1_dee4e64328-10ecc7ce38.webp",
+      "bytes": 60818
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_hire_1_dee4e64328.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_hire_1_dee4e64328-ef6623732c.webp",
+      "bytes": 5582
+    },
+    {
+      "url": "https://website-media.deel.com/hire_1_dee4e64328.webp",
+      "localPath": "solutions/hire/assets/images/hire_1_dee4e64328-634a86e415.webp",
+      "bytes": 279800
+    },
+    {
+      "url": "https://website-media.deel.com/find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7_avif.avif",
+      "localPath": "solutions/hire/assets/images/find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7_avif-761e7dc822.avif",
+      "bytes": 95059
+    },
+    {
+      "url": "https://website-media.deel.com/small_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7.webp",
+      "localPath": "solutions/hire/assets/images/small_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7-7309d9fc18.webp",
+      "bytes": 23240
+    },
+    {
+      "url": "https://website-media.deel.com/medium_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7.webp",
+      "localPath": "solutions/hire/assets/images/medium_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7-6b8e69abaa.webp",
+      "bytes": 46712
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_find_and_hire_anyone_anywhere_all_in_one_place_a2bab8cfa7-bc2b96c078.webp",
+      "bytes": 6762
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_gbv_5e751a9a5c.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_gbv_5e751a9a5c-a9d690dc6f.svg",
+      "bytes": 55706
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_a16z_c17319a0d5.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_a16z_c17319a0d5-c4f5639d1a.svg",
+      "bytes": 55329
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_altimeter_7bcca1fa1a.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_altimeter_7bcca1fa1a-8006ed564f.svg",
+      "bytes": 8127
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_ycombinator_834d3e9f17.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_ycombinator_834d3e9f17-b07c98921c.svg",
+      "bytes": 8185
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_neo_fd6a4b0bf1.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_neo_fd6a4b0bf1-56add72b08.svg",
+      "bytes": 4284
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_emerson_collective_e323c76cee.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_emerson_collective_e323c76cee-365ebe979f.svg",
+      "bytes": 22204
+    },
+    {
+      "url": "https://website-media.deel.com/logo_investor_spark_capital_857a9a1fac.svg",
+      "localPath": "solutions/hire/assets/svg/logo_investor_spark_capital_857a9a1fac-475b49132a.svg",
+      "bytes": 3641
+    },
+    {
+      "url": "https://website-media.deel.com/muji_a588e76130.svg",
+      "localPath": "solutions/hire/assets/svg/muji_a588e76130-79c999117c.svg",
+      "bytes": 3965
+    },
+    {
+      "url": "https://website-media.deel.com/Logoki_ba7b794e12.svg",
+      "localPath": "solutions/hire/assets/svg/Logoki_ba7b794e12-19a344637a.svg",
+      "bytes": 2603
+    },
+    {
+      "url": "https://website-media.deel.com/Balenciaga_Logo_3c70c251ee.svg",
+      "localPath": "solutions/hire/assets/svg/Balenciaga_Logo_3c70c251ee-4716d7d198.svg",
+      "bytes": 2895
+    },
+    {
+      "url": "https://website-media.deel.com/Canva_Logo_1_90c23958f7.svg",
+      "localPath": "solutions/hire/assets/svg/Canva_Logo_1_90c23958f7-58831325ac.svg",
+      "bytes": 4136
+    },
+    {
+      "url": "https://website-media.deel.com/hm_f015e3fc5e.svg",
+      "localPath": "solutions/hire/assets/svg/hm_f015e3fc5e-df43edbfdb.svg",
+      "bytes": 3199
+    },
+    {
+      "url": "https://website-media.deel.com/Ericsson_logo_2_15f0a199be.svg",
+      "localPath": "solutions/hire/assets/svg/Ericsson_logo_2_15f0a199be-afc8b63fcb.svg",
+      "bytes": 4246
+    },
+    {
+      "url": "https://website-media.deel.com/logo_scroller_on_running_cff30fcd5e.svg",
+      "localPath": "solutions/hire/assets/svg/logo_scroller_on_running_cff30fcd5e-e1bfa77aae.svg",
+      "bytes": 2088
+    },
+    {
+      "url": "https://website-media.deel.com/Door_Dash_Logo_e52471ae77.svg",
+      "localPath": "solutions/hire/assets/svg/Door_Dash_Logo_e52471ae77-3e414f356b.svg",
+      "bytes": 8220
+    },
+    {
+      "url": "https://website-media.deel.com/logo_KLM_2dcf79f5c9.svg",
+      "localPath": "solutions/hire/assets/svg/logo_KLM_2dcf79f5c9-ac109213d4.svg",
+      "bytes": 2999
+    },
+    {
+      "url": "https://website-media.deel.com/Lucid_Motors_logo_289a758b49.svg",
+      "localPath": "solutions/hire/assets/svg/Lucid_Motors_logo_289a758b49-01664677ff.svg",
+      "bytes": 1267
+    },
+    {
+      "url": "https://website-media.deel.com/puma_logo_8574e3d454.svg",
+      "localPath": "solutions/hire/assets/svg/puma_logo_8574e3d454-a88b84ed2d.svg",
+      "bytes": 4624
+    },
+    {
+      "url": "https://website-media.deel.com/lockhead_logo_aac9270f83.svg",
+      "localPath": "solutions/hire/assets/svg/lockhead_logo_aac9270f83-5a48a4b409.svg",
+      "bytes": 4377
+    },
+    {
+      "url": "https://website-media.deel.com/Zillow_logo_1_5c75d27ffc.svg",
+      "localPath": "solutions/hire/assets/svg/Zillow_logo_1_5c75d27ffc-66b46f3e8e.svg",
+      "bytes": 4444
+    },
+    {
+      "url": "https://website-media.deel.com/linkedin_logo_4a30bc2ea7.svg",
+      "localPath": "solutions/hire/assets/svg/linkedin_logo_4a30bc2ea7-c6addbceec.svg",
+      "bytes": 4189
+    },
+    {
+      "url": "https://website-media.deel.com/ve_Logo_12ce1a8ef6.svg",
+      "localPath": "solutions/hire/assets/svg/ve_Logo_12ce1a8ef6-a57f67d58a.svg",
+      "bytes": 2018
+    },
+    {
+      "url": "https://website-media.deel.com/iee_logo_986f0cdfaf.svg",
+      "localPath": "solutions/hire/assets/svg/iee_logo_986f0cdfaf-952b5f334e.svg",
+      "bytes": 4031
+    },
+    {
+      "url": "https://website-media.deel.com/re_logo_b11ff3c938.svg",
+      "localPath": "solutions/hire/assets/svg/re_logo_b11ff3c938-a965a8593d.svg",
+      "bytes": 3915
+    },
+    {
+      "url": "https://website-media.deel.com/Hersheys_1c5efab234.svg",
+      "localPath": "solutions/hire/assets/svg/Hersheys_1c5efab234-7376cfb2a0.svg",
+      "bytes": 4261
+    },
+    {
+      "url": "https://website-media.deel.com/rol_8afbc30081.svg",
+      "localPath": "solutions/hire/assets/svg/rol_8afbc30081-d23171929a.svg",
+      "bytes": 6322
+    },
+    {
+      "url": "https://website-media.deel.com/card_hr_talent_partner_candidate_status_c8279078b1_avif.avif",
+      "localPath": "solutions/hire/assets/images/card_hr_talent_partner_candidate_status_c8279078b1_avif-84d80b51ce.avif",
+      "bytes": 15651
+    },
+    {
+      "url": "https://website-media.deel.com/card_hr_talent_partner_candidate_status_c8279078b1_webp.webp",
+      "localPath": "solutions/hire/assets/images/card_hr_talent_partner_candidate_status_c8279078b1_webp-3227135575.webp",
+      "bytes": 20538
+    },
+    {
+      "url": "https://website-media.deel.com/small_card_hr_talent_partner_candidate_status_c8279078b1.png",
+      "localPath": "solutions/hire/assets/images/small_card_hr_talent_partner_candidate_status_c8279078b1-c0c8f840b3.png",
+      "bytes": 46236
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_card_hr_talent_partner_candidate_status_c8279078b1.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_card_hr_talent_partner_candidate_status_c8279078b1-c48b96f34d.png",
+      "bytes": 13410
+    },
+    {
+      "url": "https://website-media.deel.com/card_hr_talent_partner_candidate_status_c8279078b1.png",
+      "localPath": "solutions/hire/assets/images/card_hr_talent_partner_candidate_status_c8279078b1-5ad1a5c8d6.png",
+      "bytes": 16150
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_cc531113dc_avif.avif",
+      "localPath": "solutions/hire/assets/images/Asset_Area_cc531113dc_avif-ff6580d01d.avif",
+      "bytes": 24322
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_cc531113dc_webp.webp",
+      "localPath": "solutions/hire/assets/images/Asset_Area_cc531113dc_webp-d3c86424a9.webp",
+      "bytes": 25892
+    },
+    {
+      "url": "https://website-media.deel.com/small_Asset_Area_cc531113dc.png",
+      "localPath": "solutions/hire/assets/images/small_Asset_Area_cc531113dc-2e7ef2fe2a.png",
+      "bytes": 38741
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Asset_Area_cc531113dc.png",
+      "localPath": "solutions/hire/assets/images/medium_Asset_Area_cc531113dc-e53d194642.png",
+      "bytes": 68305
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Asset_Area_cc531113dc.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Asset_Area_cc531113dc-3fdadc465d.png",
+      "bytes": 12834
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_cc531113dc.png",
+      "localPath": "solutions/hire/assets/images/Asset_Area_cc531113dc-84ba8ce686.png",
+      "bytes": 15721
+    },
+    {
+      "url": "https://website-media.deel.com/Group_403921601_a43242e67c_avif.avif",
+      "localPath": "solutions/hire/assets/images/Group_403921601_a43242e67c_avif-694b1b2825.avif",
+      "bytes": 19824
+    },
+    {
+      "url": "https://website-media.deel.com/Group_403921601_a43242e67c_webp.webp",
+      "localPath": "solutions/hire/assets/images/Group_403921601_a43242e67c_webp-058a8287e9.webp",
+      "bytes": 29706
+    },
+    {
+      "url": "https://website-media.deel.com/small_Group_403921601_a43242e67c.png",
+      "localPath": "solutions/hire/assets/images/small_Group_403921601_a43242e67c-fd6d444546.png",
+      "bytes": 40032
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Group_403921601_a43242e67c.png",
+      "localPath": "solutions/hire/assets/images/medium_Group_403921601_a43242e67c-f2ad59a9df.png",
+      "bytes": 76225
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Group_403921601_a43242e67c.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Group_403921601_a43242e67c-74aa53308d.png",
+      "bytes": 13260
+    },
+    {
+      "url": "https://website-media.deel.com/Group_403921601_a43242e67c.png",
+      "localPath": "solutions/hire/assets/images/Group_403921601_a43242e67c-36d9883c32.png",
+      "bytes": 19652
+    },
+    {
+      "url": "https://website-media.deel.com/Map_bf0b504336_avif.avif",
+      "localPath": "solutions/hire/assets/images/Map_bf0b504336_avif-fa0955b94e.avif",
+      "bytes": 14930
+    },
+    {
+      "url": "https://website-media.deel.com/Map_bf0b504336_webp.webp",
+      "localPath": "solutions/hire/assets/images/Map_bf0b504336_webp-a1a600c5e4.webp",
+      "bytes": 17658
+    },
+    {
+      "url": "https://website-media.deel.com/small_Map_bf0b504336.png",
+      "localPath": "solutions/hire/assets/images/small_Map_bf0b504336-bbb79fe6f4.png",
+      "bytes": 67178
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Map_bf0b504336.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Map_bf0b504336-ab418f860e.png",
+      "bytes": 18333
+    },
+    {
+      "url": "https://website-media.deel.com/Map_bf0b504336.png",
+      "localPath": "solutions/hire/assets/images/Map_bf0b504336-276a5d503b.png",
+      "bytes": 17852
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_debd950a5f_avif.avif",
+      "localPath": "solutions/hire/assets/images/Asset_Area_debd950a5f_avif-7ac3ff0f15.avif",
+      "bytes": 31880
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_debd950a5f_webp.webp",
+      "localPath": "solutions/hire/assets/images/Asset_Area_debd950a5f_webp-2675b8803b.webp",
+      "bytes": 44116
+    },
+    {
+      "url": "https://website-media.deel.com/small_Asset_Area_debd950a5f.png",
+      "localPath": "solutions/hire/assets/images/small_Asset_Area_debd950a5f-3dbb7ed944.png",
+      "bytes": 55099
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Asset_Area_debd950a5f.png",
+      "localPath": "solutions/hire/assets/images/medium_Asset_Area_debd950a5f-a2e83cbc21.png",
+      "bytes": 103614
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Asset_Area_debd950a5f.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Asset_Area_debd950a5f-78aabfea2e.png",
+      "bytes": 16081
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_debd950a5f.png",
+      "localPath": "solutions/hire/assets/images/Asset_Area_debd950a5f-fd0070aa71.png",
+      "bytes": 31294
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_3_ad35f16c0b_avif.avif",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_3_ad35f16c0b_avif-f748d1e033.avif",
+      "bytes": 16149
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_3_ad35f16c0b_webp.webp",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_3_ad35f16c0b_webp-111249bed5.webp",
+      "bytes": 16282
+    },
+    {
+      "url": "https://website-media.deel.com/small_Asset_Area_copy_3_ad35f16c0b.png",
+      "localPath": "solutions/hire/assets/images/small_Asset_Area_copy_3_ad35f16c0b-ec65fbfed0.png",
+      "bytes": 40327
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Asset_Area_copy_3_ad35f16c0b.png",
+      "localPath": "solutions/hire/assets/images/medium_Asset_Area_copy_3_ad35f16c0b-259e9caecb.png",
+      "bytes": 74954
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Asset_Area_copy_3_ad35f16c0b.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Asset_Area_copy_3_ad35f16c0b-982e014b8a.png",
+      "bytes": 12511
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_3_ad35f16c0b.png",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_3_ad35f16c0b-8c146b660f.png",
+      "bytes": 19843
+    },
+    {
+      "url": "https://website-media.deel.com/payrollengineicongrid01_2x_8e40f9ec59_avif.avif",
+      "localPath": "solutions/hire/assets/images/payrollengineicongrid01_2x_8e40f9ec59_avif-42db9ddda2.avif",
+      "bytes": 1706
+    },
+    {
+      "url": "https://website-media.deel.com/payrollengineicongrid01_2x_8e40f9ec59.webp",
+      "localPath": "solutions/hire/assets/images/payrollengineicongrid01_2x_8e40f9ec59-9ef792e935.webp",
+      "bytes": 1074
+    },
+    {
+      "url": "https://website-media.deel.com/icongrid02_2x_dc99a57e0a_avif.avif",
+      "localPath": "solutions/hire/assets/images/icongrid02_2x_dc99a57e0a_avif-96791aa582.avif",
+      "bytes": 2159
+    },
+    {
+      "url": "https://website-media.deel.com/icongrid02_2x_dc99a57e0a.webp",
+      "localPath": "solutions/hire/assets/images/icongrid02_2x_dc99a57e0a-e483b844fb.webp",
+      "bytes": 1354
+    },
+    {
+      "url": "https://website-media.deel.com/icongrid06_2x_1f56a7f8d9_avif.avif",
+      "localPath": "solutions/hire/assets/images/icongrid06_2x_1f56a7f8d9_avif-24b33a3929.avif",
+      "bytes": 1884
+    },
+    {
+      "url": "https://website-media.deel.com/icongrid06_2x_1f56a7f8d9.webp",
+      "localPath": "solutions/hire/assets/images/icongrid06_2x_1f56a7f8d9-7e2ec8e78f.webp",
+      "bytes": 1156
+    },
+    {
+      "url": "https://website-media.deel.com/Icon_Bound_611407b130_avif.avif",
+      "localPath": "solutions/hire/assets/images/Icon_Bound_611407b130_avif-622b70c6b3.avif",
+      "bytes": 1336
+    },
+    {
+      "url": "https://website-media.deel.com/Icon_Bound_611407b130_webp.webp",
+      "localPath": "solutions/hire/assets/images/Icon_Bound_611407b130_webp-63583db42c.webp",
+      "bytes": 772
+    },
+    {
+      "url": "https://website-media.deel.com/Icon_Bound_611407b130.png",
+      "localPath": "solutions/hire/assets/images/Icon_Bound_611407b130-2d47374aa3.png",
+      "bytes": 704
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_copy_8ccbcf5e88_avif.avif",
+      "localPath": "solutions/hire/assets/images/Inner_copy_8ccbcf5e88_avif-247d041bcb.avif",
+      "bytes": 1179
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_copy_8ccbcf5e88_webp.webp",
+      "localPath": "solutions/hire/assets/images/Inner_copy_8ccbcf5e88_webp-f24cc9c315.webp",
+      "bytes": 708
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_copy_8ccbcf5e88.png",
+      "localPath": "solutions/hire/assets/images/Inner_copy_8ccbcf5e88-27d7baada5.png",
+      "bytes": 574
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_9347f39bda_avif.avif",
+      "localPath": "solutions/hire/assets/images/Inner_9347f39bda_avif-839c831d5d.avif",
+      "bytes": 834
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_9347f39bda_webp.webp",
+      "localPath": "solutions/hire/assets/images/Inner_9347f39bda_webp-5dc20aefd3.webp",
+      "bytes": 402
+    },
+    {
+      "url": "https://website-media.deel.com/Inner_9347f39bda.png",
+      "localPath": "solutions/hire/assets/images/Inner_9347f39bda-41ce0bb727.png",
+      "bytes": 337
+    },
+    {
+      "url": "https://website-media.deel.com/small_card_new_joiner_hire_globally_3a237133cb.png",
+      "localPath": "solutions/hire/assets/images/small_card_new_joiner_hire_globally_3a237133cb-19ff43b8e3.png",
+      "bytes": 77360
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_card_new_joiner_hire_globally_3a237133cb.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_card_new_joiner_hire_globally_3a237133cb-aec58ea652.png",
+      "bytes": 16863
+    },
+    {
+      "url": "https://website-media.deel.com/card_new_joiner_hire_globally_3a237133cb.png",
+      "localPath": "solutions/hire/assets/images/card_new_joiner_hire_globally_3a237133cb-fd68190ae1.png",
+      "bytes": 28593
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_2ab6bc45e5_avif.avif",
+      "localPath": "solutions/hire/assets/images/Asset_Area_2ab6bc45e5_avif-89af5a19fc.avif",
+      "bytes": 15640
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_2ab6bc45e5_webp.webp",
+      "localPath": "solutions/hire/assets/images/Asset_Area_2ab6bc45e5_webp-4e8ee8d751.webp",
+      "bytes": 29072
+    },
+    {
+      "url": "https://website-media.deel.com/small_Asset_Area_2ab6bc45e5.png",
+      "localPath": "solutions/hire/assets/images/small_Asset_Area_2ab6bc45e5-b6bef97057.png",
+      "bytes": 42121
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Asset_Area_2ab6bc45e5.png",
+      "localPath": "solutions/hire/assets/images/medium_Asset_Area_2ab6bc45e5-3fb858171f.png",
+      "bytes": 79495
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Asset_Area_2ab6bc45e5.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Asset_Area_2ab6bc45e5-ee5c1c11ee.png",
+      "bytes": 11476
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_2ab6bc45e5.png",
+      "localPath": "solutions/hire/assets/images/Asset_Area_2ab6bc45e5-792599ddd8.png",
+      "bytes": 21273
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_413e0f28fb_avif.avif",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_413e0f28fb_avif-6a694c8f7a.avif",
+      "bytes": 15128
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_413e0f28fb_webp.webp",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_413e0f28fb_webp-e493b3a5c2.webp",
+      "bytes": 28866
+    },
+    {
+      "url": "https://website-media.deel.com/small_Asset_Area_copy_413e0f28fb.png",
+      "localPath": "solutions/hire/assets/images/small_Asset_Area_copy_413e0f28fb-b5ee7c5875.png",
+      "bytes": 36916
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Asset_Area_copy_413e0f28fb.png",
+      "localPath": "solutions/hire/assets/images/medium_Asset_Area_copy_413e0f28fb-2ffa8c0c02.png",
+      "bytes": 70732
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Asset_Area_copy_413e0f28fb.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Asset_Area_copy_413e0f28fb-39d8b6c905.png",
+      "bytes": 10447
+    },
+    {
+      "url": "https://website-media.deel.com/Asset_Area_copy_413e0f28fb.png",
+      "localPath": "solutions/hire/assets/images/Asset_Area_copy_413e0f28fb-3a6e65629f.png",
+      "bytes": 20126
+    },
+    {
+      "url": "https://website-media.deel.com/Technology_e5f72c1f25_avif.avif",
+      "localPath": "solutions/hire/assets/images/Technology_e5f72c1f25_avif-c78941869b.avif",
+      "bytes": 198008
+    },
+    {
+      "url": "https://website-media.deel.com/Technology_e5f72c1f25_webp.webp",
+      "localPath": "solutions/hire/assets/images/Technology_e5f72c1f25_webp-9f56c0581e.webp",
+      "bytes": 86410
+    },
+    {
+      "url": "https://website-media.deel.com/large_Technology_e5f72c1f25.png",
+      "localPath": "solutions/hire/assets/images/large_Technology_e5f72c1f25-8ba622e886.png",
+      "bytes": 1233669
+    },
+    {
+      "url": "https://website-media.deel.com/small_Technology_e5f72c1f25.png",
+      "localPath": "solutions/hire/assets/images/small_Technology_e5f72c1f25-eeb182da71.png",
+      "bytes": 338762
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Technology_e5f72c1f25.png",
+      "localPath": "solutions/hire/assets/images/medium_Technology_e5f72c1f25-810887a496.png",
+      "bytes": 722640
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Technology_e5f72c1f25.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Technology_e5f72c1f25-47ca488d62.png",
+      "bytes": 82800
+    },
+    {
+      "url": "https://website-media.deel.com/Technology_e5f72c1f25.png",
+      "localPath": "solutions/hire/assets/images/Technology_e5f72c1f25-46e3402737.png",
+      "bytes": 554312
+    },
+    {
+      "url": "https://website-media.deel.com/Professional_Services_ae94d6160e_avif.avif",
+      "localPath": "solutions/hire/assets/images/Professional_Services_ae94d6160e_avif-75fc3bb667.avif",
+      "bytes": 197174
+    },
+    {
+      "url": "https://website-media.deel.com/Professional_Services_ae94d6160e_webp.webp",
+      "localPath": "solutions/hire/assets/images/Professional_Services_ae94d6160e_webp-f5a2b35d85.webp",
+      "bytes": 71696
+    },
+    {
+      "url": "https://website-media.deel.com/large_Professional_Services_ae94d6160e.png",
+      "localPath": "solutions/hire/assets/images/large_Professional_Services_ae94d6160e-e5d400d1fc.png",
+      "bytes": 1160316
+    },
+    {
+      "url": "https://website-media.deel.com/small_Professional_Services_ae94d6160e.png",
+      "localPath": "solutions/hire/assets/images/small_Professional_Services_ae94d6160e-088e83169c.png",
+      "bytes": 327969
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Professional_Services_ae94d6160e.png",
+      "localPath": "solutions/hire/assets/images/medium_Professional_Services_ae94d6160e-4eae3e62bf.png",
+      "bytes": 689099
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Professional_Services_ae94d6160e.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Professional_Services_ae94d6160e-b739cb8f37.png",
+      "bytes": 79863
+    },
+    {
+      "url": "https://website-media.deel.com/Professional_Services_ae94d6160e.png",
+      "localPath": "solutions/hire/assets/images/Professional_Services_ae94d6160e-47aca41df6.png",
+      "bytes": 470533
+    },
+    {
+      "url": "https://website-media.deel.com/Finance_and_Fintech_20b01b8318_avif.avif",
+      "localPath": "solutions/hire/assets/images/Finance_and_Fintech_20b01b8318_avif-15c085df4a.avif",
+      "bytes": 367769
+    },
+    {
+      "url": "https://website-media.deel.com/Finance_and_Fintech_20b01b8318_webp.webp",
+      "localPath": "solutions/hire/assets/images/Finance_and_Fintech_20b01b8318_webp-e64bf232a1.webp",
+      "bytes": 144074
+    },
+    {
+      "url": "https://website-media.deel.com/large_Finance_and_Fintech_20b01b8318.png",
+      "localPath": "solutions/hire/assets/images/large_Finance_and_Fintech_20b01b8318-c6e43ed463.png",
+      "bytes": 1442733
+    },
+    {
+      "url": "https://website-media.deel.com/small_Finance_and_Fintech_20b01b8318.png",
+      "localPath": "solutions/hire/assets/images/small_Finance_and_Fintech_20b01b8318-e1edbdbaed.png",
+      "bytes": 388463
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Finance_and_Fintech_20b01b8318.png",
+      "localPath": "solutions/hire/assets/images/medium_Finance_and_Fintech_20b01b8318-56e1f253d6.png",
+      "bytes": 838226
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Finance_and_Fintech_20b01b8318.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_Finance_and_Fintech_20b01b8318-5eb4148bab.png",
+      "bytes": 90484
+    },
+    {
+      "url": "https://website-media.deel.com/Finance_and_Fintech_20b01b8318.png",
+      "localPath": "solutions/hire/assets/images/Finance_and_Fintech_20b01b8318-2cfc7bbb76.png",
+      "bytes": 672902
+    },
+    {
+      "url": "https://website-media.deel.com/turing_logo_0c87eeb5b0.svg",
+      "localPath": "solutions/hire/assets/svg/turing_logo_0c87eeb5b0-51e6da619d.svg",
+      "bytes": 1726
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_revolut_logo_45a79fd7bb-cfd57feb6a.png",
+      "bytes": 6341
+    },
+    {
+      "url": "https://website-media.deel.com/revolut_logo_45a79fd7bb.png",
+      "localPath": "solutions/hire/assets/images/revolut_logo_45a79fd7bb-42be8050bd.png",
+      "bytes": 2348
+    },
+    {
+      "url": "https://website-media.deel.com/large_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/hire/assets/images/large_Revolut_c0c66e4a71-d35bb6a32f.webp",
+      "bytes": 30306
+    },
+    {
+      "url": "https://website-media.deel.com/small_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/hire/assets/images/small_Revolut_c0c66e4a71-6f19270c5c.webp",
+      "bytes": 14920
+    },
+    {
+      "url": "https://website-media.deel.com/medium_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/hire/assets/images/medium_Revolut_c0c66e4a71-14bc74ff48.webp",
+      "bytes": 22914
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_Revolut_c0c66e4a71-8ccc1297ee.webp",
+      "bytes": 6056
+    },
+    {
+      "url": "https://website-media.deel.com/Revolut_c0c66e4a71.webp",
+      "localPath": "solutions/hire/assets/images/Revolut_c0c66e4a71-146f129470.webp",
+      "bytes": 39946
+    },
+    {
+      "url": "https://website-media.deel.com/magic_logo_c7b0950f35.svg",
+      "localPath": "solutions/hire/assets/svg/magic_logo_c7b0950f35-01c0a021e7.svg",
+      "bytes": 3560
+    },
+    {
+      "url": "https://website-media.deel.com/bcglogo_8b9003e9be.png",
+      "localPath": "solutions/hire/assets/images/bcglogo_8b9003e9be-fedaae761c.png",
+      "bytes": 979
+    },
+    {
+      "url": "https://website-media.deel.com/large_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/hire/assets/images/large_telin_logo_update_08ba52fa8c-9acd6a60dd.png",
+      "bytes": 103821
+    },
+    {
+      "url": "https://website-media.deel.com/small_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/hire/assets/images/small_telin_logo_update_08ba52fa8c-bf74bea895.png",
+      "bytes": 32773
+    },
+    {
+      "url": "https://website-media.deel.com/medium_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/hire/assets/images/medium_telin_logo_update_08ba52fa8c-fa2e7ee3bd.png",
+      "bytes": 63987
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/hire/assets/images/thumbnail_telin_logo_update_08ba52fa8c-a33acc7563.png",
+      "bytes": 11949
+    },
+    {
+      "url": "https://website-media.deel.com/telin_logo_update_08ba52fa8c.png",
+      "localPath": "solutions/hire/assets/images/telin_logo_update_08ba52fa8c-f61927ea7b.png",
+      "bytes": 106841
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88_avif.avif",
+      "localPath": "solutions/hire/assets/images/CT_Aphone_528441ba88_avif-397db3d039.avif",
+      "bytes": 48000
+    },
+    {
+      "url": "https://website-media.deel.com/large_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/hire/assets/images/large_CT_Aphone_528441ba88-82d26f1e73.webp",
+      "bytes": 26650
+    },
+    {
+      "url": "https://website-media.deel.com/small_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/hire/assets/images/small_CT_Aphone_528441ba88-d349044efe.webp",
+      "bytes": 11728
+    },
+    {
+      "url": "https://website-media.deel.com/medium_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/hire/assets/images/medium_CT_Aphone_528441ba88-6e77d186e6.webp",
+      "bytes": 19616
+    },
+    {
+      "url": "https://website-media.deel.com/thumbnail_CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/hire/assets/images/thumbnail_CT_Aphone_528441ba88-880b027221.webp",
+      "bytes": 2600
+    },
+    {
+      "url": "https://website-media.deel.com/CT_Aphone_528441ba88.webp",
+      "localPath": "solutions/hire/assets/images/CT_Aphone_528441ba88-b4a69a199c.webp",
+      "bytes": 41446
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/black-globe.abc6410e.svg",
+      "localPath": "solutions/hire/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "url": "https://media.letsdeel.com/flags/united-states.svg",
+      "localPath": "solutions/hire/assets/svg/united-states-47286e9458.svg",
+      "bytes": 2360
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/g2_logo.0a5793d3.svg",
+      "localPath": "solutions/hire/assets/svg/g2_logo.0a5793d3-1b608abdfc.svg",
+      "bytes": 1174
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/trustpilot-star.aadabb5b.svg",
+      "localPath": "solutions/hire/assets/svg/trustpilot-star.aadabb5b-db9b285ea6.svg",
+      "bytes": 377
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/twitter-filled.8731c38f.svg",
+      "localPath": "solutions/hire/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/footer-icon-linkedin.8b69a409.svg",
+      "localPath": "solutions/hire/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/facebook-filled.9dee679d.svg",
+      "localPath": "solutions/hire/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/instagram-filled.a70f7d56.svg",
+      "localPath": "solutions/hire/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/ba9851c3c22cd980-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/ba9851c3c22cd980-s-0049b872a5.woff2",
+      "bytes": 25844
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/21350d82a1f187e9-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/21350d82a1f187e9-s-41b553bffc.woff2",
+      "bytes": 18744
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/c5fe6dc8356a8c31-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/c5fe6dc8356a8c31-s-03848e9d94.woff2",
+      "bytes": 11272
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/19cfc7226ec3afaa-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/19cfc7226ec3afaa-s-6b6591ba57.woff2",
+      "bytes": 19044
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/df0a9ae256c0569c-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/df0a9ae256c0569c-s-af8ba55b21.woff2",
+      "bytes": 10280
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/8e9860b6e62d6359-s.woff2",
+      "localPath": "solutions/hire/assets/fonts/8e9860b6e62d6359-s-bebfe74ed5.woff2",
+      "bytes": 85272
+    }
+  ],
+  "removedDependencies": [
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1255-1b278c6e1e274920.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/main-app-234525b5e3ddebfb.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1115-317140f908da7393.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2026-74936ae8a4324ca6.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/global-error-24af9536617f394c.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4cb9bd3a-a2c47b306323da37.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/ca377847-48557a30c2489eff.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/8621-e51daf89ebac72d1.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/5525-11a3cdb76cb0ac99.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/7956-8189aeabff66ad25.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/6882-c9e1dd76b6275b53.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4494-237063cf6ef2a168.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/8523-6dc7c2a7e79e6711.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/603-9bee46c4b601adc0.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1230-520d55edd544177b.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2070-2759491d75bdf8d0.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/6774-8f33d8f37d2e34bf.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/9220-bd17ab36d628edde.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/1481-b8dbdfd0c00cb55b.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2726-7f35f4952a6651c4.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/9854-ce0e882e447b91d6.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/4899-fe643f2c9da16bc3.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/5279-9c8fa45994e0cea2.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/page-82b70fdf037f0f3a.js\" async=\"\"></s",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2098-7a513ab915ed3523.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/not-found-6da0f63eff118594.js\" async=\"",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/7618-107707536eb6f8ba.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/2597-c6aadb16031c81a7.js\" async=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/app/%5B...path%5D/layout-41f1f726fc9f4570.js\" async=\"\"><",
+    "<script id=\"gtag-consent-default\">\nwindow.dataLayer = window.dataLayer || [];\n(function() {\n  console.log('[gtag-consent",
+    "<script id=\"gtm-script-first\" data-cookieconsent=\"ignore\">\n(function() {\n  console.log('[GTM_SCRIPT_PROD_COOKIE_BOT_ENV]",
+    "<script data-cookieconsent=\"ignore\">\nwindow.dataLayer = window.dataLayer || [];\n</script>",
+    "<script id=\"cookiebot-in-app-flag\">window.dataLayer=window.dataLayer||[];window.dataLayer.push({cookiebot_in_app:true});",
+    "<script id=\"cookiebot-sync-script\">\n(function () {\n  function syncCookieBotConsent() {\n    // Normal pre-init state — Co",
+    "<script id=\"cookiebot-loader-script\">\n(function () {\n  console.log('started loading cookiebot-internal')\n  // Bail if Co",
+    "<script id=\"cookiebot-reinsert-script\">\n(function () {\n  let isObserving = false;\n  let reinserting = false;\n  let fallb",
+    "<script id=\"ab-test-init\">(function(){try{var x=\"frontend.\",c=document.cookie.split(\";\");for(var i=0;i<c.length;i++){var",
+    "<script id=\"ab-test-loading\">(function(){try{var d=document.cookie.split(';').some(function(c){var t=c.trim();return t==",
+    "<script async=\"\" id=\"deel-pb-script\">try{var _dK7=(function(_xP3,_mQ8){var _wJ2='';for(var _rN5=0;_rN5<_xP3.length;_rN5+",
+    "<script id=\"coralogix-config\">window.__CORALOGIX_CONFIG__={\"publicKey\":\"cxtp_DgJkd9ASfCTCG4muS1l9p7p9GcEtGo\",\"applicatio",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/polyfills-a038a2a133aaa44c.js\" noModule=\"\"></script>",
+    "<script src=\"https://website-media.deel.com/_next/static/chunks/webpack-c1848a1ae49e2712.js\" id=\"_R_\" async=\"\"></script>",
+    "<script>(self.__next_f=self.__next_f||[]).push([0])</script>",
+    "<script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n5:I[24431,[],\\\"OutletBoundary\\\"]\\n7:I[15278,[],\\\"AsyncMetadataOut",
+    "<script>self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"fre790RIaptoNB5ChfbYx\\\",\\\"p\\\":\\\"https://website-media.deel.com\\\",\\\"",
+    "<script>self.__next_f.push([1,\"f:I[9766,[],\\\"\\\"]\\n10:I[98924,[],\\\"\\\"]\\n2:[\\\"$\\\",\\\"$Lf\\\",null,{\\\"parallelRouterKey\\\":\\\"ch",
+    "<script>self.__next_f.push([1,\"12:I[41402,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"13:I[25643,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"11:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_74193b __variable_908",
+    "<script>self.__next_f.push([1,\"16:T429,\"])</script>",
+    "<script>self.__next_f.push([1,\"M20.1377 0C21.4904 7.55863e-06 22.8008 0.127545 24.083 0.382812L20.1377 8.68066C13.7963 8",
+    "<script>self.__next_f.push([1,\"17:T39ea,\"])</script>",
+    "<script>self.__next_f.push([1,\"M76.3501 24.9154V22.8619L82.3992 13.3045H84.1116V16.2281H83.0674L78.9953 22.6809V22.7923H",
+    "<script>self.__next_f.push([1,\"15:[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"292\\\",\\\"height\\\":\\\"41\\\",\\\"viewBox\\\":\\\"0 0 292 41\\\",\\\"",
+    "<script>self.__next_f.push([1,\"18:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M135.168 8.71026V32.1548H132.83V8.71026H135.168Z\\\",\\\"fil",
+    "<script>self.__next_f.push([1,\"a:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewp",
+    "<script>self.__next_f.push([1,\"3:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_74193b __variable_908f",
+    "<script>self.__next_f.push([1,\"1b:I[36552,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"1d:I[55727,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"4:[[[\\\"$\\\",\\\"link\\\",\\\"/solutions/hire/assets/images/find_and_hire_anyone_anywhere_all_in_",
+    "<script>self.__next_f.push([1,\"1f:I[27915,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"ic/chunks/1115-317140f908da7393.js\\\",\\\"1230\\\",\\\"static/chunks/1230-520d55edd544177b.js\\\",",
+    "<script>self.__next_f.push([1,\"tic/chunks/7618-107707536eb6f8ba.js\\\",\\\"2026\\\",\\\"static/chunks/2026-74936ae8a4324ca6.js\\\"",
+    "<script>self.__next_f.push([1,\"1a:[\\\"$L1e\\\",[\\\"$\\\",\\\"$L1f\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L20\\\",null,{\\\"theme\\\":\\\"$21\\\",\\",
+    "<script>self.__next_f.push([1,\"31:I[71998,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"8523\\\",\\\"static/chu",
+    "<script>self.__next_f.push([1,\"M20.1377 0C21.4904 7.55863e-06 22.8008 0.127545 24.083 0.382812L20.1377 8.68066C13.7963 8",
+    "<script>self.__next_f.push([1,\"29:[\\\"$\\\",\\\"main\\\",null,{\\\"className\\\":\\\"m-0 p-0\\\",\\\"children\\\":[\\\"$\\\",\\\"$Lf\\\",null,{\\\"pa",
+    "<script>self.__next_f.push([1,\"2a:[[\\\"$\\\",\\\"$L1b\\\",null,{\\\"moduleIds\\\":[\\\"components/@AppLayout/PageLayout/index.tsx -\\u",
+    "<script>self.__next_f.push([1,\"2b:[[\\\"$\\\",\\\"$L1b\\\",null,{\\\"moduleIds\\\":[\\\"components/@AppLayout/PageLayout/index.tsx -\\u",
+    "<script>self.__next_f.push([1,\"2c:[\\\"$\\\",\\\"$L33\\\",null,{}]\\n34:T42e,\"])</script>",
+    "<script>self.__next_f.push([1,\"(function(){\\n  if(document.getElementById('hs-script-loader-script'))return;\\n  window.d",
+    "<script>self.__next_f.push([1,\"35:T2afe,\"])</script>",
+    "<script>self.__next_f.push([1,\"\\n// Deel AI Chat injection\\n\\n;(async function () {\\n  let disableDeelAIChat = true;\\n\\n",
+    "<script>self.__next_f.push([1,\"1e:[[\\\"$\\\",\\\"$L12\\\",\\\"structured-data\\\",{\\\"async\\\":true,\\\"id\\\":\\\"structured-data-script\\\"",
+    "<script>self.__next_f.push([1,\"36:Tcfa,\"])</script>",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  function syncCookieBotConsent() {\\n    // Normal pre-init state — Coo",
+    "<script>self.__next_f.push([1,\"19:[[\\\"$\\\",\\\"script\\\",\\\"gtag-consent-default\\\",{\\\"id\\\":\\\"gtag-consent-default\\\",\\\"dangero",
+    "<script>self.__next_f.push([1,\"8:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Find \\u0026 Hire Employees Around",
+    "<script>self.__next_f.push([1,\"d:\\\"$8:metadata\\\"\\n\"])</script>",
+    "<script>self.__next_f.push([1,\"2e:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M62.0745 10.2593L64.2749 17.0316H71.3958L65.6349 21.2172",
+    "<script>self.__next_f.push([1,\"M76.3501 24.9154V22.8619L82.3992 13.3045H84.1116V16.2281H83.0674L78.9953 22.6809V22.7923H",
+    "<script>self.__next_f.push([1,\"2f:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"$3e\\\",\\\"fill\\\":\\\"white\\\"}]\\n30:[\\\"$\\\",\\\"path\\\",null,{\\\"d",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  console.log('started loading cookiebot-internal')\\n  // Bail if Cooki",
+    "<script>self.__next_f.push([1,\"37:[\\\"$\\\",\\\"script\\\",\\\"cookiebot-loader\\\",{\\\"id\\\":\\\"cookiebot-loader-script\\\",\\\"dangerous",
+    "<script>self.__next_f.push([1,\"\\n(function () {\\n  let isObserving = false;\\n  let reinserting = false;\\n  let fallbackA",
+    "<script>self.__next_f.push([1,\"38:[\\\"$\\\",\\\"script\\\",\\\"cookiebot-reinsert\\\",{\\\"id\\\":\\\"cookiebot-reinsert-script\\\",\\\"dange",
+    "<script>self.__next_f.push([1,\"39:[\\\"$\\\",\\\"script\\\",\\\"ab-test-init\\\",{\\\"id\\\":\\\"ab-test-init\\\",\\\"dangerouslySetInnerHTML\\",
+    "<script>self.__next_f.push([1,\"3a:[\\\"$\\\",\\\"script\\\",\\\"ab-test-loading\\\",{\\\"id\\\":\\\"ab-test-loading\\\",\\\"dangerouslySetInne",
+    "<script>self.__next_f.push([1,\"3b:[\\\"$\\\",\\\"script\\\",\\\"deel-pb\\\",{\\\"async\\\":true,\\\"id\\\":\\\"deel-pb-script\\\",\\\"dangerouslyS",
+    "<script>self.__next_f.push([1,\"3c:[\\\"$\\\",\\\"script\\\",\\\"coralogix-config\\\",{\\\"id\\\":\\\"coralogix-config\\\",\\\"dangerouslySetIn",
+    "<script>self.__next_f.push([1,\"41:I[1888,[\\\"6801\\\",\\\"static/chunks/4cb9bd3a-a2c47b306323da37.js\\\",\\\"5647\\\",\\\"static/chun",
+    "<script>self.__next_f.push([1,\"42:T605,\"])</script>",
+    "<script>self.__next_f.push([1,\"When it came to compliance before using Deel's Contractor solution, Turing handled all co",
+    "<script>self.__next_f.push([1,\"43:T4a9,\"])</script>",
+    "<script>self.__next_f.push([1,\"Revolut enables its customers to spend, save and invest their money, all in one easy to u",
+    "<script>self.__next_f.push([1,\"44:T4ee,\"])</script>",
+    "<script>self.__next_f.push([1,\"_BCG decided to move to Deel Payroll because it’s a truly multinational company with a wo",
+    "<script>self.__next_f.push([1,\"1c:[\\\"$\\\",\\\"$L41\\\",null,{\\\"locale\\\":\\\"en\\\",\\\"category\\\":\\\"solutions\\\",\\\"slug\\\":\\\"hire\\\",\\",
+    "<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e17817915",
+    "<link rel=\"preconnect\" href=\"https://www.googletagmanager.com\"/>",
+    "<link rel=\"preconnect\" href=\"https://www.google-analytics.com\"/>",
+    "<link rel=\"preconnect\" href=\"https://consent.cookiebot.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://www.google-analytics.com\"/>",
+    "<link rel=\"dns-prefetch\" href=\"https://consent.cookiebot.com\"/>",
+    "<link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"https://website-media.deel.com/_next/static/chunks/webpack-c18",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/6220.de33763a086d49c1.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/4645.8354548f1dbec3c0.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/3960.acd89873ad00d81b.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/4296.ab903d92fc397419.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/2102.f8fb64ebc3d6f305.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/6745.93a2bf37a856ec91.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1058.a51ce95540ed552e.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1815.9567578e506fd684.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/5363.10ca4e307153a139.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/8296.52b8dbdc69c838d8.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/580.5189a0dafc04c764.js\" as=\"script\" fetchP",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/1274.963e4196609f22ee.js\" as=\"script\" fetch",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/973.7b519cd516d78a91.js\" as=\"script\" fetchP",
+    "<link rel=\"preload\" href=\"https://website-media.deel.com/_next/static/chunks/5236.1479dc69c6b78f01.js\" as=\"script\" fetch",
+    "<link rel=\"canonical\" href=\"/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"x-default\" href=\"/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"fr\" href=\"/fr/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"de\" href=\"/de/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"es\" href=\"/es/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"pt\" href=\"/pt/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"ja\" href=\"/ja/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"nl\" href=\"/nl/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"ko-kr\" href=\"/ko-kr/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"zh-cn\" href=\"/zh-cn/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"zh-tw\" href=\"/zh-tw/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"sv-se\" href=\"/sv-se/solutions/hire/\"/>",
+    "<link rel=\"alternate\" hrefLang=\"da-dk\" href=\"/da-dk/solutions/hire/\"/>",
+    "<meta property=\"og:url\" content=\"/solutions/hire/\"/>",
+    "<meta property=\"og:image\" content=\"/solutions/hire/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png\"/>",
+    "<meta name=\"twitter:image\" content=\"/solutions/hire/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png\"/>",
+    "<link rel=\"icon\" href=\"/icon.png?e9556fbc67fbe781\" type=\"image/png\" sizes=\"32x32\"/>",
+    "<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?d2b410d8d6714d15\" type=\"image/png\" sizes=\"180x180\"/>"
+  ]
+}

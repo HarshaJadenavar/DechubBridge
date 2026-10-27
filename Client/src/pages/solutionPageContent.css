@@ -1,0 +1,23 @@
+.dechub-bridge-solution-hero [role="checkbox"] {
+  cursor: pointer;
+}
+
+.dechub-bridge-solution-hero [role="checkbox"][aria-checked="true"] {
+  background: rgba(149, 113, 255, 0.24) !important;
+  border-color: rgba(202, 182, 255, 0.88) !important;
+}
+
+.dechub-bridge-solution-hero [role="checkbox"] > .dechub-bridge-hero-option-check {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dechub-bridge-solution-hero [role="checkbox"][aria-checked="true"] > .dechub-bridge-hero-option-check::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 4px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg) translate(0, -1px);
+}

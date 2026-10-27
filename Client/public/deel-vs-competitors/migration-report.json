@@ -1,0 +1,423 @@
+{
+  "generatedAt": "2026-08-04T04:24:17.006Z",
+  "pagePath": "/deel-vs-competitors",
+  "downloadedAssetCount": 7,
+  "downloadedAssets": [
+    {
+      "url": "https://website-media.deel.com/_next/static/media/black-globe.abc6410e.svg",
+      "localPath": "deel-vs-competitors/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/checkmark.928a0576.svg",
+      "localPath": "deel-vs-competitors/assets/svg/checkmark.928a0576-fad01afcbc.svg",
+      "bytes": 319
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/cross.d7e510a6.svg",
+      "localPath": "deel-vs-competitors/assets/svg/cross.d7e510a6-22a26b6b41.svg",
+      "bytes": 343
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/twitter-filled.8731c38f.svg",
+      "localPath": "deel-vs-competitors/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/footer-icon-linkedin.8b69a409.svg",
+      "localPath": "deel-vs-competitors/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/facebook-filled.9dee679d.svg",
+      "localPath": "deel-vs-competitors/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "url": "https://website-media.deel.com/_next/static/media/instagram-filled.a70f7d56.svg",
+      "localPath": "deel-vs-competitors/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    }
+  ],
+  "localAssetCount": 91,
+  "localAssets": [
+    {
+      "localPath": "deel-vs-competitors/assets/css/1f56cfd86435b655-cc62e77a81.css",
+      "bytes": 4786
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/css/2d2d3d8e0369f33a-d38f4afe07.css",
+      "bytes": 6868
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/css/81b497cde0650b92-ba61cb9798.css",
+      "bytes": 188143
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/css/9e4fb54cdbaa5f1a-b4abb998b9.css",
+      "bytes": 5312
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/19cfc7226ec3afaa-s-6b6591ba57.woff2",
+      "bytes": 19044
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/21350d82a1f187e9-s-41b553bffc.woff2",
+      "bytes": 18744
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/3f14e5d5f2325dba-s.p-c508696257.woff2",
+      "bytes": 42964
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/71aaabbca27eedbd-s.p-5251df0f89.woff2",
+      "bytes": 44100
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/8e9860b6e62d6359-s-bebfe74ed5.woff2",
+      "bytes": 85272
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/ba9851c3c22cd980-s-0049b872a5.woff2",
+      "bytes": 25844
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/c5fe6dc8356a8c31-s-03848e9d94.woff2",
+      "bytes": 11272
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/cd977f37204bcfbc-s.p-a0176065da.woff2",
+      "bytes": 42648
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/df0a9ae256c0569c-s-af8ba55b21.woff2",
+      "bytes": 10280
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/e4af272ccee01ff0-s.p-4696bf4632.woff2",
+      "bytes": 48432
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/fonts/fad621f95e01987c-s.p-59cbcc42d4.woff2",
+      "bytes": 101804
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/icons/footer-icon-linkedin.8b69a409-09f4c78ab2.svg",
+      "bytes": 1129
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/chro_bitpanda_on_deel_bbe3b71aa1-f9edd0a053.png",
+      "bytes": 8942
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Deel_vs_ADP_f4e7e0cf0a-ffba5969cb.jpg",
+      "bytes": 14642
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Deel_vs_Multiplier_3714c5cf66-fdeeeaa015.jpg",
+      "bytes": 14304
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/deel_vs_Ontop_64342b24b4-5241a226c7.jpg",
+      "bytes": 13988
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/deel_vs_Papaya_10035b0065-dce380cd67.jpg",
+      "bytes": 14144
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Flex_Payroll_5451629097-4636903c98.png",
+      "bytes": 18042
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/General_Purple_f6b2f3f9bd-95311f4829.png",
+      "bytes": 135383
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Global_Hiring_Guides_e634b390ed-b3a18eb79c.png",
+      "bytes": 103196
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Gusto_801950523a-b9376fbec2.jpg",
+      "bytes": 14082
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Helen_Keegan_Together_For_Girls_0199ad931b-6391cabe45.png",
+      "bytes": 6273
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/large_Flex_Payroll_5451629097-c278462ba3.png",
+      "bytes": 125980
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_Deel_vs_ADP_f4e7e0cf0a-374e4ea8f8.jpg",
+      "bytes": 12912
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_Deel_vs_Multiplier_3714c5cf66-de6de1454d.jpg",
+      "bytes": 12606
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_deel_vs_Ontop_64342b24b4-1a91f1a08d.jpg",
+      "bytes": 12376
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_deel_vs_Papaya_10035b0065-784fc44ffd.jpg",
+      "bytes": 12560
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_Flex_Payroll_5451629097-2ceaf2a7a9.png",
+      "bytes": 88634
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_Gusto_801950523a-10c6e2269c.jpg",
+      "bytes": 12464
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/medium_Rippling_vs_deel_f9f93dfe82-c87cbc4d9f.jpg",
+      "bytes": 12525
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/nav_row_visual_api_v2_c863a509fa-4017880051.webp",
+      "bytes": 920
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/nav_row_visual_contractors_v2_dfb050b8a1-9b0cbe893a.webp",
+      "bytes": 1818
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/nav_row_visual_eor_0a32a2b56f-ad1ac8f8a0.webp",
+      "bytes": 1734
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/nav_row_visual_integrations_and_api_v2_af3a1dbf06-4b16efc95f.webp",
+      "bytes": 2416
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Oyster_1e828f4a2f-22ec9bd0ea.png",
+      "bytes": 3974
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Rippling_vs_deel_f9f93dfe82-e9cd0fa3e6.jpg",
+      "bytes": 14265
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Shift_Bound_e5d8a5b561-59cb3d0f93.png",
+      "bytes": 6380
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_Deel_vs_ADP_f4e7e0cf0a-a2c76fc24b.jpg",
+      "bytes": 6702
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_Deel_vs_Multiplier_3714c5cf66-fdaebc21b1.jpg",
+      "bytes": 6584
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_deel_vs_Ontop_64342b24b4-28a8be74db.jpg",
+      "bytes": 6522
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_deel_vs_Papaya_10035b0065-828d14038f.jpg",
+      "bytes": 6560
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_Flex_Payroll_5451629097-da4029bd6d.png",
+      "bytes": 54091
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_Gusto_801950523a-94cfe68286.jpg",
+      "bytes": 6604
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/small_Rippling_vs_deel_f9f93dfe82-f15fb474b1.jpg",
+      "bytes": 6552
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Solutions_Image_1fe3692ef5_348057f282-6f263ffab8.webp",
+      "bytes": 209308
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Deel_vs_ADP_f4e7e0cf0a-40cb48f642.jpg",
+      "bytes": 2495
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Deel_vs_Multiplier_3714c5cf66-9355a503df.jpg",
+      "bytes": 2483
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_deel_vs_Ontop_64342b24b4-b24193fdac.jpg",
+      "bytes": 2441
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_deel_vs_Papaya_10035b0065-671388706e.jpg",
+      "bytes": 2493
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Flex_Payroll_5451629097-b6b8477201.png",
+      "bytes": 19510
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Gusto_801950523a-9d91a04a04.jpg",
+      "bytes": 2450
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Oyster_1e828f4a2f-2dfccf2938.png",
+      "bytes": 8846
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Rippling_vs_deel_f9f93dfe82-a08aa8a79e.jpg",
+      "bytes": 2417
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_Shift_Bound_e5d8a5b561-455eecaeb0.png",
+      "bytes": 19122
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/thumbnail_together_for_girls_1fc1e0cbf1-9b72e2513c.png",
+      "bytes": 11077
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/together_for_girls_1fc1e0cbf1-10761bed26.png",
+      "bytes": 2557
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/Use_Case_Image_b6c6429888_e790cb6ebb-6830ac37dc.webp",
+      "bytes": 280338
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/images/william_ceo_cloudasta_ee7fb59518-c7a57b3045.png",
+      "bytes": 11619
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/Automation_Deel_ef5f9efd19-9f62cca5df.svg",
+      "bytes": 1366203
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/bitpanda_deel_bb0c8d1328-c80de1906f.svg",
+      "bytes": 245290
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/black-globe.abc6410e-17a0a32057.svg",
+      "bytes": 1651
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/bullet-point.d079b42e-aac4df9dcd.svg",
+      "bytes": 194
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/check-circle.e3dc67e6-9bd756e998.svg",
+      "bytes": 486
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/checkmark.928a0576-fad01afcbc.svg",
+      "bytes": 319
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/Coverage_deel_ea136b1f46-d411b38ebb.svg",
+      "bytes": 1363258
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/cross.d7e510a6-22a26b6b41.svg",
+      "bytes": 343
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/danger.777fe76b-eb65607e17.svg",
+      "bytes": 557
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/dvr_8332b33b7d-091975ead2.svg",
+      "bytes": 239
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/explore_0222f8048d-d0b0c7aee8.svg",
+      "bytes": 397
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/facebook-filled.9dee679d-9ca1e92cdc.svg",
+      "bytes": 479
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/group_6b4e265767-1484f70f5f.svg",
+      "bytes": 494
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/Hug_Bound_75aff069ed-7a07081e18.svg",
+      "bytes": 24548
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/instagram-filled.a70f7d56-9722e37758.svg",
+      "bytes": 3122
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/layers_1638a84dbd-a7c7b05d79.svg",
+      "bytes": 260
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/line-dash.44e3a200-81444800b3.svg",
+      "bytes": 180
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/logo_cloudasta_1_bf771570a3-bec3289937.svg",
+      "bytes": 11574
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/logo_revamp_164ddaed0c-07943198bc.svg",
+      "bytes": 3122
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/logo_revamp_white_3237bd2303-7268fb2537.svg",
+      "bytes": 3090
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/monetization_on_fbfd76b291-03c5964527.svg",
+      "bytes": 676
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/recent_actors_70c9da4cc9-c08452e345.svg",
+      "bytes": 381
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/scale_fcaca08f64-430396f427.svg",
+      "bytes": 1363200
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/settings_ethernet_4a5250d7ad-fbeeaa3dca.svg",
+      "bytes": 432
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/stars_15b0b9085a-b0d2cdf29f.svg",
+      "bytes": 339
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/Support_deel_fdbd7f2bce-57a5ab2915.svg",
+      "bytes": 1367026
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/twitter-filled.8731c38f-835507a4b4.svg",
+      "bytes": 669
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/warning.a8417298-0a5985e052.svg",
+      "bytes": 283
+    },
+    {
+      "localPath": "deel-vs-competitors/assets/svg/Wordmark_1c63e597c1-6a57a6f843.svg",
+      "bytes": 3147
+    }
+  ],
+  "removedExternalDependencyPatterns": [
+    "/<script\\b[\\s\\S]*?<\\/script>\\s*/gi",
+    "/<link[^>]+rel=\"preconnect\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"dns-prefetch\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"preload\"[^>]+as=\"script\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"canonical\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"alternate\"[^>]*>\\s*/gi",
+    "/<meta[^>]+property=\"og:url\"[^>]*>\\s*/gi",
+    "/<meta[^>]+property=\"og:image\"[^>]*>\\s*/gi",
+    "/<meta[^>]+name=\"twitter:image\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"icon\"[^>]*>\\s*/gi",
+    "/<link[^>]+rel=\"apple-touch-icon\"[^>]*>\\s*/gi"
+  ],
+  "remainingDownloadableRemoteAssetUrls": []
+}

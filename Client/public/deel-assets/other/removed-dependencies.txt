@@ -1,0 +1,9 @@
+https://www.googletagmanager.com
+https://www.google-analytics.com
+https://consent.cookiebot.com
+https://static.cloudflareinsights.com
+https://js.hs-scripts.com/19498232.js
+https://growth-tools.deel.com/deel-ai-chat
+https://growth-tools.deel.com/scripts/deel-ai-chat-v2.js
+https://get.geojs.io/v1/ip/country.json
+https://www.deel.com/cdn-cgi/rum?
